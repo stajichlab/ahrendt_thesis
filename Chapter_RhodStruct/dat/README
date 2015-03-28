@@ -1,0 +1,6 @@
+##Structure models
+1U19.pdb	Bovine opsin x-ray structure (doi:10.1016/j.jmb.2004.07.044)
+2Z73.pdb	Squid opsin x-ray structure (doi:10.1038/nature06925)
+Am00698_iT_model3.pdb	*Allomyces macrogynus* opsin, modeled using iTasser (model 3 selected as optimal)
+Bd04847_mod.pdb	*Batrachochytrium dendrobatidis* opsin, modeled using Modeller
+Sp00350_iT_model1_manip.pdb	*Spizellomyces punctatus* opsin, modeled using iTasser (model 1 selected as optimal); Manual correction of lysine orientaion using general Amber force field (GAFF) in Avogadro
