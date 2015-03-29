@@ -1,0 +1,25 @@
+Count	Percent	Term
+GO:0000988	15	0.40938864628821	protein binding transcription facto...
+GO:0003674	1819	49.6451965065502	molecular_function
+GO:0003677	51	1.39192139737991	DNA binding
+GO:0003723	41	1.11899563318777	RNA binding
+GO:0003774	5	0.13646288209607	motor activity
+GO:0004386	12	0.327510917030568	helicase activity
+GO:0004672	44	1.20087336244541	protein kinase activity
+GO:0004871	41	1.11899563318777	signal transducer activity
+GO:0005198	8	0.218340611353712	structural molecule activity
+GO:0005215	163	4.44868995633188	transporter activity
+GO:0005515	167	4.55786026200873	protein binding
+GO:0008233	33	0.900655021834061	peptidase activity
+GO:0016298	13	0.354803493449782	lipase activity
+GO:0016491	245	6.68668122270742	oxidoreductase activity
+GO:0016740	368	10.0436681222707	transferase activity
+GO:0016779	27	0.736899563318777	nucleotidyltransferase activity
+GO:0016787	317	8.65174672489083	hydrolase activity
+GO:0016791	42	1.14628820960699	phosphatase activity
+GO:0016829	77	2.10152838427948	lyase activity
+GO:0016853	38	1.03711790393013	isomerase activity
+GO:0016874	82	2.23799126637555	ligase activity
+GO:0030234	52	1.41921397379913	enzyme regulator activity
+GO:0030533	0	0	triplet codon-amino acid adaptor ac...
+GO:0045182	4	0.109170305676856	translation regulator activity

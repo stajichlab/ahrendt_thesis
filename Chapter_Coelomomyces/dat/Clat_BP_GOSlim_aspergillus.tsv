@@ -1,0 +1,39 @@
+Count	Percent	Term
+GO:0000746	12	0.112644325542101	conjugation
+GO:0000910	25	0.23467567821271	cytokinesis
+GO:0005975	107	1.0044119027504	carbohydrate metabolic process
+GO:0006259	123	1.15460433680653	DNA metabolic process
+GO:0006351	112	1.05134703839294	transcription, DNA-templated
+GO:0006412	68	0.638317844738571	translation
+GO:0006457	10	0.093870271285084	protein folding
+GO:0006464	235	2.20595137519947	cellular protein modification proce...
+GO:0006520	149	1.39866704214775	cellular amino acid metabolic proce...
+GO:0006629	180	1.68966488313151	lipid metabolic process
+GO:0006766	18	0.168966488313151	vitamin metabolic process
+GO:0006810	407	3.82052004130292	transport
+GO:0006950	276	2.59081948746832	response to stress
+GO:0006996	382	3.58584436309021	organelle organization
+GO:0006997	15	0.140805406927626	nucleus organization
+GO:0007010	120	1.12644325542101	cytoskeleton organization
+GO:0007049	200	1.87740542570168	cell cycle
+GO:0007155	35	0.328545949497794	cell adhesion
+GO:0007165	280	2.62836759598235	signal transduction
+GO:0008150	4670	43.8374166901342	biological_process
+GO:0009404	3	0.0281610813855252	toxin metabolic process
+GO:0009405	0	0	pathogenesis
+GO:0016070	269	2.52511029756876	RNA metabolic process
+GO:0016192	85	0.797897305923214	vesicle-mediated transport
+GO:0019725	45	0.422416220782878	cellular homeostasis
+GO:0019748	12	0.112644325542101	secondary metabolic process
+GO:0030163	36	0.337932976626302	protein catabolic process
+GO:0030436	1	0.0093870271285084	asexual sporulation
+GO:0030447	10	0.093870271285084	filamentous growth
+GO:0032196	3	0.0281610813855252	transposition
+GO:0032502	970	9.10541631465315	developmental process
+GO:0034293	6	0.0563221627710504	sexual sporulation
+GO:0040023	5	0.046935135642542	establishment of nucleus localizati...
+GO:0042221	301	2.82549516568103	response to chemical
+GO:0042254	33	0.309771895240777	ribosome biogenesis
+GO:0045333	12	0.112644325542101	cellular respiration
+GO:0050789	1418	13.3108044682249	regulation of biological process
+GO:0051650	20	0.187740542570168	establishment of vesicle localizati...
