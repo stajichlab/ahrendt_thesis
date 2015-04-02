@@ -50,3 +50,4 @@ Thumbs.db
 *.lot
 *.toc
 *.pdfsync
+membraneTopology_textopo.pdf # incorporated into structure figs; create from tex using "lualatex membraneTopology_textopo.tex"
