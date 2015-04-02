@@ -39,12 +39,14 @@ ehthumbs.db
 Thumbs.db
 
 
-##############################
+########################
+# Added Steven Ahrendt #
+########################
 # LaTeX files #
 ###############
-.aux
-.lof
-.log
-.lot
-.toc
-.pdfsync
+*.aux
+*.lof
+*.log
+*.lot
+*.toc
+*.pdfsync
