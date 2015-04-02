@@ -1,0 +1,71 @@
+\contentsline {chapter}{List of Figures}{ix}
+\contentsline {chapter}{List of Tables}{x}
+\contentsline {chapter}{\numberline {1}Introduction to Early-diverging Fungi}{1}
+\contentsline {section}{\numberline {1.1}Brief history of fungal phylogenetics}{1}
+\contentsline {section}{\numberline {1.2}Early-diverging fungal lineages and their placement}{1}
+\contentsline {subsection}{\numberline {1.2.1}History of work toward placement of EDF lineages}{2}
+\contentsline {section}{\numberline {1.3}Development of Chytrid bioinformatic resources}{4}
+\contentsline {section}{\numberline {1.4}Why are they important}{5}
+\contentsline {section}{\numberline {1.5}Goals of this body of research}{6}
+\contentsline {subsection}{\numberline {1.5.1}Competition-based secondary metabolism}{6}
+\contentsline {subsection}{\numberline {1.5.2}Entomopathogenesis in fungi}{7}
+\contentsline {subsection}{\numberline {1.5.3}Fungal Light Sensing}{8}
+\contentsline {subsubsection}{\numberline {1.5.3.1}Beta-carotene}{8}
+\contentsline {subsection}{\numberline {1.5.4}Eukaryotic Flagellar motility}{8}
+\contentsline {chapter}{\numberline {2}Structural characteristics of opsin-like proteins found in basal fungal lineages}{10}
+\contentsline {section}{\numberline {2.1}Introduction}{10}
+\contentsline {section}{\numberline {2.2}Methods}{13}
+\contentsline {subsection}{\numberline {2.2.1}Homology modeling and Docking}{13}
+\contentsline {subsection}{\numberline {2.2.2}RMSD calculation}{14}
+\contentsline {section}{\numberline {2.3}Results}{14}
+\contentsline {subsection}{\numberline {2.3.1}Homology models are of reasonable quality}{14}
+\contentsline {subsection}{\numberline {2.3.2}Structural conservation reveals \textit {S. punctatus} structure to be most likely functional as photoreceptor}{15}
+\contentsline {subsection}{\numberline {2.3.3}\textit {in silico} chemical screen}{18}
+\contentsline {subsection}{\numberline {2.3.4}Molecular Dynamics simulations}{18}
+\contentsline {section}{\numberline {2.4}Conclusions}{18}
+\contentsline {chapter}{\numberline {3}Growth suppression properties of the Chytridiomycete \textit {Homolaphlyctis polyrhiza} JEL 142}{21}
+\contentsline {section}{\numberline {3.1}Introduction}{21}
+\contentsline {subsection}{\numberline {3.1.1}Intro to secondary metabolites}{21}
+\contentsline {subsection}{\numberline {3.1.2}Background of chytrids and Hp}{22}
+\contentsline {section}{\numberline {3.2}Methods}{24}
+\contentsline {subsection}{\numberline {3.2.1}Fungal strains and maintenance}{24}
+\contentsline {subsection}{\numberline {3.2.2}Bioactivity on solid media}{25}
+\contentsline {subsection}{\numberline {3.2.3}Bioactivity in liquid media}{26}
+\contentsline {subsection}{\numberline {3.2.4}Reassembly and annotation}{27}
+\contentsline {subsection}{\numberline {3.2.5}Secretome and small-metabolite screen}{27}
+\contentsline {subsection}{\numberline {3.2.6}Temperature and pH growth assays}{28}
+\contentsline {section}{\numberline {3.3}Results}{28}
+\contentsline {subsection}{\numberline {3.3.1}The physiology of \textit {Hp} suggests that it is more tolerant of environmental stresses than \textit {Bd}}{28}
+\contentsline {subsection}{\numberline {3.3.2}\textit {Hp} inhibition is unique among the chytrids and broadly active against other fungal species}{29}
+\contentsline {subsection}{\numberline {3.3.3}Liquid filtrate screening suggests a non-protein compound is responsible for bioactivity}{30}
+\contentsline {subsection}{\numberline {3.3.4}Secretome + antiSMASH analyses, coupled with improved genome assembly and annotation predicts a few unique secondary metabolite gene clusters with potential relevance}{31}
+\contentsline {subsection}{\numberline {3.3.5}Genome reassembly and reannotation}{32}
+\contentsline {subsection}{\numberline {3.3.6}Miscellaneous}{32}
+\contentsline {subsubsection}{\numberline {3.3.6.1}N. crassa hyphal tip morphology}{32}
+\contentsline {subsubsection}{\numberline {3.3.6.2}Kinase mutant screen}{32}
+\contentsline {section}{\numberline {3.4}Discussion}{32}
+\contentsline {chapter}{\numberline {4}Transcriptome analysis in \textit {Coelomomyces lativittatus}}{38}
+\contentsline {section}{\numberline {4.1}Introduction}{38}
+\contentsline {subsection}{\numberline {4.1.1}Background of chytrids and Coelomomyces and life cycle}{38}
+\contentsline {subsection}{\numberline {4.1.2}Insect virulence}{40}
+\contentsline {subsection}{\numberline {4.1.3}Sensory capacity (What are some types of sensory receptors)}{40}
+\contentsline {subsection}{\numberline {4.1.4}Bigger picture}{43}
+\contentsline {section}{\numberline {4.2}Results}{43}
+\contentsline {subsection}{\numberline {4.2.1}Transcriptome Characterization}{43}
+\contentsline {subsection}{\numberline {4.2.2}Insect Virulence}{44}
+\contentsline {subsubsection}{\numberline {4.2.2.1}C1 cysteine proteases}{45}
+\contentsline {subsubsection}{\numberline {4.2.2.2}Trypsin proteases}{45}
+\contentsline {subsubsection}{\numberline {4.2.2.3}Destruxins}{45}
+\contentsline {subsubsection}{\numberline {4.2.2.4}Chitin related domains}{46}
+\contentsline {subsubsection}{\numberline {4.2.2.5}Adhesion-related proteins}{47}
+\contentsline {subsubsection}{\numberline {4.2.2.6}Ecdysone receptors}{48}
+\contentsline {subsection}{\numberline {4.2.3}β-carotene}{50}
+\contentsline {subsection}{\numberline {4.2.4}Sensing: Photosensing capacity is consistent with ideas about C.lat abilities}{52}
+\contentsline {subsection}{\numberline {4.2.5}"interesting" animal homologs}{55}
+\contentsline {section}{\numberline {4.3}Discussion}{55}
+\contentsline {subsection}{\numberline {4.3.1}Sensory results are consistent with previous hypotheses, but undetermined if this represents a specific insect association aspect.}{58}
+\contentsline {subsection}{\numberline {4.3.2}β-carotene biosynthesis and metabolism pathways are present and nearly complete in the C. lativittatus transcriptome.}{60}
+\contentsline {chapter}{\numberline {5}Conclusions}{64}
+\contentsline {section}{\numberline {5.1}Background}{64}
+\contentsline {section}{\numberline {5.2}Aims}{64}
+\contentsline {chapter}{\numberline {A}Comparative genomics analysis of Flagellar motility}{66}
