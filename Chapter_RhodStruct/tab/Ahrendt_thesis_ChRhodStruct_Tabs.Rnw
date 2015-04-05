@@ -1,0 +1,34 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Document: Thesis for PhD at UC Riverside                          %%
+%% Description: A comparative analysis of environment sensing in EDF %%
+%% Author: Steven Ahrendt                                            %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% RHODOPSIN TABLES %
+%%%%%%%%%%%%%%%%%%%%
+
+% PROCHECK results for homology models
+<<label=ChRhod_Procheck,echo=FALSE,results=tex>>=
+library(xtable)
+data <- read.table("../dat/Procheck_table.tsv",sep="\t",row.names=1,header=T,check.names=FALSE)
+xdata <- xtable(data,label="tab:ChRhod_Procheck",caption="PROCHECK Ramachandran plot results for chytriopsin and melatonin homology models, and animal rhodopsin crystal structures.")
+hlines <- c(-1,-1,0,4,nrow(xdata),nrow(xdata))
+print(xdata,table.placement="tbp",caption.placement="bottom",hline.after=hlines)
+@
+
+% RMSD of crystal structures
+<<label=ChRhod_RMSD,echo=FALSE,results=tex>>=
+library(xtable)
+data <- read.table("../dat/RMSD_table.tsv",sep="\t",row.names=1,header=T,check.names=FALSE)
+xdata <- xtable(data,label="tab:ChRhod_RMSD",caption="Pairwise backbone RMSD measurements for chytriopsin and melatonin homology models, and animal rhodopsin crystal structures, calculated using the Bio3D package.")
+hlines <- c(-1,-1,0,nrow(xdata),nrow(xdata))
+print(xdata,table.placement="tbp",caption.placement="bottom",hline.after=hlines)
+@
+
+% Important Residues
+<<label=ChRhod_residues,echo=FALSE,results=tex>>=
+library(xtable)
+data <- read.table("../dat/rhodopsin_motifs.tsv",sep="\t",header=T)
+xdata <- xtable(data,label="tab:ChRhod_motifs",caption="")
+hlines <- c(-1,-1,0,nrow(xdata),nrow(xdata))
+print(xdata,table.placement="tbp",caption.placement="bottom",hline.after=hlines)
+@
