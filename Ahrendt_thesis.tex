@@ -58,8 +58,6 @@
 %% Added by Steven Ahrendt
 %%%%%%%%%%
 \usepackage{url}
-\usepackage{./Styles/multibib}
-%\newcites{main,bio}{Bibliography,Published Work}
 
 \setcounter{secnumdepth}{3}
 \setcounter{tocdepth}{3}
@@ -175,19 +173,26 @@ The text of this dissertation, in part or in full, is a reprint of the material 
 %%%%%%%%%%%%%%%%
 \input{./Chapter_Introduction/tex/Ahrendt_thesis_Intro}
 
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% RHODOPSIN STRUCTURAL CHAPTER %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{./Chapter_RhodStruct/tex/Ahrendt_thesis_ChRhodStruct}
-%\input{./Chapter_RhodStruct/img/Ahrendt_thesis_ChRhodStruct_Figs}
-%\input{./Chapter_RhodStruct/tab/Ahrendt_thesis_ChRhodStruct_Tabs}
-
 %%%%%%%%%%%%%%%%%%%%%%
 % INHIBITION CHAPTER %
 %%%%%%%%%%%%%%%%%%%%%%
 \input{./Chapter_Inhibition/tex/Ahrendt_thesis_ChInhibition}
 \input{./Chapter_Inhibition/img/Ahrendt_thesis_ChInhibition_Figs}
 \input{./Chapter_Inhibition/tab/Ahrendt_thesis_ChInhibition_Tabs}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% RHODOPSIN STRUCTURAL CHAPTER %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{./Chapter_RhodStruct/tex/Ahrendt_thesis_ChRhodStruct}
+\input{./Chapter_RhodStruct/img/Ahrendt_thesis_ChRhodStruct_Figs}
+\input{./Chapter_RhodStruct/tab/Ahrendt_thesis_ChRhodStruct_Tabs}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% RHODOPSIN AUXILLARY CHAPTER %
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\input{./Chapter_RhodAux/tex/Ahrendt_thesis_ChRhodAux}
+%\input{./Chapter_RhodAux/img/Ahrendt_thesis_ChRhodAux_Figs}
+\input{./Chapter_RhodAux/tab/Ahrendt_thesis_ChRhodAux_Tabs}
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 % COELOMOMYCES CHAPTER %
@@ -209,12 +214,13 @@ The text of this dissertation, in part or in full, is a reprint of the material 
 % \singlespacing
 % \bibliographystyle{alpha}
 \bibliographystyle{plain}
-\bibliography{Ahrendt_thesis_Bibtex}
+\bibliography{Ahrendt_thesisRefs}
 
 %%%%%%%%%%%%
 % APPENDIX %
 %%%%%%%%%%%%
 \appendix
-\input{./Appendix/tex/Ahrendt_thesis_ApFlagella}
+\input{./Appendix/tex/Ahrendt_thesis_AppFlagella}
+\input{./Appendix/img/Ahrendt_thesis_AppFlagella_Figs}
 
 \end{document}
