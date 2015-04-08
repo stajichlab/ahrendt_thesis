@@ -50,4 +50,6 @@ Thumbs.db
 *.lot
 *.toc
 *.pdfsync
+*.bbl
+*.blg
 *membraneTopology_textopo.pdf
