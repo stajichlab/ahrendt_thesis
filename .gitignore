@@ -53,3 +53,8 @@ Thumbs.db
 *.bbl
 *.blg
 *membraneTopology_textopo.pdf
+
+# R data files #
+################
+*.Rdata
+*.Rhistory
