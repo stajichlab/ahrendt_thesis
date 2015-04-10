@@ -56,5 +56,5 @@ Thumbs.db
 
 # R data files #
 ################
-*.Rdata
+*.RData
 *.Rhistory
