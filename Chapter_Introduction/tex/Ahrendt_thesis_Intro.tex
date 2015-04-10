@@ -1,8 +1,9 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Document: Thesis for PhD at UC Riverside                          %%
-%% Description: A comparative analysis of environment sensing in EDF %%
-%% Author: Steven Ahrendt                                            %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Document: Thesis for PhD at UC Riverside                                    %%
+%% Title: Investigating the evolution of environmental and biotic interactions %%
+%%          in basal fungal lineages through comparative genomics              %%
+%% Author: Steven Ahrendt                                                      %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % INTRODUCTION %
 %%%%%%%%%%%%%%%%
 \chapter{Introduction to Early-diverging Fungi}
@@ -10,14 +11,24 @@
 % Fungal phylogenetics
 %%%%%
 \section{Brief history of fungal phylogenetics}
-The fungal phylogenetic groups currently understood comprise the Ascomycota, Basidiomycota, Zygomycetes, and other early groups. \\
+The fungal phylogenetic groups currently understood comprise the Ascomycota, Basidiomycota, Zygomycetes, and other early groups. The Ascomycota and Basidiomycota are members of the larger group, the Dikarya. This fungal subkingdom group is so named because its members undergo cell fusion (plasmogamy) without nuclear fusion (karyogamy) during sexual development, resulting in cells with nuclei from individual parents ("dikaryons"). Collectively, it is the most widely studied group and is home to several model and non-model organisms of research interest, including \textit{Neurospora crassa}, \textit{Saccharomyces cerevisiae}, and \textit{Aspergillus} spp. The dikarya are accepted as the most recently diverged group of fungi. \\
+\indent Going further down the tree is the "Zygomycota" group. This polyphyletic collection consists of primarily terrestrial fungi of various medical and industrial research interest.\\ 
+\indent At the base of the fungal tree are the "early-diverging" or "basal" fungal lineages. These groups are sometimes collectively referred to as "chytrids", although this is not to be confused with the Chytridiomycota, which is one recognized phyla within the basal group. These organisms exist as either motile, flagellated zoospores, or as sessile, non-flagellated, spore-producing sporangia. The life cycle involves oscillation between both stages, wherein the zoospore seeks an appropriate environmental substrate, encysts upon it and retracts its flagellum, develops a cell wall and undergoes several rounds of mitotic cell division, and ultimately produces and releases hundreds of new zoospores. \\
+%%%%%
+% Why they are important
+%%%%%
+\section{Why are they important}
+At times, early-diverging fungi have been presumed to have a cosmopolitan distribution [citation needed]. While not verivied and even doubted [citation needed], members of chytrid lineages certainly fulfill nearly all varieties of ecological niches, from saprotrophic feeders of forest detritus, to pathogenic and symbiotic associates with insects (\textit{Cl}), plants (\textit{Olpidium brassicae}), vertebrates (\textit{Bd}), nematodes (\textit{Catenaria anguillulae}), and even other chytrids (\textit{Rozella allomyces}). \\
+\indent As a group, because of their accepted phylogenetic placement, chytrid lineages represent an opportunity to examine characteristics presumed to have been present in the fungal-animal common ancestor. \\
+\indent Because the basal lineages are accepted as being sister to the metazoan lineages, they are important systems in which the traits of the fungal-animal common ancestor can be inferred.\\
+\indent Rapid advances in the feasability of genome sequencing have yielded and will continue to yield an increasing number of fungal genomes, especially those in the early-diverging lineages, for comparative analyses. While incorporating comparisons to already well-characterized representative fungal groups, this dissertation work gives specific focus to members of the early-diverging lineages, and in particular to the ones for which genomic resources are available: the amphibian pathogen \textit{Batrachochytrium dendrobatidis} and its closest, non-pathogenic relative, \textit{Homolaphlyctis polyrhiza}; the saprobic Blastocladiomycete \textit{Spizellomyces punctatus}, and related \textit{Catenaria anguillulae}; the Monoblepharidomycete \textit{Gonapodya prolifera}; the Neocallimastigomycetes \textit{Piromyces sp.} and \textit{Orpinomyces sp.}; and the aquatic Blastocladiomycete \textit{Allomyces macrogynus} and its intracellular, Microsporidia parasite, \textit{Rozella allomycis}.
 
 %%%%%
 % EDF lineages
 %%%%%
-\section{Early-diverging fungal lineages and their placement}
-\indent The early-diverging fungi (EDF) lineages are those that have been demonstrated to be within the Fungi (characterized distinct from Oomycetes) but sister to the other fungal lineages, the Dikarya and paraphyletic Zygomycete lineages (currently understood as comprising the Cryptomycota, Chytridiomycota, Blastocladiomycota, Monoblepharidomycota, and Neocallimastigomycota) represent less than 2\% of all described fungi \cite{Stajich2009}. Rapid advances in genome sequencing have provided an increased number of fungal genomes, especially those in the early-diverging lineages, for comparative analyses. While incorporating comparisons to already well-characterized representative fungal groups, this dissertation work gives specific focus to members of the early-diverging lineages: the amphibian pathogen \textit{Batrachochytrium dendrobatidis} and its closest, non-pathogenic relative, \textit{Homolaphlyctis polyrhiza}; the saprobic Blastocladiomycete \textit{Spizellomyces punctatus}, and related \textit{Catenaria anguillulae}; the Monoblepharidomycete \textit{Gonapodya prolifera}; the Neocallimastigomycetes \textit{Piromyces sp.} and \textit{Orpinomyces sp.}; and the aquatic Blastocladiomycete \textit{Allomyces macrogynus} and its intracellular, Microsporidia parasite, \textit{Rozella allomycis}.
-\subsection{History of work toward placement of EDF lineages}
+\section{Basal fungal lineages and their placement}
+\indent The basal fungal lineages are those that have been demonstrated to be within the Fungi (characterized as distinct from other water molds, like Oomycetes) but sister to the other fungal lineages (the Dikarya and paraphyletic Zygomycete lineages). The basal lineages, currently understood as comprising the Cryptomycota, Chytridiomycota, Blastocladiomycota, Monoblepharidomycota, and Neocallimastigomycota, represent less than 2\% of all described fungi \cite{Stajich2009}. 
+\section{History of work toward placement of EDF lineages}
 Attempts at formal description of early-diverging fungi, based primarily on collection and observation, began as early as 1858 and proceeded through the latter half of 19th century with pioneering work of researchers such as Schroter, Fischer, Zopf, Lowenthal, Nowakowski, and Woronin \cite{lwerPhycomyces}. A primarily systematic approach allowed for the establishment of (among others) the order Chytridiales, defined broadly as lacking mycelium and having an unknown sexual cycle, and the order Blastocladiales, defined as having mycelium and a sexual reproductive component.\\
 \indent Revisions of fungal phylogenetics continued through the 20th century and included Alexopolous's series on Introductory Mycology in the 1950s.\\
 \indent Significant microscopy work was carried out on chytrid species as early as 1953 by Koch and others, which allowed for the discussion of zoosporic ultrastructure characters. In the 1970s, the then recent technology of electron microscopy allowed for finer grain examinations of chytrid ultrastructure.\\
@@ -37,12 +48,7 @@ As genomic resources became more widely available, chytrid genomes became more e
 \indent Piromyces and Orpinomyces are members of the Neocallimastigomycota \\
 \indent Rozella allomycis, the intracellular parasite of Allomyces sp. was sequenced in 2013.\\
 \indent Also in 2014 the first transcriptome of the mosquito pathogen \textit{Coelomomyces lativitattus} (\textit{Cl}) was generated by isolating RNA from gametes emerging from copepods. The RNA extraction and Illumina library preparation was performed by Rob Hice, a reasercher in Dr. Brian Federici's lab at UCR. The sequencing was performed at the UCR IIGB Genomics core. The resulting sequence data was assembled and annotated using scripts provided by Dr. Jason Stajich, and my analysis is described in Chapter~\ref{chap:Clat_transcriptome}.\\
-%%%%%
-% Why they are important
-%%%%%
-\section{Why are they important}
-At times, early-diverging fungi have been presumed to have a cosmopolitan distribution [citation needed]. While not verivied and even doubted [citation needed], members of chytrid lineages certainly fulfill nearly all varieties of ecological niches, from saprotrophic feeders of forest detritus, to pathogenic and symbiotic associates with insects (\textit{Cl}), plants (\textit{Olpidium brassicae}), vertebrates (\textit{Bd}), nematodes (\textit{Catenaria anguillulae}), and even other chytrids (\textit{Rozella allomyces}). \\
-\indent As a group, because of their accepted phylogenetic placement, chytrid lineages represent an opportunity to examine characteristics presumed to have been present in the fungal-animal common ancestor. \\
+
 %%%%%
 % Research goals
 %%%%%
