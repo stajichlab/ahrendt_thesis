@@ -1,0 +1,23 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Document: Thesis for PhD at UC Riverside                                    %%
+%% Title: Investigating the evolution of environmental and biotic interactions %%
+%%          in basal fungal lineages through comparative genomics              %%
+%% Author: Steven Ahrendt                                                      %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% COELOMOMYCES TABLES %
+%%%%%%%%%%%%%%%%%%%%%%%
+
+% Top 20 PFAM domains
+<<label=ChClat_PFAM,echo=FALSE,results=tex>>=
+library(xtable)
+data <- read.table("../dat/Clat_top20_comparison.tsv",sep="\t",header=T,row.names=1,check.names=FALSE,stringsAsFactors=FALSE)
+colnames(data)[-1] <- paste("\\emph{",colnames(data)[-1],"}",sep="")
+xdata <- xtable(data,label="tab:ChClat_PFAM",caption="PFAM")
+hlines <- c(-1,-1,0,nrow(xdata),nrow(xdata))
+print(xdata,
+     table.placement="tbp",
+     caption.placement="bottom",
+     hline.after=hlines,
+     sanitize.text.function=identity
+)
+@
