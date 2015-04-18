@@ -21,3 +21,44 @@ print(xdata,
      sanitize.text.function=identity
 )
 @
+
+% FAADB prediction results
+<<label=ChClat_FAADB,echo=FALSE,results=tex>>=
+library(xtable)
+specify_decimal <- function(x, k=2) format(round(x, k), nsmall=k)
+data <- read.table("../dat/FAADB_SVM_Blast.tsv",sep="\t",header=T,row.names=1)
+data$SVM.Score <- as.numeric(specify_decimal(data$SVM.Score))
+xdata <- xtable(data,label="tab:ChClat_FAADB",caption="FAADB")
+hlines <- c(-1,-1,0,nrow(xdata),nrow(xdata))
+print(xdata,
+      table.placement="tbp",
+      caption.placement="bottom",
+      hlines.after=hlines
+)
+@
+
+% ORthoMCL table
+<<label=ChClat_OrthoMCL,echo=FALSE,results=tex>>=
+library(xtable)
+data <- read.table("../dat/Clat_uniqueClusters.tsv",sep="\t",header=T)
+xdata <- xtable(data,label="tab:ChClat_orthomcl",caption="OrthMCL")
+hlines <- c(-1,-1,0,nrow(xdata),nrow(xdata))
+print(xdata,
+      table.placement="tbp",
+      caption.placement="bottom",
+      hlines.after=hlines
+)
+@
+
+% ORthoMCL table
+%<<label=ChClat_photosensing,echo=FALSE,results=tex>>=
+%library(xtable)
+%5data <- read.table("../dat/photosensing.tsv",sep="\t",header=T)
+%xdata <- xtable(data,label="tab:ChClat_photosensing",caption="Photosensing")
+%hlines <- c(-1,-1,0,nrow(xdata),nrow(xdata))
+%print(xdata,
+%      table.placement="tbp",
+%      caption.placement="bottom",
+%      hlines.after=hlines
+%)
+%@
