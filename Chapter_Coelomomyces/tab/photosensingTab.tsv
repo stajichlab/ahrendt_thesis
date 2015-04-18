@@ -1,9 +1,0 @@
-## Predicted C.lat proteins associated with circadian clocks and photobiology
-#OrfID	Type	UniProtKB BLAST match	InterPro	TMPred	FPKM
-m.12730	WC-1	Neurospora crassa^Q01371^4e-43	--	--	2.37E+00	
-m.7819	OpGC	Halobacterium sp. NRC-1^P71411^7.4e-07;Drosophila melanogaster^Q8INF0^8e-44	PF01036^32:241^5.0e-37;PF00211^355:533^4.6e-51	--	1.80E+01
-m.9338	Op	Danio rerio^Q2KNE5^3e-08	PF10317^21:205^1.9e-7;PF00001^50:355^1.5e-17	1.24E+01
-m.15402	Op	Apis mellifera^Q17053^8e-10	PF00001^36:341^1.0e-21	--	5.17E+00
-m.16182	Op	Cambarus hubrichti^O18312^1e-04	PF00001^14:255^9.7e-13	--	4.70E+00
-m.18794	Op	Limulus polyphemus^P35360^3e-10	PF00001^20:323^5.9e-22	--	1.62E+00
-m.11198	Op	Halobacterium sp. AUS-2^P29563^3e-30	PF01036^32:241^5.0e-37	--	1.54E+00
