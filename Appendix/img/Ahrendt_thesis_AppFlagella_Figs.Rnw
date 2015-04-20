@@ -1,0 +1,27 @@
+%%%%%%%%%%%%%%%%%%%%%%%
+%% Document: Thesis for PhD at UC Riverside
+%% Title: Investigating 
+%% Author: Steven Ahrendt
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% APPENDIX FIGURES %
+%%%%%%%%%%%%%%%%%%%%
+
+% Flagellar heat map from James et al 2009
+\begin{figure}
+\begin{center}
+<<label=heatmap,echo=FALSE,fig=FALSE>>=
+library(gplots)
+library(fastcluster)
+library(RColorBrewer)
+library(pheatmap)
+palette <- colorRampPalette(c('white','darkgreen'))(2)
+dat <- data.matrix(read.table("../dat/flagProfile_binary.tsv", sep="\t",row.names=1,header=T))
+dat <- dat[,-1]
+png('heatmap.png')
+pheatmap(dat,cluster_cols=TRUE,cluster_rows=TRUE,col=palette)
+dev.off()
+@
+\end{center}
+\caption{}
+\label{fig:AppFlag_heatmap}
+\end{figure}
