@@ -8,7 +8,7 @@ AUX="$THESIS.aux"
 #echo $AUX
 #echo $TEX
 
-if [-e $AUX]
+if [ -e $AUX ]
 then
   rm $AUX
 fi
