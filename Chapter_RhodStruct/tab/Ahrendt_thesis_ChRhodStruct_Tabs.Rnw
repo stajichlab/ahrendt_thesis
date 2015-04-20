@@ -28,7 +28,8 @@ print(xdata,table.placement="tbp",caption.placement="bottom",hline.after=hlines)
 <<label=ChRhod_residues,echo=FALSE,results=tex>>=
 library(xtable)
 data <- read.table("../dat/rhodopsin_motifs.tsv",sep="\t",header=T)
-xdata <- xtable(data,label="tab:ChRhod_motifs",caption="")
-hlines <- c(-1,-1,0,nrow(xdata),nrow(xdata))
+xdata <- xtable(data,label="tab:ChRhod_motifs",
+                caption="Conserved Rhodopsin motifs in X-ray crystal structures and chytropsin homology models. Abbreviations: Bt1U19=\\textit{Bos taurus} X-ray crystal structure (PDBID 1U19); Tp2Z73=\\textit{Todares pacificus} X-ray crystal structure (PDBID 2Z73);")
+hlines <- c(-1,-1,0,2,13,15,19,21,24,29,nrow(xdata),nrow(xdata))
 print(xdata,table.placement="tbp",caption.placement="bottom",hline.after=hlines)
 @
