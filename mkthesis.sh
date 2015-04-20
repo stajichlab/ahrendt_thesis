@@ -3,8 +3,10 @@
 # Run R CMD Sweave in "./Chapter_Coelomomyces/tab/" on "Ahrendt_thesis_ChCoelomomyces_Tabs.Rnw"
 
 THESIS="Ahrendt_thesis"
-TEX="$THESIS\.tex"
-AUX="$THESIS\.aux"
+TEX="$THESIS.tex"
+AUX="$THESIS.aux"
+#echo $AUX
+#echo $TEX
 
 if [-e $AUX]
 then
