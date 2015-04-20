@@ -1,0 +1,44 @@
+Species	Class	Name	Broad 	NCBI 	 Identity$^{a}$
+Neurospora crassa 	I	GNA-1	NCU06493$^{pm}$	-	100
+-	II	GNA-2	NCU06729		100
+-	III	GNA-3	NCU05206$^{m}$		100
+Allomyces macrogynus	I	-	AMAG\_03583$^{pm}$	-	71
+-	I	-	AMAG\_04903$^{pm}$	-	69
+-	I	-	AMAG\_15273	-	88
+-	I	-	AMAG\_04635$^{m}$	-	68
+-	I	-	AMAG\_17306$^{m}$	-	65
+-	I	-	AMAG\_13117$^{m}$	-	65
+-	I	-	AMAG\_15402$^{m}$	-	61
+-	I	-	AMAG\_06540$^{m}$	-	61
+-	I	-	AMAG\_16300$^{m}$	-	57
+-	I	-	AMAG\_08894$^{m}$	-	57
+-	I	-	AMAG\_17089	-	57
+-	III	-	AMAG\_03685$^{m}$	-	64
+-	III	-	AMAG\_09154$^{m}$	-	64
+-	III	-	AMAG\_03372$^{m}$	-	62
+-	III	-	AMAG\_04691	-	62
+Batrachochytrium dendrobatidis 	I	-	BDEG\_06990	-	74
+-	I	-	BDEG\_06989$^{m}$	-	66
+-	III	-	BDEG\_03796	-	37
+-	I	-	BDEG\_02250	-	34
+-	I	-	BDEG\_00355	-	42
+-	III	-	BDEG\_00354	-	45
+-	I	-	BDEG\_00353	-	40
+-	I	-	BDEG\_00317	-	38
+-	I	-	BDEG\_00316	-	37
+-	I	-	BDEG\_00315	-	38
+Rozella allomycis 	I	-	OG9\_002085-RA$^{pm}$	-	70
+-	-	-	OG9\_000744-RA	-	37/36/36
+-	-	-	OG9\_003339-RA$^{m}$	-	33/33/32
+-	-	-	OG9\_004960-RA	-	37/37/39
+Spizellomyces punctatus 	I	-	SPPG\_05404$^{pm}$	-	77
+-	I	-	SPPG\_05884$^{m}$	-	76
+-	III	-	SPPG\_01130$^{m}$	-	70
+-	-	-	SPPG\_02793$^{m}$	-	52/42/46
+-	-	-	SPPG\_08686	-	43/40/37
+Piromyces sp. 	I	-	PirE2\_1\_18092$^{pm}$	-	74
+-	III	-	PirE2\_1\_48456$^{p}$	-	66
+Gonapodya prolifera 	I	-	jgi|101126$^{pm}$	-	74
+-	I	-	jgi|136309	-	57
+-	III	-	jgi|137180$^{m}$	-	63
+-	I	-	jgi|269854$^{m}$	-	74
