@@ -18,10 +18,10 @@ palette <- colorRampPalette(c('white','darkgreen'))(2)
 dat <- data.matrix(read.table("../dat/flagProfile_binary.tsv", sep="\t",row.names=1,header=T))
 dat <- dat[,-1]
 png('heatmap.png')
-pheatmap(dat,cluster_cols=TRUE,cluster_rows=TRUE,col=palette)
+pheatmap(dat,cluster_cols=TRUE,cluster_rows=TRUE,col=palette,clustering_method="complete")
 dev.off()
 @
 \end{center}
-\caption{}
+\caption[Heatmap cluster analysis of flagellar proteins from \textit{Naegleria gruberi}]{Protein copies identified in proteomes of interest are normalized to indicate presence and absence only, where green indicates that one or more copies were found. Proteins are listed on the right, and proteomes given on the bottom. Both rows and columns are clustered by the "complete" method}
 \label{fig:AppFlag_heatmap}
 \end{figure}
