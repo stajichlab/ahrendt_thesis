@@ -7,7 +7,6 @@
 % COELOMOMYCES TABLES %
 %%%%%%%%%%%%%%%%%%%%%%%
 
-% Top 20 PFAM domains
 <<label=ChClat_PFAM,echo=FALSE,results=tex>>=
 library(xtable)
 data <- read.table("../dat/Clat_top20_comparison.tsv",sep="\t",header=T,row.names=1,check.names=FALSE,stringsAsFactors=FALSE)
@@ -15,75 +14,73 @@ colnames(data)[-1] <- paste("\\emph{",colnames(data)[-1],"}",sep="")
 xdata <- xtable(data,label="tab:ChClat_PFAM",caption="PFAM")
 hlines <- c(-1,-1,0,nrow(xdata),nrow(xdata))
 print(xdata,
-     table.placement="tbp",
-     caption.placement="bottom",
-     hline.after=hlines,
-     sanitize.text.function=identity
+      table.placement="tbp",
+      caption.placement="bottom",
+      hline.after=hlines,
+      sanitize.text.function=identity
 )
 @
 
-% FAADB prediction results
-<<label=ChClat_FAADB,echo=FALSE,results=tex>>=
+<<label=ChClat_BemeVerify,echo=FALSE,results=tex>>=
 library(xtable)
-specify_decimal <- function(x, k=2) format(round(x, k), nsmall=k)
-data <- read.table("../dat/FAADB_SVM_Blast.tsv",sep="\t",header=T,row.names=1)
-data$SVM.Score <- as.numeric(specify_decimal(data$SVM.Score))
-xdata <- xtable(data,label="tab:ChClat_FAADB",caption="FAADB")
+data <- read.table("../dat/BemeBlast.tsv",sep="\t",header=T)
+xdata <- xtable(data,label="tab:ChClat_BemeVerify",caption=c("Beme Long caption","Beme short caption"))
 hlines <- c(-1,-1,0,nrow(xdata),nrow(xdata))
 print(xdata,
       table.placement="tbp",
       caption.placement="bottom",
-      hlines.after=hlines
+      hline.after=hlines,
 )
 @
 
-% ORthoMCL table
+<<label=ChClat_KEGGHMM,echo=FALSE,results=tex>>=
+library(xtable)
+data <- read.table("../dat/KEGGHMM.tsv",sep="\t",header=T)
+xdata <- xtable(data,label="tab:ChClat_KEGGHMM",caption=c("KEGG Long caption","KEGG short caption"))
+hlines <- c(-1,-1,0,nrow(xdata),nrow(xdata))
+print(xdata,
+      table.placement="tbp",
+      caption.placement="bottom",
+      hline.after=hlines,
+)
+@
+
 <<label=ChClat_OrthoMCL,echo=FALSE,results=tex>>=
 library(xtable)
 data <- read.table("../dat/Clat_uniqueClusters.tsv",sep="\t",header=T)
-xdata <- xtable(data,label="tab:ChClat_orthomcl",caption="OrthMCL")
+xdata <- xtable(data,label="tab:ChClat_orthomcl",caption=c("orthoMCL Long caption","orthoMCL short caption"))
 hlines <- c(-1,-1,0,nrow(xdata),nrow(xdata))
 print(xdata,
       table.placement="tbp",
       caption.placement="bottom",
-      hlines.after=hlines
+      hline.after=hlines,
 )
 @
 
-% Beme Verification
-<<label=ChClat_BemeVerify,echo=FALSE,results=tex>>=
+
+<<label=ChClat_photosensing,echo=FALSE,results=tex>>=
 library(xtable)
-5data <- read.table("../dat/BemeBlast.tsv",sep="\t",header=T)
-xdata <- xtable(data,label="tab:ChClat_BemeVerify",caption="\\textit{B. emersonii} BLASTP results")
+data <- read.table("../dat/photosensingTab.tsv",sep="\t",header=T)
+xdata <- xtable(data,label="tab:ChClat_photosensing",caption=c("Photosensing Long caption","Photosensing short caption"))
 hlines <- c(-1,-1,0,nrow(xdata),nrow(xdata))
 print(xdata,
       table.placement="tbp",
       caption.placement="bottom",
-      hlines.after=hlines
+      hline.after=hlines,
 )
 @
 
-% KEGG HMM List
-<<label=ChClat_KEGGHMM,echo=FALSE,results=tex>>=
+<<label=ChClat_FAADB,echo=FALSE,results=tex>>=
 library(xtable)
-5data <- read.table("../dat/KEGGHMM.tsv",sep="\t",header=T)
-xdata <- xtable(data,label="tab:ChClat_KEGGHMM",caption="KEGG HMM list")
+specify_decimal <- function(x,k=2) format(round(x,k),nsmall=k)
+data <- read.table("../dat/FAADB_SVM_Blast.tsv",sep="\t",header=T,row.names=1)
+data$SVM.Score <- as.numeric(specify_decimal(data$SVM.Score))
+xdata <- xtable(data,label="tab:ChClat_FAADB",caption=c("FAADB Long caption","FAADB short caption"))
 hlines <- c(-1,-1,0,nrow(xdata),nrow(xdata))
 print(xdata,
       table.placement="tbp",
       caption.placement="bottom",
-      hlines.after=hlines
+      hline.after=hlines,
 )
 @
-% photosensing table
-%<<label=ChClat_photosensing,echo=FALSE,results=tex>>=
-%library(xtable)
-%5data <- read.table("../dat/photosensing.tsv",sep="\t",header=T)
-%xdata <- xtable(data,label="tab:ChClat_photosensing",caption="Photosensing")
-%hlines <- c(-1,-1,0,nrow(xdata),nrow(xdata))
-%print(xdata,
-%      table.placement="tbp",
-%      caption.placement="bottom",
-%      hlines.after=hlines
-%)
-%@
+
