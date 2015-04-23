@@ -50,7 +50,32 @@ print(xdata,
 )
 @
 
-% ORthoMCL table
+% Beme Verification
+<<label=ChClat_BemeVerify,echo=FALSE,results=tex>>=
+library(xtable)
+5data <- read.table("../dat/BemeBlast.tsv",sep="\t",header=T)
+xdata <- xtable(data,label="tab:ChClat_BemeVerify",caption="\\textit{B. emersonii} BLASTP results")
+hlines <- c(-1,-1,0,nrow(xdata),nrow(xdata))
+print(xdata,
+      table.placement="tbp",
+      caption.placement="bottom",
+      hlines.after=hlines
+)
+@
+
+% KEGG HMM List
+<<label=ChClat_KEGGHMM,echo=FALSE,results=tex>>=
+library(xtable)
+5data <- read.table("../dat/KEGGHMM.tsv",sep="\t",header=T)
+xdata <- xtable(data,label="tab:ChClat_KEGGHMM",caption="KEGG HMM list")
+hlines <- c(-1,-1,0,nrow(xdata),nrow(xdata))
+print(xdata,
+      table.placement="tbp",
+      caption.placement="bottom",
+      hlines.after=hlines
+)
+@
+% photosensing table
 %<<label=ChClat_photosensing,echo=FALSE,results=tex>>=
 %library(xtable)
 %5data <- read.table("../dat/photosensing.tsv",sep="\t",header=T)
