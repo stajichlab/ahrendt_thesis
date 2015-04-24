@@ -1,0 +1,4 @@
+EMBLID	UniprotID	B. emersonii Description	TopHitID	Top hit Description	Source organism	% Cov	E-val	% ID	PMID
+KJ468786	A0A060GS52	putative phytoene dehydrogenase	P54982	phytoene desaturase	Phycomyces blakesleeanus NRRL 1555	85	0.0	53	9079885
+KJ468785	A0A060GVE0	putative lycopene cyclase / phytoene synthase	Q9UUQ6	bifunctional lycopene cyclase/phytoene synthase	Mucor circinelloides f. lusitanicus	93	9e-94	33	10951210
+KJ468787	A0A060GW07	putative carotenoid dioxygenase	Q9I993	Beta,beta-carotene 15,15'-monooxygenase	Gallus gallus	51	3e-47	27	10799297
