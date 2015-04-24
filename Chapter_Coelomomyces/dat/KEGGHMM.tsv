@@ -1,0 +1,4 @@
+KEGG ID	Description	Sequences used
+K10027	phytoene desaturase	442 Bacterial proteins, 49 Archaeal proteins
+K02291	phytoene synthase	6 Eukaryote proteins, 45 Plant proteins [excluded 49 Archaeal and 843 Bacterial proteins]
+K00515	beta-carotene 15,15'-monooxygenase	64 Metazoan proteins [excluded 1 Archaeal protein]
