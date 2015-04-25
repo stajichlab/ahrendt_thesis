@@ -11,7 +11,7 @@
 library(xtable)
 data <- read.table("../dat/Clat_top20_comparison.tsv",sep="\t",header=T,row.names=1,check.names=FALSE,stringsAsFactors=FALSE)
 colnames(data)[-1] <- paste("\\emph{",colnames(data)[-1],"}",sep="")
-xdata <- xtable(data,label="tab:ChClat_PFAM",caption="PFAM")
+xdata <- xtable(data,label="tab:ChClat_PFAM",caption=c("Comparisions of counts of top 20 PFAM domains from \\textit{C. lativittatus} as identified in other chytrids. Details for organism abbreviations can be found in appendix.","Top 20 PFAM domain counts"))
 hlines <- c(-1,-1,0,nrow(xdata),nrow(xdata))
 print(xdata,
       table.placement="tbp",
@@ -23,8 +23,8 @@ print(xdata,
 
 <<label=ChClat_BemeVerify,echo=FALSE,results=tex>>=
 library(xtable)
-data <- read.table("../dat/BemeBlast.tsv",sep="\t",header=T)
-xdata <- xtable(data,label="tab:ChClat_BemeVerify",caption=c("Beme Long caption","Beme short caption"))
+data <- read.delim("../dat/BemeBlast.tsv",sep="\t",header=T)
+xdata <- xtable(data,label="tab:ChClat_BemeVerify",caption=c("Top BLASTP hits against SwissProt for three \\textit{B. emersonii} $\\beta$-carotene metabolism genes. PMID references publications for SwissProt hit describing experimental verification of biological function","BLASTP results for \\textit{B. emersonii} $\\beta$-carotene genes"))
 hlines <- c(-1,-1,0,nrow(xdata),nrow(xdata))
 print(xdata,
       table.placement="tbp",
@@ -35,33 +35,25 @@ print(xdata,
 
 <<label=ChClat_KEGGHMM,echo=FALSE,results=tex>>=
 library(xtable)
-data <- read.table("../dat/KEGGHMM.tsv",sep="\t",header=T)
-xdata <- xtable(data,label="tab:ChClat_KEGGHMM",caption=c("KEGG Long caption","KEGG short caption"))
+data <- read.delim("../dat/KEGGHMM.tsv",sep="\t",header=T)
+xdata <- xtable(data,label="tab:ChClat_KEGGHMM",caption=c("Sequences from KEGG used in generating HMMs for $\\beta$-carotene metabolism searches","$\\beta$-carotene HMM"))
 hlines <- c(-1,-1,0,nrow(xdata),nrow(xdata))
-print(xdata,
-      table.placement="tbp",
-      caption.placement="bottom",
-      hline.after=hlines,
-)
+print(xdata,      table.placement="tbp",      caption.placement="bottom",      hline.after=hlines,)
 @
 
-<<label=ChClat_OrthoMCL,echo=FALSE,results=tex>>=
-library(xtable)
-data <- read.table("../dat/Clat_uniqueClusters.tsv",sep="\t",header=T)
-xdata <- xtable(data,label="tab:ChClat_orthomcl",caption=c("orthoMCL Long caption","orthoMCL short caption"))
-hlines <- c(-1,-1,0,nrow(xdata),nrow(xdata))
-print(xdata,
-      table.placement="tbp",
-      caption.placement="bottom",
-      hline.after=hlines,
-)
-@
+%<<label=ChClat_OrthoMCL,echo=FALSE,results=tex>>=
+%library(xtable)
+%data <- read.table("../dat/Clat_uniqueClusters.tsv",sep="\t",header=T)
+%xdata <- xtable(data,label="tab:ChClat_orthomcl",caption=c("orthoMCL Long caption","orthoMCL short caption"))
+%hlines <- c(-1,-1,0,nrow(xdata),nrow(xdata))
+%print(xdata,      table.placement="tbp",      caption.placement="bottom",      hline.after=hlines,)
+%@
 
 
 <<label=ChClat_photosensing,echo=FALSE,results=tex>>=
 library(xtable)
 data <- read.table("../dat/photosensingTab.tsv",sep="\t",header=T)
-xdata <- xtable(data,label="tab:ChClat_photosensing",caption=c("Photosensing Long caption","Photosensing short caption"))
+xdata <- xtable(data,label="tab:ChClat_photosensing",caption=c("Predicted \\textit{C. lativittatus} proteins associated with photosensing. PFAM Family definitions: PF13426, \"PAS domain\" [PAS\\_9]; PF08447, \"PAS fold\" [PAS\\_3]; PF00001, \"7 transmembrane receptor (rhodopsin family)\" [7tm\\_1]; PF01036, \"bacteriorhodopsin-like protein\" [Bac\\_rhodopsin]; PF10317, \"Serpentine type 7TM GPCR chemoreceptor Srd\" [7TM\\_GPCR\\_Srd]; PF00211, \"Adenylate and Guanylate cyclase catalytic domain\" [Guanylate\\_cyc]","\\textit{C. lativittatus} photosensing proteins"))
 hlines <- c(-1,-1,0,nrow(xdata),nrow(xdata))
 print(xdata,
       table.placement="tbp",
@@ -70,17 +62,13 @@ print(xdata,
 )
 @
 
-<<label=ChClat_FAADB,echo=FALSE,results=tex>>=
-library(xtable)
-specify_decimal <- function(x,k=2) format(round(x,k),nsmall=k)
-data <- read.table("../dat/FAADB_SVM_Blast.tsv",sep="\t",header=T,row.names=1)
-data$SVM.Score <- as.numeric(specify_decimal(data$SVM.Score))
-xdata <- xtable(data,label="tab:ChClat_FAADB",caption=c("FAADB Long caption","FAADB short caption"))
-hlines <- c(-1,-1,0,nrow(xdata),nrow(xdata))
-print(xdata,
-      table.placement="tbp",
-      caption.placement="bottom",
-      hline.after=hlines,
-)
-@
+%<<label=ChClat_FAADB,echo=FALSE,results=tex>>=
+%library(xtable)
+%specify_decimal <- function(x,k=2) format(round(x,k),nsmall=k)
+%data <- read.table("../dat/FAADB_SVM_Blast.tsv",sep="\t",header=T,row.names=1)
+%data$SVM.Score <- as.numeric(specify_decimal(data$SVM.Score))
+%xdata <- xtable(data,label="tab:ChClat_FAADB",caption=c("FAADB Long caption","FAADB short caption"))
+%hlines <- c(-1,-1,0,nrow(xdata),nrow(xdata))
+%print(xdata,      table.placement="tbp",      caption.placement="bottom",      hline.after=hlines,)
+%@
 
