@@ -1,18 +1,18 @@
-Description	Bt1U19	Tp2Z73	Bd	Sp	Am	Cl15402
-Salt Bridge	R177	A176	K145	A156	T203	--
-Salt Bridge	D190	D189	D158	D169	A223	--
-Binding pocket	T118	G116	Q88	V99	Q139	--
---	E122	F120	A92	S103	V143	--
-Binding pocket	W265	W274	W317	W268	W468	--
-H-bond core/Photoisomerase counterion	E181	E180	R149	Q160	--	--
---	I189	F188	Y157	G168	--	--
-Binding pocket/H-bond network w/Y268	Y191	Y190	Y159	W170	--	--
---	M207	M204	L173	M183	L237	--
---	F208	F205	I174	C184	A238	--
---	F212	F209	V178	V188	L242	--
-Binding pocket	W265	W274	W317	W268	W468	--
-Binding pocket/H-bond network w/Y191	Y268	Y277	T320	Y271	Y471	--
-Conserved Lysine	K296	K305	A347	K320	S498	L336
+Description	Bt1U19	Tp2Z73	Bd	Sp	Am	Cl15402 Beme
+Salt Bridge	R177	A176	K145	A156	T203	--	--
+Salt Bridge	D190	D189	D158	D169	A223	--	--
+Binding pocket	T118	G116	Q88	V99	Q139	--	--
+--	E122	F120	A92	S103	V143	--	--
+Binding pocket	W265	W274	W317	W268	W468	--	--
+H-bond core/Photoisomerase counterion	E181	E180	R149	Q160	--	--	--
+--	I189	F188	Y157	G168	--	--	--
+Binding pocket/H-bond network w/Y268	Y191	Y190	Y159	W170	--	--	--
+--	M207	M204	L173	M183	L237	--	--
+--	F208	F205	I174	C184	A238	--	--
+--	F212	F209	V178	V188	L242	--	--
+Binding pocket	W265	W274	W317	W268	W468	--	--
+Binding pocket/H-bond network w/Y191	Y268	Y277	T320	Y271	Y471	--	--
+Conserved Lysine	K296	K305	A347	K320	S498	L336	K255
 Counterion	E113	Y111	V83	D94	N134	--
 [L]AxAD	L79	L76	V48	L60	L97	--
 L[A]xAD	A80	A77	V49	S61	--	--
