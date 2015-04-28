@@ -35,3 +35,13 @@ hlines <- c(-1,-1,0,2,13,15,19,21,24,29,nrow(xdata),nrow(xdata))
 print(xdata,table.placement="tbp",caption.placement="bottom",hline.after=hlines)
 rm(data)
 @
+
+% Autodock Covalent docking results
+<<label=ChRhod_CovDock,echo=FALSE,results=tex>>=
+library(xtable)
+data <- read.table("../dat/Autodock_covalent.tsv",sep="\t",header=T)
+xdata <- xtable(data,label="tab:ChRhod_motifs",caption=c("Interaction energies for covalent docking with Autodock. Average of five lowest energy conformations using various retinal isomers covalently bound to rhodopsin models and crystal structures","Interaction energies for covalent docking"))
+hlines <- c(-1,-1,0,nrow(xdata),nrow(xdata))
+print(xdata,table.placement="tbp",caption.placement="bottom",hline.after=hlines,include.rownames=FALSE)
+rm(data)
+@
