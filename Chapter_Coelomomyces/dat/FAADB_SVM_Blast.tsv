@@ -1,0 +1,55 @@
+Protein	SVM Score	UniprotKB ID	Description	Identity	Alignment Length	E-value
+Amac|AMAG_17113T0	-0.74182346	Q9DBG3.1	AP-2 complex subunit beta	55.26	903	0.0
+Amac|AMAG_05862T0	-0.61314583	P00940.2	Triosephosphate isomerase EC=5.3.1.1	58.06	248	2e-99
+Amac|AMAG_12167T0	-0.54014146	P00940.2	Triosephosphate isomerase EC=5.3.1.1	59.27	248	8e-101
+Amac|AMAG_08758T0	-0.19414883	P46226.3	Triosephosphate isomerase, cytosolic EC=5.3.1.1	59.84	249	1e-104
+Amac|AMAG_10182T0	-0.17460398	P46226.3	Triosephosphate isomerase, cytosolic EC=5.3.1.1	60.24	249	6e-105
+Amac|AMAG_18542T0	-0.16037286	P48491.2	Triosephosphate isomerase, cytosolic EC=5.3.1.1	58.19	177	2e-64
+Amac|AMAG_16371T0	0.14597538	NA	NA	NA	NA	NA
+Amac|AMAG_08832T0	0.16948995	Q966L9.1	ATP-dependent RNA helicase glh-2 EC=3.6.4.13	54.63	108	8e-06
+Amac|AMAG_17977T0	0.21141828	NA	NA	NA	NA	NA
+Amac|AMAG_16084T0	0.31628599	P29141.1	Minor extracellular protease vpr EC=3.4.21.-	42.00	600	6e-40
+Amac|AMAG_04496T0	0.34216185	Q6H236.1	Paternally-expressed gene 3 protein	45.71	525	1e-08
+Amac|AMAG_19066T0	0.76231031	NA	NA	NA	NA	NA
+Amac|AMAG_20477T0	0.82933256	NA	NA	NA	NA	NA
+Amac|AMAG_04749T0	1.3267794	NA	NA	NA	NA	NA
+Amac|AMAG_03430T0	1.433364	NA	NA	NA	NA	NA
+Cang|CANG_48379	-0.78004434	Q06852.2	Cell surface glycoprotein 1	29.47	431	7e-09
+Cang|CANG_125451	-0.6771212	P58559.1	Glyceraldehyde-3-phosphate dehydrogenase 3 EC=1.2.1.12	58.02	343	2e-125
+Cang|CANG_33361	-0.094495623	P48494.3	Triosephosphate isomerase, cytosolic EC=5.3.1.1	59.04	249	7e-102
+Cang|CANG_38430	0.59780915	P22105.3	Tenascin-X	39.67	673	1e-20
+Cang|CANG_69396	0.93910396	NA	NA	NA	NA	NA
+Clat|m.10957	-0.78370391	P27393.1	Collagen alpha-2(IV) chain	63.61	665	4e-65
+Clat|m.22466	-0.75069678	Q6CJG5.2	Triosephosphate isomerase EC=5.3.1.1	48.60	179	6e-48
+Clat|m.2165	-0.68451071	A7S7F2.1	Bystin	43.48	276	2e-47
+Clat|m.18806	-0.68324619	P48501.1	Triosephosphate isomerase EC=5.3.1.1	56.19	226	1e-86
+Clat|m.13634	-0.63101853	Q90XG0.1	Triosephosphate isomerase B EC=5.3.1.1	71.02	245	2e-122
+Clat|m.1572	-0.57586266	O09452.1	Glyceraldehyde-3-phosphate dehydrogenase, chloroplastic EC=1.2.1.59	84.01	269	2e-166
+Clat|m.15929	-0.52330067	P07487.2	Glyceraldehyde-3-phosphate dehydrogenase 2 EC=1.2.1.12	80.28	142	2e-77
+Clat|m.10361	-0.46223538	P20445.2	Glyceraldehyde-3-phosphate dehydrogenase EC=1.2.1.12	61.34	238	9e-99
+Clat|m.18916	-0.42379676	P48501.1	Triosephosphate isomerase EC=5.3.1.1	60.87	253	4e-102
+Clat|m.11233	-0.3035977	Q96UF2.1	Glyceraldehyde-3-phosphate dehydrogenase 2 EC=1.2.1.12	68.82	279	1e-132
+Clat|m.4480	-0.068165189	O77458.1	Triosephosphate isomerase EC=5.3.1.1	64.24	165	5e-61
+Clat|m.13062	0.51823663	Q6BMK0.1	Glyceraldehyde-3-phosphate dehydrogenase EC=1.2.1.12	74.52	157	6e-83
+Clat|m.745	0.89790397	Q92824.4	Proprotein convertase subtilisin/kexin type 5 EC=3.4.21.-	36.65	562	7e-26
+Clat|m.16183	1.0483416	P22105.3	Tenascin-X	51.01	545	4e-18
+Clat|m.13342	1.1313398	Q92824.4	Proprotein convertase subtilisin/kexin type 5 EC=3.4.21.-	43.22	1025	8e-43
+Clat|m.11209	2.2370952	NA	NA	NA	NA	NA
+Bden|BDET_06684	-0.79274173	Q5R2J2.1	Glyceraldehyde-3-phosphate dehydrogenase EC=1.2.1.12 EC=2.6.99.-	71.56	334	1e-177
+Bden|BDET_05736	-0.17287765	P00939.1	Triosephosphate isomerase EC=5.3.1.1	57.66	248	2e-88
+Bden|BDET_05372	-0.034218902	Q95P23.1	Enterin neuropeptides	28.02	182	9e-21
+Bden|BDET_01761	0.44628698	Q9AVB0.1	Lectin-B	64.57	460	3e-20
+Bden|BDET_00626	0.49099461	NA	NA	NA	NA	NA
+Bden|BDET_00287	0.67401746	Q9AVB0.1	Lectin-B	58.01	462	8e-22
+Bden|BDET_02239	1.4486611	P23253.1	Sialidase EC=3.2.1.18	54.09	318	2e-22
+Bden|BDET_00436	1.4773352	NA	NA	NA	NA	NA
+Bden|BDET_03668	1.5134231	Q63425.2	Periaxin	39.51	367	6e-06
+Bden|BDET_06100	1.7018371	NA	NA	NA	NA	NA
+Hpol|HPOL_4940	-0.7853245	P00940.2	Triosephosphate isomerase EC=5.3.1.1	56.63	249	1e-95
+Hpol|HPOL_4790	-0.4557475	O57479.3	Glyceraldehyde-3-phosphate dehydrogenase EC=1.2.1.12 EC=2.6.99.-	75.61	328	8e-148
+Hpol|HPOL_4769	-0.24257286	P52041.2	3-hydroxybutyryl-CoA dehydrogenase EC=1.1.1.157	40.00	80	3e-09
+Hpol|HPOL_2513	-0.14122295	Q1ZXD6.1	Probable serine/threonine-protein kinase roco5 EC=2.7.11.1	32.78	180	6e-13
+Spun|SPPG_01012T0	-0.67605704	P30741.2	Triosephosphate isomerase EC=5.3.1.1	61.60	250	1e-102
+Spun|SPPG_08522T0	-0.46861754	Q6ZRI0.3	Otogelin	31.26	531	9e-10
+Spun|SPPG_00685T0	-0.14859521	Q5H8C1.3	FRAS1-related extracellular matrix protein 1	33.98	1292	2e-14
+Spun|SPPG_01988T0	0.053739569	NA	NA	NA	NA	NA
