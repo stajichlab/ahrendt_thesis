@@ -1,0 +1,25 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Document: Thesis for PhD at UC Riverside                          %%
+%% Description: A comparative analysis of environment sensing in EDF %%
+%% Author: Steven Ahrendt                                            %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% MISC LIST OF DATA %
+%%%%%%%%%%%%%%%%%%%%%
+
+% Taxa and sources
+<<label=AppData_taxa,echo=FALSE,results=tex>>=
+library(xtable)
+data <- read.table("../dat/taxonlistID",sep="\t",row.names=1,header=T,check.names=FALSE,comment.char="#")
+xdata <- xtable(data,label="tab:AppData_taxa",caption=c("(long caption) Taxon list of all proteomes used in comparative analyses","(short caption) Taxon list of all proteomes used in comparative analyses."))
+hlines <- c(-1,-1,0,nrow(xdata),nrow(xdata))
+print(xdata,table.placement="tbp",caption.placement="bottom",hline.after=hlines)
+@
+
+% PDB IDs
+<<label=AppData_PDB,echo=FALSE,results=tex>>=
+library(xtable)
+data <- read.table("../dat/PDBIDs.tsv",sep="\t",row.names=1,header=T,check.names=FALSE)
+xdata <- xtable(data,label="tab:AppData_PDB",caption=c("(long caption) PDB IDs and descriptions of structures used in docking and Molecular dynamics simulations","(short caption) PDB IDs and descriptions of structures used in comparative analyses"))
+hlines <- c(-1,-1,0,nrow(xdata),nrow(xdata))
+print(xdata,table.placement="tbp",caption.placement="bottom",hline.after=hlines)
+@
