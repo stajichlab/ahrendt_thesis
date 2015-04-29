@@ -33,6 +33,7 @@
 #@1OAR,OP,OAO,OAP,OAM,OA,MF,CF,ZF,BF,AF
 #@2OAR,OP,OAO,OAP,OAM,OA,MF,CF,CNF,CCF,CBF,ZEF,ZF,ZMF,BF,BPF,BUF,BAF,ATF,ASaF,APF,ADF,ALiF,AEF,ALeF,ALoF,ASoF
 #$Abb	Class2	Class1	TaxID	FullName	Version	Website
+Abbr	Class2	Class1	TaxID	FullName	Version	Website
 Aben	APF	AF	663331	Arthroderma benhamiae CBS 112371	---	http://www.broadinstitute.org/annotation/genome/dermatophyte_comparative/
 Afum	AEF	AF	746128	Aspergillus fumigatus Af293	---	http://www.broadinstitute.org/annotation/genome/aspergillus_group/MultiHome.html
 Agos	ASaF	AF	33169	Ashbya gossypii	---	---
@@ -44,7 +45,7 @@ Bcin	ALoF	AF	332648	Botrytis cinerea B05.10	---	http://www.broadinstitute.org/an
 Bcir	ZMF	ZF	1314798	Backusella circina FSU 941	---	http://genome.jgi.doe.gov/Bacci1/Bacci1.home.html
 Bde2	CCF	CF	109871	Batrachochytrium dendrobatidis JAM 81	---	---
 Bden	CCF	CF	109871	Batrachochytrium dendrobatidis JEL 423	---	---
-Bder	AEF	AF	559298	Blastomyces dermatitidis SLH14081	--- http://www.broadinstitute.org/annotation/genome/dimorphic_fungi/
+Bder	AEF	AF	559298	Blastomyces dermatitidis SLH14081	---	http://www.broadinstitute.org/annotation/genome/dimorphic_fungi/
 Beme	CBF	CF	4808	Blastocladiella emersonii	---	---
 Cang	CBF	CF	109876	Catenaria anguillulae	---	---
 Ccin	BAF	BF	5346	Coprinopsis cinerea	---	---
@@ -84,9 +85,9 @@ Ncra	ASoF	AF	5141	Neurospora crassa	---	---
 Npar	MF	MF	586133	Nematocida parisii ERTm1	---	---
 Npha	OAR	OAR	348780	Natromonas pharaonis	---	---
 OrpC	CNF	CF	1117330	Orpinomyces spp C1A	---	---
-Patr	ADF	AF	703506	Patellaria atrata	---	http://genome.jgi.doe.gov/Patat1/Patat1.home.html	
+Patr	ADF	AF	703506	Patellaria atrata	---	http://genome.jgi.doe.gov/Patat1/Patat1.home.html
 Pbla	ZMF	ZF	4837	Phycomyces blakesleeanus NRRL1555	v2.0.JGI	http://genome.jgi-psf.org/Phybl2/Phybl2.home.html
-Pgra	BPF	BF	418459	Puccinia graminis f.sp. tritici CRL 75-36-700-3	--- http://www.broadinstitute.org/annotation/genome/puccinia_group/
+Pgra	BPF	BF	418459	Puccinia graminis f.sp. tritici CRL75-36-700-3	---	http://www.broadinstitute.org/annotation/genome/puccinia_group/
 PirE	CNF	CF	45796	Piromyces spp E2	---	---
 Psoj	OAO	OAO	67593	Phytophthora sojae	---	---
 Psip	ADF	AF	100044	Pleomassaria siparia	---	http://genome.jgi.doe.gov/Plesi1/Plesi1.home.html	
@@ -107,7 +108,7 @@ Srot	OA	OA	946362	Salpingoeca rosetta	---	http://www.broadinstitute.org/annotati
 Sscl	ALoF	AF	665079	Sclerotinia sclerotiorum 1980_UF-70.30	v.2009-01.Broad	---
 Tgon	OAP	OAP	5811	Toxoplasma gondii ME49	v.2008-07-23.ToxoDB-7.2	---
 Tpse	OAO	OAO	35128	Thalassiosira pseudonana CCMP1335	v.JGI3	---
-Trub	AEF	AF	559305	Trichophyton rubrum CBS 118892	--- http://www.broadinstitute.org/annotation/genome/dermatophyte_comparative
+Trub	AEF	AF	559305	Trichophyton rubrum CBS 118892	---	http://www.broadinstitute.org/annotation/genome/dermatophyte_comparative
 Ttra	OA	OA	529818	Thecamonas trahens ATCC 50062	---	http://www.broadinstitute.org/annotation/genome/multicellularity_project/MultiDownloads.html	
 Umay	BUF	BF	5270	Ustilago maydis	v.2011-05-24.MIPS	---
 Uram	ZMF	ZF	41833	Umbelopsis ramanniana	---	---
