@@ -10,5 +10,5 @@ taxonlistID <- read.delim("../dat/taxonlistID",comment.char="#")
 ann_col <- data.frame("Taxa"=taxonlistID$Class1)
 rownames(ann_col) <- taxonlistID$Abbr
 png('flagDataHeatmap.png')
-pheatmap(dat,cluster_cols=TRUE,cluster_rows=TRUE,col=palette,clustering_method="complete",annotation_col=ann_col)
+pheatmap(dat,cluster_cols=TRUE,cluster_rows=TRUE,col=palette,clustering_method="complete",annotation_col=ann_col,legend=F)
 dev.off()
