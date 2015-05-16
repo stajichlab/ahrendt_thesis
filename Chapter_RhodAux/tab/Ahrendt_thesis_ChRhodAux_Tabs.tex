@@ -7,33 +7,25 @@
 %%%%%%%%%%%%%%%%%%%%
 
 % G-protein subunit counts
-% latex table generated in R 3.1.1 by xtable 1.7-3 package
-% Sat Apr 11 19:32:20 2015
-\begin{table}[tbp]
-\centering
-\begin{tabular}{llll}
-  \hline
-\hline
-Species & G$\alpha$ & G$\beta$ & G$\gamma$ \\ 
-  \hline
-\emph{Amac} & 19 & 4 & 1 \\ 
-  \emph{Cang} & 13 & 1 & 1 \\ 
-  \emph{Clat} & - & - & - \\ 
-   \hline
-\emph{Bden} & 10 & 2 & 1 \\ 
-  \emph{Hpol} & 6 & 1 & 1 \\ 
-  \emph{Spun} & 5 & 3 & 0 \\ 
-   \hline
-\emph{Ncra} & 3 & 1 & 1 \\ 
-   \hline
-\hline
-\end{tabular}
-\caption{G-protein subunits identified through sequence similarity} 
-\label{tab:ChRhodAux_Gprot}
-\end{table}
+%<<label=ChRhodAux_Gprot,echo=FALSE,results=tex>>=
+%library(xtable)
+%data <- read.table("../dat/Gabg_counts.tsv",sep="\t",header=T,check.names=FALSE,stringsAsFactors=FALSE)
+%data$Species <- paste("\\emph{",data$Species,"}",sep="")
+%colnames(data)[-1] = c("G$\\alpha$","G$\\beta$","G$\\gamma$")
+%xdata <- xtable(data,label="tab:ChRhodAux_Gprot",caption=c("(long) G protein subunits identified through sequence similarity","(short) G protein distribution"))
+%hlines <- c(-1,-1,0,3,6,nrow(xdata),nrow(xdata))
+%print(xdata,
+%      table.placement="tbp",
+%      caption.placement="bottom",
+%      hline.after=hlines,
+%      include.rownames=FALSE,
+%      sanitize.text.function=identity
+%)
+%@
+
 % G-protein comparisons
-% latex table generated in R 3.1.1 by xtable 1.7-3 package
-% Sat Apr 11 19:32:20 2015
+% latex table generated in R 3.0.1 by xtable 1.7-4 package
+% Sat May  9 12:40:30 2015
 \begin{table}[tbp]
 \centering
 \begin{tabular}{llllll}
@@ -86,38 +78,17 @@ Species & Class & Name & Broad & NCBI & Identity$^{a}$ \\
    \hline
 \end{tabular}
 \caption{G-protein subunit comparison} 
-\label{tab:ChRhodAux_Gcomp}
+\label{tab:ChRhodA_Gcomp}
 \end{table}
-% latex table generated in R 3.1.1 by xtable 1.7-3 package
-% Sat Apr 11 19:32:20 2015
-\begin{table}[tbp]
-\centering
-\begin{tabular}{rrrll}
-  \hline
-Org & PDEA & PDEB & PDEG & Species \\ 
-  \hline
-  9 &   9 &   0 &  & \emph{} \\ 
-    6 &   6 &   0 &  & \emph{} \\ 
-    7 &   7 &   0 &  & \emph{} \\ 
-    3 &   2 &   0 &  & \emph{} \\ 
-    9 &  10 &   0 &  & \emph{} \\ 
-   10 &  10 &   0 &  & \emph{} \\ 
-   10 &   9 &   0 &  & \emph{} \\ 
-   23 &  24 &   1 &  & \emph{} \\ 
-   12 &  12 &   1 &  & \emph{} \\ 
-   11 &  11 &   2 &  & \emph{} \\ 
-    2 &   2 &   1 &  & \emph{} \\ 
-    2 &   2 &   0 &  & \emph{} \\ 
-    6 &   7 &   0 &  & \emph{} \\ 
-    9 &  12 &   0 &  & \emph{} \\ 
-    3 &   2 &   0 &  & \emph{} \\ 
-    3 &   0 &   0 &  & \emph{} \\ 
-    1 &   2 &   0 &  & \emph{} \\ 
-    0 &   1 &   0 &  & \emph{} \\ 
-    1 &   1 &   1 &  & \emph{} \\ 
-    5 &   5 &   0 &  & \emph{} \\ 
-   \hline
-\end{tabular}
-\caption{PDE} 
-\label{tab:ChRhodAux_PDE}
-\end{table}
+%<<label=ChRhodAux_Gprotcomp,echo=FALSE,results=tex>>=
+%library(xtable)
+%data <- read.table("../dat/photosense_rep.tsv",sep="\t",header=T,check.names=FALSE,stringsAsFactors=FALSE)
+%data$Species <- paste("\\emph{",data$Species,"}",sep="")
+%xdata <- xtable(data,label="tab:ChRhodAux_photosenseSurvey",caption=c("(Long) Distribution of photosensory and related effector proteins in representative fungi","(short) Photosensory distribution"))
+%print(xdata,
+%      table.placement="tbp",
+%      caption.placement="bottom",
+%      include.rownames=FALSE,
+%      sanitize.text.function=identity
+%)
+%@
