@@ -4,7 +4,7 @@ library(fastcluster)
 library(RColorBrewer)
 library(pheatmap)
 palette <- colorRampPalette(c('white','darkgreen'))(2)
-dat <- data.matrix(read.table("../dat/fP_rB_trimmed.tsv", sep="\t",row.names=1,header=T))
+dat <- data.matrix(read.table("../dat/flagProfile_repBin_trimmed.tsv", sep="\t",row.names=1,header=T))
 taxonlistID <- read.delim("../dat/taxonlistID",comment.char="#")
 ann_col <- data.frame("Taxa"=taxonlistID$Class1)
 rownames(ann_col) <- taxonlistID$Abbr
