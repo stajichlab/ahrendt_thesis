@@ -16,7 +16,15 @@
 %Non-covalent docking screen: Bden
 \begin{figure}[hb]
   \centering
-  \includegraphics[width=4in]{./Chapter_RhodStruct/img/BdAm_ZincPlot.png}
-  \caption[Docking screen for \textit{Bd} and \textit{Am} models]{A non-covalent docking screen using Autodock 4 and ligands obtained from ZINC against homology models for A) \textit{B. dendrobatidis} and B) \textit{A. macrogynus}. Histograms show distribution of ten lowest binding energies for protein-ligand conformations. Binding energy given on X-axis; ligand given on X-axis. Ligands were obtained from ZINC database based on similarity to 11-\textit{cis}-retinal.}
+  \includegraphics[]{./Chapter_RhodStruct/img/dockPlot.png}
+  \caption[Docking screen for \textit{Bd} and \textit{Am} models]{A non-covalent docking screen using Autodock 4 and ligands obtained from ZINC against homology models for \textit{B. dendrobatidis} (red), \textit{A. macrogynus} (blue), and \textit{T. pacificus} (squid; 2Z73) (green). Histograms show distribution of ten lowest binding energies for protein-ligand conformations. Binding energy given on X-axis; ligand given on Y-axis. Ligands were obtained from ZINC database based on similarity to 11-\textit{cis}-retinal.}
   \label{fig:ChRhodS_NonCovDock}
+\end{figure}
+
+% MD analysis: Energy
+\begin{figure}[hb]
+  \centering
+  \includegraphics[width=4in]{./Chapter_RhodStruct/img/TpSp_mdoutRMS.png}
+  \caption[MD analysis]{Overview of MD simulation runs of squid 2Z73 crystal structure with 11-\textit{cis}-retinal (black) and \textit{S. punctatus} model with 9-\textit{cis}-retinal (red). A) Potential energy over course of simulation. During the simulation, both structures remain relatively stable. The \textit{S. punctatus} stucture has substantially lower potential energy than the squid structure. B) RMSd fits over course of simulation. The RMSd fit of the \textit{S. punctatus} structural model increases much more rapidly than that of the squid structure.}
+  \label{fig:ChRhodS_MDEnergyRMSD}
 \end{figure}
