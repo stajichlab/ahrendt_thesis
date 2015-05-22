@@ -28,7 +28,7 @@ right_labels <- c(BP_sorted$Count,CC_sorted$Count,MF_sorted$Count)
 ymax <- sum(length(BP_sorted$Count),length(CC_sorted$Count),length(MF_sorted$Count))
 colors <- c(rep("cornflowerblue",length(BP_sorted$Count)),rep("red",length(CC_sorted$Count)),rep("darkolivegreen1",length(MF_sorted$Count))) 
 
-pdf("test2.pdf",width=15,height=30)
+png("Clat_aspergillus_GOPlot.png",width=1500,height=3000,res=300)
 bplot <- barplot(width=0.8,ylim=c(0,ymax),xlim=c(0,4),data,horiz=TRUE,beside=FALSE,col=colors,yaxt="n")
 axis(2,at=bplot,labels=left_labels,cex.axis=1,las=2,tick=FALSE)
 axis(4,at=bplot,labels=right_labels,cex.axis=1,las=2,tick=FALSE)
