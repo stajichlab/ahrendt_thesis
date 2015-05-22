@@ -9,6 +9,15 @@ dat <- data.matrix(read.table("../dat/photosense_rep.tsv",sep="\t",row.names=1,h
 taxonlistID <- read.delim("../../Appendix/dat/taxonlistID",comment.char="#")
 ann_row <- data.frame("Taxa"=taxonlistID$Class1)
 rownames(ann_row) <- taxonlistID$Abbr
-png('photosenseHeatmap.png')
-pheatmap(dat,cluster_cols=F,cluster_rows=F,col=palette,breaks=breaks,annotation_row=ann_row,display_numbers=T,number_format="%.0f",number_color="black",fontsize_number=10,legend=F)
+
+##--------#
+## uncomment to use full species names, not abbreviations
+##  Still need to fix italics
+##--------//
+#rownames(ann_row) <- taxonlistID$FullName
+#rownames(dat) <- taxonlistID$FullName[na.omit(match(rownames(dat),taxonlistID$Abbr))]
+#names <- rownames(dat)
+
+png('photosenseHeatmap.png',width=2000,height=2000,res=300)
+pheatmap(dat,cluster_cols=F,cluster_rows=F,col=palette,breaks=breaks,annotation_row=ann_row,display_numbers=T,number_format="%.0f",number_color="black",fontsize_number=8,legend=F)
 dev.off()
