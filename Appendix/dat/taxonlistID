@@ -32,7 +32,6 @@
 #@1OAR,OP,OAO,OAP,OAM,OA,MF,CF,ZF,BF,AF
 #@2OAR,OP,OAO,OAP,OAM,OA,MF,CF,CNF,CCF,CBF,ZEF,ZF,ZMF,BF,BPF,BUF,BAF,ATF,ASaF,APF,ADF,ALiF,AEF,ALeF,ALoF,ASoF
 #$Abb	Class2	Class1	TaxID	FullName	IsolateVersion	Website
-Abbr	Class2	Class1	TaxID	FullName	IsolateVersion	Website
 Aben	APF	Ascomycota	663331	Arthroderma benhamiae	CBS 112371	http://www.broadinstitute.org/annotation/genome/dermatophyte_comparative/
 Afum	AEF	Ascomycota	746128	Aspergillus fumigatus	Af293	http://www.broadinstitute.org/annotation/genome/aspergillus_group/MultiHome.html
 Agos	ASaF	Ascomycota	33169	Ashbya gossypii	---	---
