@@ -10,6 +10,6 @@
 <<label=ChInhib_Kinase,echo=FALSE,results=tex>>=
 library(xtable)
 data <- read.table("../dat/Kinase_mutant_screen.tsv",sep="\t",header=T,check.names=FALSE)
-xdata <- xtable(data,label="tab:ChInhib_Kinase",caption="Kinase and phosphotase mutants used in screening against H. polyrhiza sporangia.")
+xdata <- xtable(data,label="tab:ChInhib_Kinase",caption="Kinase and phosphotase mutants used in screening against \\textit{H. polyrhiza} sporangia.")
 print(xdata,table.placemet="tbp",caption.placement="bottom",include.rownames=FALSE)
 @
