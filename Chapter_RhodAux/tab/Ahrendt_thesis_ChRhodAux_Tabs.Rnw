@@ -23,12 +23,12 @@
 %)
 %@
 
-% G-protein comparisons
+% G protein comparisons
 <<label=ChRhodAux_Gprotcomp,echo=FALSE,results=tex>>=
 library(xtable)
 data <- read.table("../dat/Galpha_comp.tex_tsv",sep="\t",header=T,check.names=FALSE,stringsAsFactors=FALSE)
 data$Species <- paste("\\emph{",data$Species,"}",sep="")
-xdata <- xtable(data,label="tab:ChRhodA_Gcomp",caption="G-protein subunit comparison")
+xdata <- xtable(data,label="tab:ChRhodA_Gcomp",caption=c("Comparision of recovered G$\\alpha$ subunits from basal fungal lineages to known G$\\alpha$ proteins in \\textit{N. crassa}. $_{a}$ Percent identity; $_{p}$ Contains pertussis motif sequence; $_{m}$ Contains myrstoylation motif sequence.","G$\\alpha$ subunit comparison"))
 print(xdata,
       table.placement="tbp",
       caption.placement="bottom",
