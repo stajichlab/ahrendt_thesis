@@ -9,8 +9,9 @@
 % Taxa and sources
 <<label=AppData_taxa,echo=FALSE,results=tex>>=
 library(xtable)
-data <- read.table("../dat/taxonlistID",sep="\t",row.names=1,header=T,check.names=FALSE,comment.char="#")
-xdata <- xtable(data,label="tab:AppData_taxa",caption=c("(long caption) Taxon list of all proteomes used in comparative analyses","(short caption) Taxon list of all proteomes used in comparative analyses."))
+data <- read.table("../dat/taxonlistID",sep="\t",row.names=1,header=F,check.names=FALSE,comment.char="#")
+colnames(data) <- c("Class2","Class1","TaxID","Name","Isolate/Version","Source")
+xdata <- xtable(data,label="tab:AppData_taxa",caption=c('List of all proteomes used in comparative analyses, including NCBI taxonomy database ID, phylogenetic group abbreviation ("Class2"), phylum designation ("Class1"), isolate number/version (where applicable), and source website.','List of proteomes used in comparative analyses.'))
 hlines <- c(-1,-1,0,nrow(xdata),nrow(xdata))
 print(xdata,table.placement="tbp",caption.placement="bottom",hline.after=hlines)
 @
@@ -19,7 +20,7 @@ print(xdata,table.placement="tbp",caption.placement="bottom",hline.after=hlines)
 <<label=AppData_PDB,echo=FALSE,results=tex>>=
 library(xtable)
 data <- read.table("../dat/PDBIDs.tsv",sep="\t",header=T,check.names=FALSE)
-xdata <- xtable(data,label="tab:AppData_PDB",caption=c("(long caption) PDB IDs and descriptions of structures used in docking and Molecular dynamics simulations","(short caption) PDB IDs and descriptions of structures used in comparative analyses"))
+xdata <- xtable(data,label="tab:AppData_PDB",caption=c("PDB IDs and descriptions of structures used in docking and Molecular dynamics simulations","PDB IDs and descriptions of structures used in comparative analyses"))
 hlines <- c(-1,-1,0,nrow(xdata),nrow(xdata))
 print(xdata,table.placement="tbp",caption.placement="bottom",hline.after=hlines)
 @

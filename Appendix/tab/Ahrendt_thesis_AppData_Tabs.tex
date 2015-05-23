@@ -7,14 +7,20 @@
 %%%%%%%%%%%%%%%%%%%%%
 
 % Taxa and sources
-% latex table generated in R 3.1.1 by xtable 1.7-3 package
-% Thu May 21 16:43:14 2015
-{\renewcommand{\arraystretch}{0.5}
-\begin{table}[tbp]
-\begin{tabular}{rllrlll}
-\toprule
-Abbr & Class2 & Class1 & TaxID & FullName & IsolateVersion & Website \\ 
-\toprule
+% latex table generated in R 3.0.1 by xtable 1.7-4 package
+% Sat May 23 09:41:04 2015
+%\begin{table}[tbp]
+\centering
+%\begin{tabular}{rllrlll}
+%\resizebox{\textwidth}{!}{
+{\footnotesize
+{\setlength{\tabcolsep}{1pt}
+\begin{longtable}{rllrlll}
+\caption[List of proteomes used in comparative analyses.]{List of all proteomes used in comparative analyses, including NCBI taxonomy database ID, phylogenetic group abbreviation ("Class2"), phylum designation ("Class1"), isolate number/version (where applicable), and source website.} \label{tab:AppData_taxa} \\
+  \hline
+\hline
+ & Class2 & Class1 & TaxID & FullName & IsolateVersion & Website \\ 
+  \hline
 Aben & APF & Ascomycota & 663331 & Arthroderma benhamiae & CBS 112371 & http://www.broadinstitute.org/annotation/genome/dermatophyte\_comparative/ \\ 
   Afum & AEF & Ascomycota & 746128 & Aspergillus fumigatus & Af293 & http://www.broadinstitute.org/annotation/genome/aspergillus\_group/MultiHome.html \\ 
   Agos & ASaF & Ascomycota & 33169 & Ashbya gossypii & --- & --- \\ 
@@ -67,7 +73,7 @@ Aben & APF & Ascomycota & 663331 & Arthroderma benhamiae & CBS 112371 & http://w
   OrpC & CNF & Chytrids & 1117330 & Orpinomyces spp & C1A & --- \\ 
   Patr & ADF & Ascomycota & 703506 & Patellaria atrata & --- & http://genome.jgi.doe.gov/Patat1/Patat1.home.html \\ 
   Pbla & ZMF & Zygomycota & 4837 & Phycomyces blakesleeanus & NRRL1555,v2.0.JGI & http://genome.jgi-psf.org/Phybl2/Phybl2.home.html \\ 
-  Pgra & BPF & Basidiomycota & 418459 & Puccinia graminis f.sp. tritici & CRL75-36-700-3 & http://www.broadinstitute.org/annotation/genome/puccinia\_group/ \\ 
+  Pgra & BPF & Basidiomycota & 418459 & Puccinia graminis & f.sp. tritici, CRL75-36-700-3 & http://www.broadinstitute.org/annotation/genome/puccinia\_group/ \\ 
   PirE & CNF & Chytrids & 45796 & Piromyces spp  & E2 & --- \\ 
   Psoj & OAO & OAO & 67593 & Phytophthora sojae & --- & --- \\ 
   Psip & ADF & Ascomycota & 100044 & Pleomassaria siparia & --- & http://genome.jgi.doe.gov/Plesi1/Plesi1.home.html \\ 
@@ -75,7 +81,7 @@ Aben & APF & Ascomycota & 663331 & Arthroderma benhamiae & CBS 112371 & http://w
   Pult & OAO & OAO & 431595 & Pythium ultimum & DAOM BR144,v.2010-07-12 & http://pythium.plantbiology.msu.edu/ \\ 
   Rall & MF & Microsporidia & 281847 & Rozella allomycis & v.2012-05-03 & --- \\ 
   Rdel & ZMF & Zygomycota & 936053 & Rhizopus delemar & --- & --- \\ 
-  Rmic & ZMF & Zygomycota & 58291 & Rhizopus microsporus var microsporus & v1.0 & http://genome.jgi.doe.gov/Rhimi1\_1/Rhimi1\_1.home.html \\ 
+  Rmic & ZMF & Zygomycota & 58291 & Rhizopus microsporus & var microsporus, v1.0 & http://genome.jgi.doe.gov/Rhimi1\_1/Rhimi1\_1.home.html \\ 
   Rirr & ZMF & Zygomycota & 588596 & Rhizophagus irregularis & --- & genome.jgi.doe.gov/Gloin1/Gloin1.home.html \\ 
   Rory & ZMF & Zygomycota & 64495 & Rhizopus oryzae (delamar) & 99-880,v.1 & http://www.broadinstitute.org/annotation/genome/rhizopus\_oryzae/ \\ 
   Sarc & OA & Animal & 72019 & Sphaeroforma arctica  & JP610 & http://www.broadinstitute.org/annotation/genome/multicellularity\_project/MultiDownloads.html \\ 
@@ -97,14 +103,14 @@ Aben & APF & Ascomycota & 663331 & Arthroderma benhamiae & CBS 112371 & http://w
   Wseb & BAF & Basidiomycota & 148960 & Wallemia sebi & CBS-633.66,v.JGI1 & --- \\ 
   Ylip & ASaF & Ascomycota & 4952 & Yarrowia lipolytica & CLIB122,v.14-APR-2010 & --- \\ 
   Zrhi & ADF & Ascomycota & 1314779 & Zopfia rhizophilia & CBS 207.26,v1.0 & http://genome.jgi.doe.gov/Zoprh1/Zoprh1.home.html \\ 
-\bottomrule
-\end{tabular}
-\caption[List of proteomes]{Taxon list of all proteomes used in comparative analyses} 
-\label{tab:AppData_taxa}
-\end{table}}
+   \hline
+\hline
+\end{longtable}
+} %col-padding
+} %footnotesize
 % PDB IDs
-% latex table generated in R 3.1.1 by xtable 1.7-3 package
-% Thu May 21 16:43:14 2015
+% latex table generated in R 3.0.1 by xtable 1.7-4 package
+% Sat May 23 09:41:04 2015
 \begin{table}[tbp]
 \centering
 \begin{tabular}{rll}
@@ -118,6 +124,6 @@ Aben & APF & Ascomycota & 663331 & Arthroderma benhamiae & CBS 112371 & http://w
    \hline
 \hline
 \end{tabular}
-\caption[(short caption) PDB IDs and descriptions of structures used in comparative analyses]{(long caption) PDB IDs and descriptions of structures used in docking and Molecular dynamics simulations} 
+\caption[PDB IDs and descriptions of structures used in comparative analyses]{PDB IDs and descriptions of structures used in docking and Molecular dynamics simulations} 
 \label{tab:AppData_PDB}
 \end{table}
