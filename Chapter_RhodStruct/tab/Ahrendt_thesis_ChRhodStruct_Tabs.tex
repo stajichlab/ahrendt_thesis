@@ -9,7 +9,9 @@
 % PROCHECK results for homology models
 % latex table generated in R 3.1.1 by xtable 1.7-3 package
 % Wed May 20 14:53:55 2015
-\begin{table}[tbp]
+\begin{table}[b]
+\caption[Quality metrics for rhodopsin structures]{PROCHECK Ramachandran plot results for chytriopsin and melatonin homology models, and animal rhodopsin crystal structures.} 
+\label{tab:ChRhodS_Procheck}
 \centering
 \begin{tabular}{rllllll}
   \hline
@@ -25,13 +27,13 @@ Verify3D & 73.60 & 55.41 & 131.62 & 87.85 & 109.14 & 00.0 \\
    \hline
 \hline
 \end{tabular}
-\caption[Quality metrics for rhodopsin structures]{PROCHECK Ramachandran plot results for chytriopsin and melatonin homology models, and animal rhodopsin crystal structures.} 
-\label{tab:ChRhodS_Procheck}
 \end{table}
 % RMSD of crystal structures
 % latex table generated in R 3.1.1 by xtable 1.7-3 package
 % Wed May 20 14:53:55 2015
 \begin{table}[tbp]
+\caption[Backbone RMSD measurements for rhodopsin structures]{Pairwise backbone RMSD measurements for chytriopsin and melatonin homology models, and animal rhodopsin crystal structures, calculated using the Bio3D package.} 
+\label{tab:ChRhodS_RMSD}
 \centering
 \begin{tabular}{rrrrrrr}
   \hline
@@ -47,15 +49,17 @@ Spun & 0.00 & 2.54 & 3.05 & 2.52 & 3.12 & 4.92 \\
    \hline
 \hline
 \end{tabular}
-\caption[Backbone RMSD measurements for rhodopsin structures]{Pairwise backbone RMSD measurements for chytriopsin and melatonin homology models, and animal rhodopsin crystal structures, calculated using the Bio3D package.} 
-\label{tab:ChRhodS_RMSD}
 \end{table}
 % Important Residues
 % latex table generated in R 3.1.1 by xtable 1.7-3 package
 % Wed May 20 14:53:55 2015
-\begin{table}[tbp]
-\centering
-\begin{tabular}{rllllll}
+%\begin{table}[tbp]
+%\centering
+\LTcapwidth=\textwidth
+{\renewcommand{\arraystretch}{0.5}
+{\setlength{\tabcolsep}{1pt}
+\begin{longtable}{rllllll}
+\caption[Locations of key residues in rhodopsin structural motifs]{Conserved Rhodopsin motifs in X-ray crystal structures and chytropsin homology models. Abbreviations: Bt1U19=\textit{Bos taurus} X-ray crystal structure (PDBID 1U19); Tp2Z73=\textit{Todares pacificus} X-ray crystal structure (PDBID 2Z73);} \label{tab:ChRhodS_residues} \\
   \hline
 \hline
  & Description & Bt1U19 & Tp2Z73 & Bd & Sp & Am \\ 
@@ -100,14 +104,15 @@ Spun & 0.00 & 2.54 & 3.05 & 2.52 & 3.12 & 4.92 \\
   31 & IonicLock w/R135 & E247 & E256 & L299 & E250 & A450 \\ 
    \hline
 \hline
-\end{tabular}
-\caption[Locations of key residues in rhodopsin structural motifs]{Conserved Rhodopsin motifs in X-ray crystal structures and chytropsin homology models. Abbreviations: Bt1U19=\textit{Bos taurus} X-ray crystal structure (PDBID 1U19); Tp2Z73=\textit{Todares pacificus} X-ray crystal structure (PDBID 2Z73);} 
-\label{tab:ChRhodS_residues}
-\end{table}
+\end{longtable}
+}
+}
 % Autodock Covalent docking results
 % latex table generated in R 3.1.1 by xtable 1.7-3 package
 % Wed May 20 14:53:55 2015
-\begin{table}[tbp]
+\begin{table}[h]
+\caption[Interaction energies for covalent docking]{Interaction energies for covalent docking with Autodock. Average of five lowest energy conformations using various retinal isomers covalently bound to rhodopsin models and crystal structures} 
+\label{tab:ChRhodS_covDock}
 \centering
 \begin{tabular}{lrrrrrrr}
   \hline
@@ -122,6 +127,4 @@ Squid & -5.52 & -4.75 & -4.33 & -2.51 & -3.10 & -5.41 & -2.55 \\
    \hline
 \hline
 \end{tabular}
-\caption[Interaction energies for covalent docking]{Interaction energies for covalent docking with Autodock. Average of five lowest energy conformations using various retinal isomers covalently bound to rhodopsin models and crystal structures} 
-\label{tab:ChRhodS_CovDock}
 \end{table}
