@@ -1,0 +1,20 @@
+Species
+	Gbeta	Ggamma
+	Name	Broad #	NCBI #	% Id	Name	Broad #	NCBI #	% Id
+N. crassa 	GNB-1	NCU00440		100	GNG-1	NCU00041		100
+A. macrogynus 		AMAG_07700		75		AMAG_03313		48
+		AMAG_09806		73				
+		AMAG_13458		72				
+		AMAG_13702		72				
+B. dendrobatidis 		BDEG_01867		28		BDEG_01028		51
+		BDEG_08231		72				
+H. polyrhiza		HPOL_004579-RA		70		HPOL_000817-RA		49
+PirE		PirE2_1_58776		63		PirE2_1_39971		43
+		PirE2_1_62575		72				
+R. allomycis		OG9_000940-RA		73				
+		OG9_004649-RA		33				
+		OG9_005240-RA		28				
+S. punctatus 		SPPG_01315		36				
+		SPPG_02214		26				
+		SPPG_02467		73				
+G. prolifera		jgi|Ganpr1|151631|40169		72
