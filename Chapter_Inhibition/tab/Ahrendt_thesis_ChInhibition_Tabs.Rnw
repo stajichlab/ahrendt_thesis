@@ -11,5 +11,13 @@
 library(xtable)
 data <- read.table("../dat/Kinase_mutant_screen.tsv",sep="\t",header=T,check.names=FALSE)
 xdata <- xtable(data,label="tab:ChInhib_Kinase",caption="Kinase and phosphotase mutants used in screening against \\textit{H. polyrhiza} sporangia.")
-print(xdata,table.placemet="tbp",caption.placement="bottom",include.rownames=FALSE)
+print(xdata,table.placemet="tbp",caption.placement="top",include.rownames=FALSE)
+@
+
+% Chytrid secretome
+<<label=ChInhib_ChySec,echo=FALSE,results=tex>>=
+library(xtable)
+data <- read.table("../dat/ChytridSecretome.tsv",sep="\t",header=T,check.names=FALSE,row.names=1)
+xdata <- xtable(data,label="tab:ChInhib_ChySec",caption=c("Proteins predicted to be in the secretomes of basal fungi","Chytrid secretome predictions"))
+print(xdata,table.placemet="t",caption.placement="top")
 @
