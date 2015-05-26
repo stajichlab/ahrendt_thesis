@@ -21,3 +21,11 @@ data <- read.table("../dat/ChytridSecretome.tsv",sep="\t",header=T,check.names=F
 xdata <- xtable(data,label="tab:ChInhib_ChySec",caption=c("Proteins predicted to be in the secretomes of basal fungi","Chytrid secretome predictions"))
 print(xdata,table.placemet="t",caption.placement="top")
 @
+
+% Terpene hits
+<<label=ChInhib_Terpene,echo=FALSE,results=tex>>=
+library(xtable)
+data <- read.table("../dat/Hpol_terpene.m8blast",sep="\t",header=T,check.names=FALSE,row.names=1)
+xdata <- xtable(data,label="tab:ChInhib_Terpene",caption=c("Putative hits for terpene synthases in Hp","Putative Hp terpene synthases"))
+print(xdata,table.placemet="t",caption.placement="top")
+@
