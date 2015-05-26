@@ -8,7 +8,7 @@
 %%%%%%%%%%%%%%%%%%%%%%%
 
 % latex table generated in R 3.0.1 by xtable 1.7-4 package
-% Fri May 22 12:13:50 2015
+% Mon May 25 19:22:11 2015
 \begin{table}[tbp]
 \centering
 \begin{tabular}{rlrrrrrr}
@@ -43,7 +43,7 @@ PF00069 & Pkinase & 297 & 409 & 185 & 354 & 404 & 149 \\
 \label{tab:ChClat_PFAM}
 \end{table}
 % latex table generated in R 3.0.1 by xtable 1.7-4 package
-% Fri May 22 12:13:50 2015
+% Mon May 25 19:22:11 2015
 \begin{table}[tbp]
 \centering
 \begin{tabular}{rllllllrrrr}
@@ -61,7 +61,7 @@ PF00069 & Pkinase & 297 & 409 & 185 & 354 & 404 & 149 \\
 \label{tab:ChClat_BemeVerify}
 \end{table}
 % latex table generated in R 3.0.1 by xtable 1.7-4 package
-% Fri May 22 12:13:50 2015
+% Mon May 25 19:22:11 2015
 \begin{table}[tbp]
 \centering
 \begin{tabular}{rlll}
@@ -79,7 +79,7 @@ PF00069 & Pkinase & 297 & 409 & 185 & 354 & 404 & 149 \\
 \label{tab:ChClat_KEGGHMM}
 \end{table}
 % latex table generated in R 3.0.1 by xtable 1.7-4 package
-% Fri May 22 12:13:50 2015
+% Mon May 25 19:22:11 2015
 \begin{table}[tbp]
 \centering
 \begin{tabular}{rrll}
@@ -124,7 +124,7 @@ PF00069 & Pkinase & 297 & 409 & 185 & 354 & 404 & 149 \\
 \end{table}
 
 % latex table generated in R 3.0.1 by xtable 1.7-4 package
-% Fri May 22 12:13:50 2015
+% Mon May 25 19:22:11 2015
 \begin{table}[tbp]
 \centering
 \begin{tabular}{rlllllr}
@@ -145,13 +145,99 @@ PF00069 & Pkinase & 297 & 409 & 185 & 354 & 404 & 149 \\
 \caption[\textit{C. lativittatus} photosensing proteins]{Predicted \textit{C. lativittatus} proteins associated with photosensing. PFAM Family definitions: PF13426, "PAS domain" [PAS\_9]; PF08447, "PAS fold" [PAS\_3]; PF00001, "7 transmembrane receptor (rhodopsin family)" [7tm\_1]; PF01036, "bacteriorhodopsin-like protein" [Bac\_rhodopsin]; PF10317, "Serpentine type 7TM GPCR chemoreceptor Srd" [7TM\_GPCR\_Srd]; PF00211, "Adenylate and Guanylate cyclase catalytic domain" [Guanylate\_cyc]} 
 \label{tab:ChClat_photosensing}
 \end{table}
-%<<label=ChClat_FAADB,echo=FALSE,results=tex>>=
-%library(xtable)
-%specify_decimal <- function(x,k=2) format(round(x,k),nsmall=k)
-%data <- read.table("../dat/FAADB_SVM_Blast.tsv",sep="\t",header=T,row.names=1)
-%data$SVM.Score <- as.numeric(specify_decimal(data$SVM.Score))
-%xdata <- xtable(data,label="tab:ChClat_FAADB",caption=c("FAADB Long caption","FAADB short caption"))
-%hlines <- c(-1,-1,0,nrow(xdata),nrow(xdata))
-%print(xdata,      table.placement="tbp",      caption.placement="bottom",      hline.after=hlines,)
-%@
-
+% latex table generated in R 3.0.1 by xtable 1.7-4 package
+% Mon May 25 19:22:11 2015
+\begin{table}[tbp]
+\centering
+\begin{tabular}{rrllrrr}
+  \hline
+\hline
+ & SVM.Score & UniprotKB.ID & Description & Identity & Alignment.Length & E.value \\ 
+  \hline
+Amac$|$AMAG\_17113T0 & -0.74 & Q9DBG3.1 & AP-2 complex subunit beta & 55.26 & 903 & 0.00 \\ 
+  Amac$|$AMAG\_05862T0 & -0.61 & P00940.2 & Triosephosphate isomerase EC=5.3.1.1 & 58.06 & 248 & 0.00 \\ 
+  Amac$|$AMAG\_12167T0 & -0.54 & P00940.2 & Triosephosphate isomerase EC=5.3.1.1 & 59.27 & 248 & 0.00 \\ 
+  Amac$|$AMAG\_08758T0 & -0.19 & P46226.3 & Triosephosphate isomerase, cytosolic EC=5.3.1.1 & 59.84 & 249 & 0.00 \\ 
+  Amac$|$AMAG\_10182T0 & -0.17 & P46226.3 & Triosephosphate isomerase, cytosolic EC=5.3.1.1 & 60.24 & 249 & 0.00 \\ 
+  Amac$|$AMAG\_18542T0 & -0.16 & P48491.2 & Triosephosphate isomerase, cytosolic EC=5.3.1.1 & 58.19 & 177 & 0.00 \\ 
+  Amac$|$AMAG\_16371T0 & 0.15 &  &  &  &  &  \\ 
+  Amac$|$AMAG\_08832T0 & 0.17 & Q966L9.1 & ATP-dependent RNA helicase glh-2 EC=3.6.4.13 & 54.63 & 108 & 0.00 \\ 
+  Amac$|$AMAG\_17977T0 & 0.21 &  &  &  &  &  \\ 
+  Amac$|$AMAG\_16084T0 & 0.32 & P29141.1 & Minor extracellular protease vpr EC=3.4.21.- & 42.00 & 600 & 0.00 \\ 
+  Amac$|$AMAG\_04496T0 & 0.34 & Q6H236.1 & Paternally-expressed gene 3 protein & 45.71 & 525 & 0.00 \\ 
+  Amac$|$AMAG\_19066T0 & 0.76 &  &  &  &  &  \\ 
+  Amac$|$AMAG\_20477T0 & 0.83 &  &  &  &  &  \\ 
+  Amac$|$AMAG\_04749T0 & 1.33 &  &  &  &  &  \\ 
+  Amac$|$AMAG\_03430T0 & 1.43 &  &  &  &  &  \\ 
+  Cang$|$CANG\_48379 & -0.78 & Q06852.2 & Cell surface glycoprotein 1 & 29.47 & 431 & 0.00 \\ 
+  Cang$|$CANG\_125451 & -0.68 & P58559.1 & Glyceraldehyde-3-phosphate dehydrogenase 3 EC=1.2.1.12 & 58.02 & 343 & 0.00 \\ 
+  Cang$|$CANG\_33361 & -0.09 & P48494.3 & Triosephosphate isomerase, cytosolic EC=5.3.1.1 & 59.04 & 249 & 0.00 \\ 
+  Cang$|$CANG\_38430 & 0.60 & P22105.3 & Tenascin-X & 39.67 & 673 & 0.00 \\ 
+  Cang$|$CANG\_69396 & 0.94 &  &  &  &  &  \\ 
+  Clat$|$m.10957 & -0.78 & P27393.1 & Collagen alpha-2(IV) chain & 63.61 & 665 & 0.00 \\ 
+  Clat$|$m.22466 & -0.75 & Q6CJG5.2 & Triosephosphate isomerase EC=5.3.1.1 & 48.60 & 179 & 0.00 \\ 
+  Clat$|$m.2165 & -0.68 & A7S7F2.1 & Bystin & 43.48 & 276 & 0.00 \\ 
+  Clat$|$m.18806 & -0.68 & P48501.1 & Triosephosphate isomerase EC=5.3.1.1 & 56.19 & 226 & 0.00 \\ 
+  Clat$|$m.13634 & -0.63 & Q90XG0.1 & Triosephosphate isomerase B EC=5.3.1.1 & 71.02 & 245 & 0.00 \\ 
+  Clat$|$m.1572 & -0.58 & O09452.1 & Glyceraldehyde-3-phosphate dehydrogenase, chloroplastic EC=1.2.1.59 & 84.01 & 269 & 0.00 \\ 
+  Clat$|$m.15929 & -0.52 & P07487.2 & Glyceraldehyde-3-phosphate dehydrogenase 2 EC=1.2.1.12 & 80.28 & 142 & 0.00 \\ 
+  Clat$|$m.10361 & -0.46 & P20445.2 & Glyceraldehyde-3-phosphate dehydrogenase EC=1.2.1.12 & 61.34 & 238 & 0.00 \\ 
+  Clat$|$m.18916 & -0.42 & P48501.1 & Triosephosphate isomerase EC=5.3.1.1 & 60.87 & 253 & 0.00 \\ 
+  Clat$|$m.11233 & -0.30 & Q96UF2.1 & Glyceraldehyde-3-phosphate dehydrogenase 2 EC=1.2.1.12 & 68.82 & 279 & 0.00 \\ 
+  Clat$|$m.4480 & -0.07 & O77458.1 & Triosephosphate isomerase EC=5.3.1.1 & 64.24 & 165 & 0.00 \\ 
+  Clat$|$m.13062 & 0.52 & Q6BMK0.1 & Glyceraldehyde-3-phosphate dehydrogenase EC=1.2.1.12 & 74.52 & 157 & 0.00 \\ 
+  Clat$|$m.745 & 0.90 & Q92824.4 & Proprotein convertase subtilisin/kexin type 5 EC=3.4.21.- & 36.65 & 562 & 0.00 \\ 
+  Clat$|$m.16183 & 1.05 & P22105.3 & Tenascin-X & 51.01 & 545 & 0.00 \\ 
+  Clat$|$m.13342 & 1.13 & Q92824.4 & Proprotein convertase subtilisin/kexin type 5 EC=3.4.21.- & 43.22 & 1025 & 0.00 \\ 
+  Clat$|$m.11209 & 2.24 &  &  &  &  &  \\ 
+  Bden$|$BDET\_06684 & -0.79 & Q5R2J2.1 & Glyceraldehyde-3-phosphate dehydrogenase EC=1.2.1.12 EC=2.6.99.- & 71.56 & 334 & 0.00 \\ 
+  Bden$|$BDET\_05736 & -0.17 & P00939.1 & Triosephosphate isomerase EC=5.3.1.1 & 57.66 & 248 & 0.00 \\ 
+  Bden$|$BDET\_05372 & -0.03 & Q95P23.1 & Enterin neuropeptides & 28.02 & 182 & 0.00 \\ 
+  Bden$|$BDET\_01761 & 0.45 & Q9AVB0.1 & Lectin-B & 64.57 & 460 & 0.00 \\ 
+  Bden$|$BDET\_00626 & 0.49 &  &  &  &  &  \\ 
+  Bden$|$BDET\_00287 & 0.67 & Q9AVB0.1 & Lectin-B & 58.01 & 462 & 0.00 \\ 
+  Bden$|$BDET\_02239 & 1.45 & P23253.1 & Sialidase EC=3.2.1.18 & 54.09 & 318 & 0.00 \\ 
+  Bden$|$BDET\_00436 & 1.48 &  &  &  &  &  \\ 
+  Bden$|$BDET\_03668 & 1.51 & Q63425.2 & Periaxin & 39.51 & 367 & 0.00 \\ 
+  Bden$|$BDET\_06100 & 1.70 &  &  &  &  &  \\ 
+  Hpol$|$HPOL\_4940 & -0.79 & P00940.2 & Triosephosphate isomerase EC=5.3.1.1 & 56.63 & 249 & 0.00 \\ 
+  Hpol$|$HPOL\_4790 & -0.46 & O57479.3 & Glyceraldehyde-3-phosphate dehydrogenase EC=1.2.1.12 EC=2.6.99.- & 75.61 & 328 & 0.00 \\ 
+  Hpol$|$HPOL\_4769 & -0.24 & P52041.2 & 3-hydroxybutyryl-CoA dehydrogenase EC=1.1.1.157 & 40.00 &  80 & 0.00 \\ 
+  Hpol$|$HPOL\_2513 & -0.14 & Q1ZXD6.1 & Probable serine/threonine-protein kinase roco5 EC=2.7.11.1 & 32.78 & 180 & 0.00 \\ 
+  Spun$|$SPPG\_01012T0 & -0.68 & P30741.2 & Triosephosphate isomerase EC=5.3.1.1 & 61.60 & 250 & 0.00 \\ 
+  Spun$|$SPPG\_08522T0 & -0.47 & Q6ZRI0.3 & Otogelin & 31.26 & 531 & 0.00 \\ 
+  Spun$|$SPPG\_00685T0 & -0.15 & Q5H8C1.3 & FRAS1-related extracellular matrix protein 1 & 33.98 & 1292 & 0.00 \\ 
+  Spun$|$SPPG\_01988T0 & 0.05 &  &  &  &  &  \\ 
+   \hline
+\hline
+\end{tabular}
+\caption[FAADB short caption]{FAADB Long caption} 
+\label{tab:ChClat_FAADB}
+\end{table}
+% latex table generated in R 3.0.1 by xtable 1.7-4 package
+% Mon May 25 19:22:11 2015
+\begin{table}[tbp]
+\centering
+\begin{tabular}{rlrll}
+  \hline
+\hline
+ & Coverage & E.val & X..Identity & Description \\ 
+  \hline
+Q5E9B6.1 & 40\% & 0.00 & 28\% & Liver X receptor alpha [Bos taurus] \\ 
+  Q13133.2 & 40\% & 0.00 & 28\% & Liver X receptor alpha [Homo sapiens] \\ 
+  Q62685.1 & 40\% & 0.00 & 28\% & Liver X receptor alpha [Rattus norvegicus] \\ 
+  Q9Z0Y9.3 & 40\% & 0.00 & 28\% & Liver X receptor alpha [Mus musculus] \\ 
+  P55055.2 & 40\% & 0.00 & 28\% & Liver X receptor beta [Homo sapiens] \\ 
+   \hline
+P49880.2 & 36\% & 0.00 & 28\% & 20-hydroxy-ecdysone receptor [Aedes aegypti] \\ 
+  P49883.1 & 42\% & 0.00 & 24\% & 20-hydroxy-ecdysone receptor [Manduca sexta] \\ 
+  P49881.1 & 42\% & 0.00 & 24\% & 20-hydroxy-ecdysone receptor [Bombyx mori] \\ 
+  P34021.1 & 36\% & 0.00 & 26\% & 20-hydroxy-ecdysone receptor [Drosophila melongaster] \\ 
+  O18531.2 & 36\% & 0.00 & 27\% & 20-hydroxy-ecdysone receptor [Lucilia cuprina] \\ 
+  P49882.1 & 36\% & 0.00 & 25\% & 20-hydroxy-ecdysone receptor [Chironomus tentans] \\ 
+   \hline
+\hline
+\end{tabular}
+\caption[BLASTP hits for \textit{C. lat} m.10080]{BLASTP results using \textit{C. lativittatus} ORF m.10080 as a query against SwissProt database. Top five hits are to liver X receptors (LXRs) from various mammalian species. The next siz hits are only those which were to 20-hydroxy-ecdysone receptors, all of which are from insects} 
+\label{tab:ChClat_LBD}
+\end{table}

@@ -62,13 +62,20 @@ print(xdata,
 )
 @
 
-%<<label=ChClat_FAADB,echo=FALSE,results=tex>>=
-%library(xtable)
-%specify_decimal <- function(x,k=2) format(round(x,k),nsmall=k)
-%data <- read.table("../dat/FAADB_SVM_Blast.tsv",sep="\t",header=T,row.names=1)
-%data$SVM.Score <- as.numeric(specify_decimal(data$SVM.Score))
-%xdata <- xtable(data,label="tab:ChClat_FAADB",caption=c("FAADB Long caption","FAADB short caption"))
-%hlines <- c(-1,-1,0,nrow(xdata),nrow(xdata))
-%print(xdata,      table.placement="tbp",      caption.placement="bottom",      hline.after=hlines,)
-%@
+<<label=ChClat_FAADB,echo=FALSE,results=tex>>=
+library(xtable)
+specify_decimal <- function(x,k=2) format(round(x,k),nsmall=k)
+data <- read.table("../dat/FAADB_SVM_Blast.tsv",sep="\t",header=T,row.names=1)
+data$SVM.Score <- as.numeric(specify_decimal(data$SVM.Score))
+xdata <- xtable(data,label="tab:ChClat_FAADB",caption=c("FAADB Long caption","FAADB short caption"))
+hlines <- c(-1,-1,0,nrow(xdata),nrow(xdata))
+print(xdata,      table.placement="tbp",      caption.placement="bottom",      hline.after=hlines,)
+@
 
+<<label=ChClat_LBD,echo=FALSE,results=tex>>=
+library(xtable)
+data <- read.table("../dat/LBDhits.tsv",sep="\t",header=T,row.names=1)
+xdata <- xtable(data,label="tab:ChClat_LBD",caption=c("BLASTP results using \\textit{C. lativittatus} ORF m.10080 as a query against SwissProt database. Top five hits are to liver X receptors (LXRs) from various mammalian species. The next siz hits are only those which were to 20-hydroxy-ecdysone receptors, all of which are from insects","BLASTP hits for \\textit{C. lat} m.10080"))
+hlines <- c(-1,-1,0,5,nrow(xdata),nrow(xdata))
+print(xdata,      table.placement="tbp",      caption.placement="bottom",      hline.after=hlines,)
+@
