@@ -6,24 +6,7 @@
 % RHODOPSIN TABLES %
 %%%%%%%%%%%%%%%%%%%%
 
-% G-protein subunit counts
-%<<label=ChRhodAux_Gprot,echo=FALSE,results=tex>>=
-%library(xtable)
-%data <- read.table("../dat/Gabg_counts.tsv",sep="\t",header=T,check.names=FALSE,stringsAsFactors=FALSE)
-%data$Species <- paste("\\emph{",data$Species,"}",sep="")
-%colnames(data)[-1] = c("G$\\alpha$","G$\\beta$","G$\\gamma$")
-%xdata <- xtable(data,label="tab:ChRhodAux_Gprot",caption=c("(long) G protein subunits identified through sequence similarity","(short) G protein distribution"))
-%hlines <- c(-1,-1,0,3,6,nrow(xdata),nrow(xdata))
-%print(xdata,
-%      table.placement="tbp",
-%      caption.placement="bottom",
-%      hline.after=hlines,
-%      include.rownames=FALSE,
-%      sanitize.text.function=identity
-%)
-%@
-
-% G protein comparisons
+% G protein comparisons, alpha
 <<label=ChRhodAux_Gprotcomp,echo=FALSE,results=tex>>=
 library(xtable)
 data <- read.table("../dat/Galpha_comp.tex_tsv",sep="\t",header=T,check.names=FALSE,stringsAsFactors=FALSE)
