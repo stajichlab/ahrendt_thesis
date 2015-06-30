@@ -1,128 +1,128 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Document: Thesis for PhD at UC Riverside                          %%
-%% Description: A comparative analysis of environment sensing in EDF %%
-%% Author: Steven Ahrendt                                            %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% MISC LIST OF DATA %
-%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Document: Thesis for PhD at UC Riverside                                    %%
+%% Title: Investigating the evolution of environmental and biotic interactions %%
+%%          in basal fungal lineages through comparative genomics              %%
+%% Author: Steven Ahrendt                                                      %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% MISC LIST OF DATA %%
+%%%%%%%%%%%%%%%%%%%%%%%
 
 % Taxa and sources
-% latex table generated in R 3.0.1 by xtable 1.7-4 package
-% Sat May 23 12:26:50 2015
+% latex table generated in R 3.1.1 by xtable 1.7-3 package
+% Mon Jun 22 14:41:00 2015
 \centering
 {\renewcommand{\arraystretch}{0.5}
 {\footnotesize
 {\setlength{\tabcolsep}{1pt}
 \begin{longtable}{rllrlll}
-\caption[List of proteomes used in comparative analyses.]{List of all proteomes used in comparative analyses, including NCBI taxonomy database ID, phylogenetic group abbreviation ("Class2"), phylum designation ("Class1"), isolate number/version (where applicable), and source website.} \label{tab:AppData_taxa} \\
+\caption[List of proteomes used in comparative analyses.]{List of all proteomes used in comparative analyses, including NCBI taxonomy database ID, phylogenetic abbreviation ("Key"), phylum designation ("Group"), isolate number/version (where applicable), and source website.} \label{tab:AppData_taxa} \\
   \hline
 \hline
- & Class2 & Class1 & TaxID & Name & Isolate/Version & Source \\ 
+ & Key & Group & TaxID & Name & Isolate/Version & Reference \\ 
   \hline
-Aben & APF & Ascomycota & 663331 & Arthroderma benhamiae & CBS 112371 & \cite{Aben} \\ 
-  Afum & AEF & Ascomycota & 746128 & Aspergillus fumigatus & Af293 & \cite{Afum} \\ 
-  Agos & ASaF & Ascomycota & 33169 & Ashbya gossypii & --- & \cite{Agos} \\ 
-  Aloc & MF & Microsporidia & 278021 & Antonospora locustae & --- & \cite{Aloc} \\ 
-  Amac & CBF & Chytrids & 28583 & Allomyces macrogynus & ATCC 38327 & \cite{Amac} \\ 
-  Amoe & OAM & Amoebozoa & 1243176 & Amoeboaphelidium & --- & \cite{Amoe} \\ 
-  Anid & AEF & Ascomycota & 227321 & Aspergillus nidulans & FGSC A4 & \cite{Anid} \\ 
-  Bcin & ALoF & Ascomycota & 332648 & Botrytis cinerea & B05.10 & \cite{Bcin} \\ 
-  Bcir & ZMF & Zygomycota & 1314798 & Backusella circina & FSU 941 & \cite{Bcir} \\ 
-  Bden & CCF & Chytrids & 109871 & Batrachochytrium dendrobatidis & JEL 423 & \cite{Bden} \\ 
-  Bder & AEF & Ascomycota & 559298 & Blastomyces dermatitidis & SLH14081 & \cite{Bder} \\ 
-  Beme & CBF & Chytrids & 4808 & Blastocladiella emersonii & --- & \cite{Beme} \\ 
-  Cang & CBF & Chytrids & 109876 & Catenaria anguillulae & --- & \cite{Cang} \\ 
-  Ccin & BAF & Basidiomycota & 5346 & Coprinopsis cinerea & --- & \cite{Ccin} \\ 
-  Ccor & ZEF & Zygomycota & 34488 & Conidiobolus coronatus & --- & \cite{Ccor} \\ 
-  Cimm & AEF & Ascomycota & 246410 & Coccidioides immitis & RS & \cite{Cimm} \\ 
-  Cint & OA & Animal & 7719 & Ciona intestinalis & --- & \cite{Cint} \\ 
-  Clat & CBF & Chytrids & 945690 & Coelomomyces lativittatus & --- & \cite{Clat} \\ 
-  Cmer & OAO & OAO & 45157 & Cyanidioschyzon merolae & --- & \cite{Cmer} \\ 
-  Cneo & BAF & Basidiomycota & 5207 & Cryptococcus neoformans & H99 & \cite{Cneo} \\ 
-  Cowc & OA & Animal & 192875 & Capsaspora owczarzaki & ATCC 30864 & \cite{Cowc} \\ 
-  Crei & OP & Plant & 3055 & Chlamydomonas reinhardtii & --- & \cite{Crei} \\ 
-  Crev & ZF & Zygomycota & 61392 & Coemansia reversa & --- & \cite{Crev} \\ 
-  Daci & ADF & Ascomycota & 112489 & Dissoconium aciculare & --- & \cite{Daci} \\ 
-  Dbis & BAF & Basidiomycota & 1314803 & Dendrothele bispora & --- & \cite{Dbis} \\ 
-  Ddis & OAM & Amoebozoa & 44689 & Dictyostelium discoideum & --- & \cite{Ddis} \\ 
-  Dmel & OA & Animal & 7227 & Drosophila melanogaster & --- & \cite{Dmel} \\ 
-  Dsym & ADF & Ascomycota & 548649 & Dothidotthia symphoricarpi & --- & \cite{Dsym} \\ 
-  Ebie & MF & Microsporidia & 31281 & Enterocytozoon bieneusi & --- & \cite{Ebie} \\ 
-  Ecun & MF & Microsporidia & 6035 & Encephalitozoon cuniculi & --- & \cite{Ecun} \\ 
-  Eint & MF & Microsporidia & 58839 & Encephalitozoon intestinalis & --- & \cite{Eint} \\ 
-  Falb & OAM & Amoebozoa & 691883 & Fonticula alba & ATCC 38817,V2 & \cite{Falb} \\ 
-  Fgra & ASoF & Ascomycota & 229533 & Fusarium graminearum  & PH-1 & \cite{Fgra} \\ 
-  Gpro & CF & Chytrids & 1123529 & Gonapodya prolifera & --- & \cite{Gpro} \\ 
-  Hmag & OA & Animal & 6085 & Hydra magnipapillata & --- & \cite{Hmag} \\ 
-  Hpol & CCF & Chytrids & 166479 & Homolaphlyctis polyrhiza & JEL 142 & \cite{Hpol} \\ 
-  Hsap & OA & Animal & 9606 & Homo sapiens & --- & \cite{Hsap} \\ 
-  Lhya & ZF & Zygomycota & 420593 & Lichtheimia hyalospora & --- & \cite{Lhya} \\ 
-  Lmac & ADF & Ascomycota & 372055 & Lophiostoma macrostomum & --- & \cite{Lmac} \\ 
-  Mani & ASoF & Ascomycota & 5530 & Metarhizium anisopliae & --- & \cite{Mani} \\ 
-  Mbre & OA & Animal & 81824 & Monosiga brevicollis & MX1 & \cite{Mbre} \\ 
-  Mcan & AEF & Ascomycota & 554155 & Microsporum canis & CBS 113480 & \cite{Mcan} \\ 
-  Mcir & ZMF & Zygomycota & 36080 & Mucor circinelloides & --- & \cite{Mcir} \\ 
-  Mmus & OA & Animal & 10090 & Mus musculus & --- & \cite{Mmus} \\ 
-  Mver & ZMF & Zygomycota & 78898 & Mortierella verticillata & NRRL 6337 & \cite{Mver} \\ 
-  Ncer & MF & Microsporidia & 40302 & Nosema ceranae & --- & \cite{Ncer} \\ 
-  Ncra & ASoF & Ascomycota & 5141 & Neurospora crassa & --- & \cite{Ncra} \\ 
-  Npar & MF & Microsporidia & 586133 & Nematocida parisii & ERTm1 & \cite{Npar} \\ 
-  Npha & OAR & Archaea & 348780 & Natromonas pharaonis & --- & \cite{Npha} \\ 
-  OrpC & CNF & Chytrids & 1117330 & Orpinomyces spp & C1A & \cite{OrpC} \\ 
-  Patr & ADF & Ascomycota & 703506 & Patellaria atrata & --- & \cite{Patr} \\ 
-  Pbla & ZMF & Zygomycota & 4837 & Phycomyces blakesleeanus & NRRL1555,v2.0.JGI & \cite{Pbla} \\ 
-  Pgra & BPF & Basidiomycota & 418459 & Puccinia graminis f.sp. tritici & CRL75-36-700-3 & \cite{Pgra} \\ 
-  PirE & CNF & Chytrids & 45796 & Piromyces spp  & E2 & \cite{PirE} \\ 
-  Psip & ADF & Ascomycota & 100044 & Pleomassaria siparia & --- & \cite{Psip} \\ 
-  Psoj & OAO & OAO & 67593 & Phytophthora sojae & --- & \cite{Psoj} \\ 
-  Ptri & ADF & Ascomycota & 426418 & Pyrenophora tritici-repentis & Pt-1C-BFP & \cite{Ptri} \\ 
-  Pult & OAO & OAO & 431595 & Pythium ultimum & DAOM BR144,v.2010-07-12 & \cite{Pult} \\ 
-  Rall & MF & Microsporidia & 281847 & Rozella allomycis & v.2012-05-03 & \cite{Rall} \\ 
-  Rdel & ZMF & Zygomycota & 936053 & Rhizopus delemar & --- & \cite{Rdel} \\ 
-  Rirr & ZMF & Zygomycota & 588596 & Rhizophagus irregularis & --- & \cite{Rirr} \\ 
-  Rmic & ZMF & Zygomycota & 58291 & Rhizopus microsporus var microsporus & v1.0 & \cite{Rmic} \\ 
-  Rory & ZMF & Zygomycota & 64495 & Rhizopus oryzae (delamar) & 99-880,v.1 & \cite{Rory} \\ 
-  Sarc & OA & Animal & 72019 & Sphaeroforma arctica  & JP610 & \cite{Sarc} \\ 
-  Scer & ASaF & Ascomycota & 4932 & Saccharomyces cerevisiae & S288C,v.2011-02-03 & \cite{Scer} \\ 
-  Sfim & ADF & Ascomycota & 718229 & Sporormia fimetaria & --- & \cite{Sfim} \\ 
-  Spom & ATF & Ascomycota & 4896 & Schizosaccharomyces pombe & v.20 & \cite{Spom} \\ 
-  Spun & CCF & Chytrids & 109760 & Spizellomyces punctatus & DAOM BR117 & \cite{Spun} \\ 
-  Sros & BF & Basidiomycota & 40563 & Sporobolomyces roseus & --- & \cite{Sros} \\ 
-  Srot & OA & Animal & 946362 & Salpingoeca rosetta & --- & \cite{Srot} \\ 
-  Sscl & ALoF & Ascomycota & 665079 & Sclerotinia sclerotiorum & 1980\_UF-70.30,v.2009-01.Broad & \cite{Sscl} \\ 
-  Tgon & OAP & Apicomplexian & 5811 & Toxoplasma gondii & ME49,v.2008-07-23.ToxoDB-7.2 & \cite{Tgon} \\ 
-  Tpse & OAO & OAO & 35128 & Thalassiosira pseudonana & CCMP1335,v.JGI3 & \cite{Tpse} \\ 
-  Trub & AEF & Ascomycota & 559305 & Trichophyton rubrum & CBS 118892 & \cite{Trub} \\ 
-  Ttra & OA & Animal & 529818 & Thecamonas trahens & ATCC 50062 & \cite{Ttra} \\ 
-  Umay & BUF & Basidiomycota & 5270 & Ustilago maydis & v.2011-05-24.MIPS & \cite{Umay} \\ 
-  Uram & ZMF & Zygomycota & 41833 & Umbelopsis ramanniana & --- & \cite{Uram} \\ 
-  Uree & AEF & Ascomycota & 336963 & Uncinocarpus reesii & UAMH 1704 & \cite{Uree} \\ 
-  Vcul & MF & Microsporidia & 103449 & Vavraia culicis floridensis & v.1.Broad & \cite{Vcul} \\ 
-  Wseb & BAF & Basidiomycota & 148960 & Wallemia sebi & CBS-633.66,v.JGI1 & \cite{Wseb} \\ 
-  Ylip & ASaF & Ascomycota & 4952 & Yarrowia lipolytica & CLIB122,v.14-APR-2010 & \cite{Ylip} \\ 
-  Zrhi & ADF & Ascomycota & 1314779 & Zopfia rhizophilia & CBS 207.26,v1.0 & \cite{Zrhi} \\ 
+Aben & APF & Ascomycota & 663331 & \emph{Arthroderma benhamiae} & CBS 112371 & \cite{Dermato} \\ 
+  Afum & AEF & Ascomycota & 746128 & \emph{Aspergillus fumigatus} & Af293 & \cite{Nierman2005} \\ 
+  Agos & ASaF & Ascomycota & 33169 & \emph{Ashbya gossypii} & ATCC 10895 v1.0 & \cite{Dietrich2004} \\ 
+  Aloc & MF & Microsporidia & 278021 & \emph{Antonospora locustae} & HM-2013 v1.0 & \cite{Slamovits2004,Corradi2007} \\ 
+  Amac & CBF & Chytrids & 28583 & \emph{Allomyces macrogynus} & ATCC 38327 & \cite{RuizTrillo2007} \\ 
+  Anid & AEF & Ascomycota & 227321 & \emph{Aspergillus nidulans} & FGSC A4 & \cite{Galagan2005} \\ 
+  Bcin & ALoF & Ascomycota & 332648 & \emph{Botrytis cinerea} & B05.10 & \cite{Amselem2011} \\ 
+  Bcir & ZMF & Zygomycota & 1314798 & \emph{Backusella circina} & FSU 941 & \cite{Bcir} \\ 
+  Bde2 & CCF & Chytrids & 684364 & \emph{Batrachochytrium dendrobatidis} & JAM 81 v1.0 & \cite{Bde2} \\ 
+  Bden & CCF & Chytrids & 403673 & \emph{Batrachochytrium dendrobatidis} & JEL 423 & \cite{Bden} \\ 
+  Bder & AEF & Ascomycota & 559298 & \emph{Blastomyces dermatitidis} & SLH14081 & \cite{McCullough2000} \\ 
+  Beme & CBF & Chytrids & 4808 & \emph{Blastocladiella emersonii} & --- & \cite{Ribichich2005} \\ 
+  Cang & CBF & Chytrids & 109876 & \emph{Catenaria anguillulae} & PL171 v1.0 & \cite{Cang} \\ 
+  Ccin & BAF & Basidiomycota & 5346 & \emph{Coprinopsis cinerea} & okayama7\_130 & \cite{Stajich2010Ccin} \\ 
+  Ccor & ZEF & Zygomycota & 34488 & \emph{Conidiobolus coronatus} & NRRL28638 v1.0 & \cite{Chang2015} \\ 
+  Cimm & AEF & Ascomycota & 246410 & \emph{Coccidioides immitis} & RS & \cite{Sharpton2009} \\ 
+  Cint & OA & Animal & 7719 & \emph{Ciona intestinalis} & v2.0 & \cite{Cint} \\ 
+  Clat & CBF & Chytrids & 945690 & \emph{Coelomomyces lativittatus} & --- & --- \\ 
+  Cmer & OAO & OAO & 45157 & \emph{Cyanidioschyzon merolae} & 10D v1.0 & \cite{Matsuzaki2004} \\ 
+  Cneo & BAF & Basidiomycota & 5207 & \emph{Cryptococcus neoformans} & \textit{var. grubii} H99 & \cite{Cneo} \\ 
+  Cowc & OA & Animal & 192875 & \emph{Capsaspora owczarzaki} & ATCC 30864 & \cite{RuizTrillo2007} \\ 
+  Crei & OP & Viridiplantae & 3055 & \emph{Chlamydomonas reinhardtii} & v4.0 & \cite{Merchant2007} \\ 
+  Crev & ZF & Zygomycota & 61392 & \emph{Coemansia reversa} & NRRL 1564 v1.0 & \cite{Chang2015} \\ 
+  Daci & ADF & Ascomycota & 112489 & \emph{Dissoconium aciculare} & CBS 342.82 v1.0 & \cite{Daci} \\ 
+  Dbis & BAF & Basidiomycota & 1314803 & \emph{Dendrothele bispora} & CBS 962.96 v1.0 & \cite{Dbis} \\ 
+  Ddis & OAM & Amoebozoa & 44689 & \emph{Dictyostelium discoideum} & --- & \cite{Eichinger2005} \\ 
+  Dmel & OA & Metazoa & 7227 & \emph{Drosophila melanogaster} & v5 & \cite{DosSantos2015} \\ 
+  Dsym & ADF & Ascomycota & 548649 & \emph{Dothidotthia symphoricarpi} & CBS 119687 v1.0 & \cite{Dsym} \\ 
+  Ebie & MF & Microsporidia & 31281 & \emph{Enterocytozoon bieneusi} & H348 & \cite{Corradi2007} \\ 
+  Ecun & MF & Microsporidia & 6035 & \emph{Encephalitozoon cuniculi} & GB-M1 & \cite{Micro} \\ 
+  Eint & MF & Microsporidia & 58839 & \emph{Encephalitozoon intestinalis} & ATCC 50506 & \cite{Micro} \\ 
+  Falb & OAM & Amoebozoa & 691883 & \emph{Fonticula alba} & ATCC 38817 v2.0 & \cite{RuizTrillo2007} \\ 
+  Fgra & ASoF & Ascomycota & 229533 & \emph{Fusarium graminearum } & PH-1 & \cite{Fgra} \\ 
+  Gpro & CF & Chytrids & 1123529 & \emph{Gonapodya prolifera} & JEL478 v1.0 & \cite{Chang2015} \\ 
+  Hmag & OA & Animal & 6085 & \emph{Hydra magnipapillata} & strain 105 & \cite{Chapman2010} \\ 
+  Hpol & CCF & Chytrids & 166479 & \emph{Homolaphlyctis polyrhiza} & JEL 142 & --- \\ 
+  Lhya & ZF & Zygomycota & 420593 & \emph{Lichtheimia hyalospora} & v1.0 & \cite{Lhya} \\ 
+  Lmac & ADF & Ascomycota & 372055 & \emph{Lophiostoma macrostomum} & CBS 122681 v1.0 & \cite{Lmac} \\ 
+  Mani & ASoF & Ascomycota & 5530 & \emph{Metarhizium anisopliae} & ARSEF 23 v1.0 & \cite{Gao2011} \\ 
+  Mbre & OA & Animal & 81824 & \emph{Monosiga brevicollis} & MX1 & \cite{RuizTrillo2007} \\ 
+  Mcan & AEF & Ascomycota & 554155 & \emph{Microsporum canis} & CBS 113480 & \cite{Dermato} \\ 
+  Mcir & ZMF & Zygomycota & 36080 & \emph{Mucor circinelloides} & f. sp. \emph{circinelloides} & \cite{Lee2014} \\ 
+  Mver & ZMF & Zygomycota & 78898 & \emph{Mortierella verticillata} & NRRL 6337 & \cite{RuizTrillo2007} \\ 
+  Ncer & MF & Microsporidia & 40302 & \emph{Nosema ceranae} & BRL01 v1.0 & \cite{Cornman2009} \\ 
+  Ncra & ASoF & Ascomycota & 5141 & \emph{Neurospora crassa} & OR74A & \cite{Ncra} \\ 
+  Npar & MF & Microsporidia & 586133 & \emph{Nematocida parisii} & ERTm1 & \cite{Cuomo2012} \\ 
+  Npha & OAR & Archaea & 348780 & \emph{Natromonas pharaonis} & DSM 2160 & \cite{Falb2005} \\ 
+  OrpC & CNF & Chytrids & 1117330 & \emph{Orpinomyces} sp & C1A & \cite{Youssef2013} \\ 
+  Patr & ADF & Ascomycota & 703506 & \emph{Patellaria atrata} & CBS 101060 v1.0 & \cite{Patr} \\ 
+  Pbla & ZMF & Zygomycota & 4837 & \emph{Phycomyces blakesleeanus} & NRRL1555,v2.0.JGI & \cite{Pbla} \\ 
+  Pgra & BPF & Basidiomycota & 418459 & \emph{Puccinia graminis f.sp. tritici} & CRL75-36-700-3 & \cite{Pgra} \\ 
+  PirE & CNF & Chytrids & 45796 & \emph{Piromyces} sp & E2 v1.0 & \cite{PirE} \\ 
+  Psip & ADF & Ascomycota & 100044 & \emph{Pleomassaria siparia} & CBS 279.74 & \cite{Psip} \\ 
+  Psoj & OAO & Stramenopiles & 67593 & \emph{Phytophthora sojae} & v3.0 & \cite{Tyler2006} \\ 
+  Ptri & ADF & Ascomycota & 426418 & \emph{Pyrenophora tritici-repentis} & Pt-1C-BFP & \cite{Manning2013} \\ 
+  Pult & OAO & OAO & 431595 & \emph{Pythium ultimum} & DAOM BR144,v.2010-07-12 & \cite{Levesque2010} \\ 
+  Rall & MF & Cryptomycota & 281847 & \emph{Rozella allomycis} & v.2012-05-03 & \cite{James2013} \\ 
+  Rirr & ZMF & Zygomycota & 588596 & \emph{Rhizophagus irregularis} & DAOM 181602 & \cite{Tisserant2013} \\ 
+  Rmic & ZMF & Zygomycota & 58291 & \emph{Rhizopus microsporus} & var \emph{microsporus} ATCC52813 v1.0 & \cite{Rmic} \\ 
+  Rory & ZMF & Zygomycota & 64495 & \emph{Rhizopus oryzae} & 99-880,v.1 & \cite{Ma2009} \\ 
+  Sarc & OA & Animal & 72019 & \emph{Sphaeroforma arctica } & JP610 & \cite{RuizTrillo2007} \\ 
+  Scer & ASaF & Ascomycota & 4932 & \emph{Saccharomyces cerevisiae} & S288C, v.2011-02-03 & \cite{Scer} \\ 
+  Sfim & ADF & Ascomycota & 718229 & \emph{Sporormia fimetaria} & CBS 119925 v1.0 & \cite{Sfim} \\ 
+  Spom & ATF & Ascomycota & 4896 & \emph{Schizosaccharomyces pombe} & v.20 & \cite{Wood2002} \\ 
+  Spun & CCF & Chytrids & 109760 & \emph{Spizellomyces punctatus} & DAOM BR117 & \cite{RuizTrillo2007} \\ 
+  Sros & BF & Basidiomycota & 40563 & \emph{Sporobolomyces roseus} & v1.0 & \cite{Sros} \\ 
+  Srot & OA & Animal & 946362 & \emph{Salpingoeca rosetta} & ATCC 50818 & \cite{RuizTrillo2007} \\ 
+  Sscl & ALoF & Ascomycota & 665079 & \emph{Sclerotinia sclerotiorum} & 1980\_UF-70.30,v.2009-01.Broad & \cite{Sscl} \\ 
+  Tgon & OAP & Apicomplexian & 5811 & \emph{Toxoplasma gondii} & ME49,v.2008-07-23.ToxoDB-7.2 & \cite{Kissinger2003} \\ 
+  Tpse & OAO & OAO & 35128 & \emph{Thalassiosira pseudonana} & CCMP1335,v.JGI3 & \cite{Armbrust2004} \\ 
+  Trub & AEF & Ascomycota & 559305 & \emph{Trichophyton rubrum} & CBS 118892 & \cite{Dermato} \\ 
+  Ttra & OA & Animal & 529818 & \emph{Thecamonas trahens} & ATCC 50062 & \cite{RuizTrillo2007} \\ 
+  Umay & BUF & Basidiomycota & 5270 & \emph{Ustilago maydis} & v.2011-05-24.MIPS & \cite{Kamper2006} \\ 
+  Uram & ZMF & Zygomycota & 41833 & \emph{Umbelopsis ramanniana} & AG v1.0 & \cite{Uram} \\ 
+  Uree & AEF & Ascomycota & 336963 & \emph{Uncinocarpus reesii} & UAMH 1704 & \cite{Sharpton2009} \\ 
+  Vcul & MF & Microsporidia & 103449 & \emph{Vavraia culicis} floridensis & v.1.Broad & \cite{Micro} \\ 
+  Wseb & BAF & Basidiomycota & 148960 & \emph{Wallemia sebi} & CBS-633.66,v.JGI1 & \cite{Padamsee2012} \\ 
+  Ylip & ASaF & Ascomycota & 4952 & \emph{Yarrowia lipolytica} & CLIB122,v.14-APR-2010 & \cite{Dujon2004} \\ 
+  Zrhi & ADF & Ascomycota & 1314779 & \emph{Zopfia rhizophilia} & CBS 207.26 v1.0 & \cite{Zrhi} \\ 
    \hline
 \hline
 \end{longtable}
 } %horizontal spacing
 } %footnote size
 } %vertical spacing
+
 % PDB IDs
-% latex table generated in R 3.0.1 by xtable 1.7-4 package
-% Sat May 23 12:26:50 2015
-\begin{table}[h]
-\centering
+% latex table generated in R 3.1.1 by xtable 1.7-3 package
+% Mon Jun 22 14:41:00 2015
+\begin{table}[bp]
 \caption[PDB IDs and descriptions of structures used in comparative analyses]{PDB IDs and descriptions of structures used in docking and Molecular dynamics simulations} 
 \label{tab:AppData_PDB}
+\centering
 \begin{tabular}{rll}
   \hline
 \hline
- & PDBID & Description \\ 
+ PDBID & Description & Reference\\ 
   \hline
-1 & 1U19 & Crystal structure of Bovine rhodopsin at 2.2 angstroms resolution \\ 
-  2 & 2Z73 & Crystal structure of Squid rhodopsin \\ 
-  3 & 1H68 & Sensory rhodopsin II \\ 
+ 1U19 & Crystal structure of Bovine rhodopsin at 2.2 angstroms resolution & \cite{Okada2004} \\ 
+ 2Z73 & Crystal structure of Squid rhodopsin & \cite{Murakami2008} \\ 
+ 1H68 & Sensory rhodopsin II & \cite{Royant2001} \\ 
    \hline
 \hline
 \end{tabular}
+
 \end{table}

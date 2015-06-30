@@ -9,11 +9,15 @@
 % Taxa and sources
 <<label=AppData_taxa,echo=FALSE,results=tex>>=
 library(xtable)
-data <- read.table("../dat/taxonlistID",sep="\t",row.names=1,header=F,check.names=FALSE,comment.char="#")
-colnames(data) <- c("Class2","Class1","TaxID","Name","Isolate/Version","Source")
-xdata <- xtable(data,label="tab:AppData_taxa",caption=c('List of all proteomes used in comparative analyses, including NCBI taxonomy database ID, phylogenetic group abbreviation ("Class2"), phylum designation ("Class1"), isolate number/version (where applicable), and source website.','List of proteomes used in comparative analyses.'))
+data <- read.table("../dat/taxonlistID",sep="\t",row.names=1,header=F,check.names=FALSE,comment.char="#",stringsAsFactors=FALSE)
+colnames(data) <- c("Key","Group","TaxID","Name","Isolate/Version","Source")
+data$Name <- paste("\\emph{",data$Name,"}",sep="")
+xdata <- xtable(data,label="tab:AppData_taxa",caption=c('List of all proteomes used in comparative analyses, including NCBI taxonomy database ID, phylogenetic abbreviation ("Key"), phylum designation ("Group"), isolate number/version (where applicable), and source website.','List of proteomes used in comparative analyses.'))
 hlines <- c(-1,-1,0,nrow(xdata),nrow(xdata))
-print(xdata,table.placement="tbp",caption.placement="bottom",hline.after=hlines)
+print(xdata,
+      table.placement="tbp",
+      caption.placement="top",
+      hline.after=hlines)
 @
 
 % PDB IDs

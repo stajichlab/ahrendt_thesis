@@ -34,40 +34,41 @@
 #$Abb	Class2	Class1	TaxID	FullName	IsolateVersion	Website
 Aben	APF	Ascomycota	663331	Arthroderma benhamiae	CBS 112371	\cite{Aben}
 Afum	AEF	Ascomycota	746128	Aspergillus fumigatus	Af293	\cite{Afum}
-Agos	ASaF	Ascomycota	33169	Ashbya gossypii	---	\cite{Agos}
-Aloc	MF	Microsporidia	278021	Antonospora locustae	---	\cite{Aloc}
-Amac	CBF	Chytrids	28583	Allomyces macrogynus	ATCC 38327	\cite{Amac}
+Agos	ASaF	Ascomycota	33169	Ashbya gossypii	ATCC 10895 v1.0	\cite{Agos}
+Aloc	MF	Microsporidia	278021	Antonospora locustae	HM-2013 v1.0	\cite{Aloc}
+Amac	CBF	Chytrids	28583	Allomyces macrogynus	ATCC 38327	\cite{Origins}
 Amoe	OAM	Amoebozoa	1243176	Amoeboaphelidium	---	\cite{Amoe}
 Anid	AEF	Ascomycota	227321	Aspergillus nidulans	FGSC A4	\cite{Anid}
 Bcin	ALoF	Ascomycota	332648	Botrytis cinerea	B05.10	\cite{Bcin}
 Bcir	ZMF	Zygomycota	1314798	Backusella circina	FSU 941	\cite{Bcir}
-Bden	CCF	Chytrids	109871	Batrachochytrium dendrobatidis	JEL 423	\cite{Bden}
+Bde2	CCF	Chytrids	684364	Batrachochytrium dendrobatidis	JEL 81 v1.0	\cite{Bde2}
+Bden	CCF	Chytrids	403673	Batrachochytrium dendrobatidis	JEL 423	\cite{Bden}
 Bder	AEF	Ascomycota	559298	Blastomyces dermatitidis	SLH14081	\cite{Bder}
 Beme	CBF	Chytrids	4808	Blastocladiella emersonii	---	\cite{Beme}
-Cang	CBF	Chytrids	109876	Catenaria anguillulae	---	\cite{Cang}
-Ccin	BAF	Basidiomycota	5346	Coprinopsis cinerea	---	\cite{Ccin}
-Ccor	ZEF	Zygomycota	34488	Conidiobolus coronatus	---	\cite{Ccor}
+Cang	CBF	Chytrids	109876	Catenaria anguillulae	PL171 v1.0	\cite{Cang}
+Ccin	BAF	Basidiomycota	5346	Coprinopsis cinerea	okayama7_130	\cite{Ccin}
+Ccor	ZEF	Zygomycota	34488	Conidiobolus coronatus	NRRL28638 v1.0	\cite{Ccor}
 Cimm	AEF	Ascomycota	246410	Coccidioides immitis	RS	\cite{Cimm}
-Cint	OA	Animal	7719	Ciona intestinalis	---	\cite{Cint}
-Clat	CBF	Chytrids	945690	Coelomomyces lativittatus	---	\cite{Clat}
-Cmer	OAO	OAO	45157	Cyanidioschyzon merolae	---	\cite{Cmer}
-Cneo	BAF	Basidiomycota	5207	Cryptococcus neoformans	H99	\cite{Cneo}
-Cowc	OA	Animal	192875	Capsaspora owczarzaki	ATCC 30864	\cite{Cowc}
-Crei	OP	Plant	3055	Chlamydomonas reinhardtii	---	\cite{Crei}
-Crev	ZF	Zygomycota	61392	Coemansia reversa	---	\cite{Crev}
-Daci	ADF	Ascomycota	112489	Dissoconium aciculare	---	\cite{Daci}
-Dbis	BAF	Basidiomycota	1314803	Dendrothele bispora	---	\cite{Dbis}
+Cint	OA	Animal	7719	Ciona intestinalis	v2.0	\cite{Cint}
+Clat	CBF	Chytrids	945690	Coelomomyces lativittatus	---	---
+Cmer	OAO	OAO	45157	Cyanidioschyzon merolae	10D v1.0	\cite{Cmer}
+Cneo	BAF	Basidiomycota	5207	Cryptococcus neoformans	\textit{var. grubii} H99	\cite{Cneo}
+Cowc	OA	Animal	192875	Capsaspora owczarzaki	ATCC 30864	\cite{Origins}
+Crei	OP	Viridiplantae	3055	Chlamydomonas reinhardtii	v4.0	\cite{Crei}
+Crev	ZF	Zygomycota	61392	Coemansia reversa	NRRL 1564 v1.0	\cite{Crev}
+Daci	ADF	Ascomycota	112489	Dissoconium aciculare	CBS 342.82 v1.0	\cite{Daci}
+Dbis	BAF	Basidiomycota	1314803	Dendrothele bispora	CBS 962.96 v1.0	\cite{Dbis}
 Ddis	OAM	Amoebozoa	44689	Dictyostelium discoideum	---	\cite{Ddis}
-Dmel	OA	Animal	7227	Drosophila melanogaster	---	\cite{Dmel}
-Dsym	ADF	Ascomycota	548649	Dothidotthia symphoricarpi	---	\cite{Dsym}
-Ebie	MF	Microsporidia	31281	Enterocytozoon bieneusi	---	\cite{Ebie}
-Ecun	MF	Microsporidia	6035	Encephalitozoon cuniculi	---	\cite{Ecun}
-Eint	MF	Microsporidia	58839	Encephalitozoon intestinalis	---	\cite{Eint}
-Falb	OAM	Amoebozoa	691883	Fonticula alba	ATCC 38817,V2	\cite{Falb}
+Dmel	OA	Metazoa	7227	Drosophila melanogaster	---	\cite{Dmel}
+Dsym	ADF	Ascomycota	548649	Dothidotthia symphoricarpi	CBS 119687 v1.0	\cite{Dsym}
+Ebie	MF	Microsporidia	31281	Enterocytozoon bieneusi	H348	\cite{Ebie}
+Ecun	MF	Microsporidia	6035	Encephalitozoon cuniculi	GB-M1	\cite{Ecun}
+Eint	MF	Microsporidia	58839	Encephalitozoon intestinalis	ATCC 50506	\cite{Eint}
+Falb	OAM	Amoebozoa	691883	Fonticula alba	ATCC 38817 v2.0	\cite{Origins}
 Fgra	ASoF	Ascomycota	229533	Fusarium graminearum 	PH-1	\cite{Fgra}
-Gpro	CF	Chytrids	1123529	Gonapodya prolifera	---	\cite{Gpro}
+Gpro	CF	Chytrids	1123529	Gonapodya prolifera	JEL478 v1.0	\cite{Gpro}
 Hmag	OA	Animal	6085	Hydra magnipapillata	---	\cite{Hmag}
-Hpol	CCF	Chytrids	166479	Homolaphlyctis polyrhiza	JEL 142	\cite{Hpol}
+Hpol	CCF	Chytrids	166479	Homolaphlyctis polyrhiza	JEL 142	---
 Hsap	OA	Animal	9606	Homo sapiens	---	\cite{Hsap}
 Lhya	ZF	Zygomycota	420593	Lichtheimia hyalospora	---	\cite{Lhya}
 Lmac	ADF	Ascomycota	372055	Lophiostoma macrostomum	---	\cite{Lmac}
@@ -76,7 +77,7 @@ Mbre	OA	Animal	81824	Monosiga brevicollis	MX1	\cite{Mbre}
 Mcan	AEF	Ascomycota	554155	Microsporum canis	CBS 113480	\cite{Mcan}
 Mcir	ZMF	Zygomycota	36080	Mucor circinelloides	---	\cite{Mcir}
 Mmus	OA	Animal	10090	Mus musculus	---	\cite{Mmus}
-Mver	ZMF	Zygomycota	78898	Mortierella verticillata	NRRL 6337	\cite{Mver}
+Mver	ZMF	Zygomycota	78898	Mortierella verticillata	NRRL 6337	\cite{Origins}
 Ncer	MF	Microsporidia	40302	Nosema ceranae	---	\cite{Ncer}
 Ncra	ASoF	Ascomycota	5141	Neurospora crassa	---	\cite{Ncra}
 Npar	MF	Microsporidia	586133	Nematocida parisii	ERTm1	\cite{Npar}
@@ -87,26 +88,26 @@ Pbla	ZMF	Zygomycota	4837	Phycomyces blakesleeanus	NRRL1555,v2.0.JGI	\cite{Pbla}
 Pgra	BPF	Basidiomycota	418459	Puccinia graminis f.sp. tritici	CRL75-36-700-3	\cite{Pgra}
 PirE	CNF	Chytrids	45796	Piromyces spp 	E2	\cite{PirE}
 Psip	ADF	Ascomycota	100044	Pleomassaria siparia	---	\cite{Psip}
-Psoj	OAO	OAO	67593	Phytophthora sojae	---	\cite{Psoj}
+Psoj	OAO	Stramenopiles	67593	Phytophthora sojae	---	\cite{Psoj}
 Ptri	ADF	Ascomycota	426418	Pyrenophora tritici-repentis	Pt-1C-BFP	\cite{Ptri}
 Pult	OAO	OAO	431595	Pythium ultimum	DAOM BR144,v.2010-07-12	\cite{Pult}
-Rall	MF	Microsporidia	281847	Rozella allomycis	v.2012-05-03	\cite{Rall}
+Rall	MF	Cryptomycota	281847	Rozella allomycis	v.2012-05-03	\cite{Rall}
 Rdel	ZMF	Zygomycota	936053	Rhizopus delemar	---	\cite{Rdel}
 Rirr	ZMF	Zygomycota	588596	Rhizophagus irregularis	---	\cite{Rirr}
 Rmic	ZMF	Zygomycota	58291	Rhizopus microsporus var microsporus	v1.0	\cite{Rmic}
 Rory	ZMF	Zygomycota	64495	Rhizopus oryzae (delamar)	99-880,v.1	\cite{Rory}
-Sarc	OA	Animal	72019	Sphaeroforma arctica 	JP610	\cite{Sarc}
+Sarc	OA	Animal	72019	Sphaeroforma arctica 	JP610	\cite{Origins}
 Scer	ASaF	Ascomycota	4932	Saccharomyces cerevisiae	S288C,v.2011-02-03	\cite{Scer}
 Sfim	ADF	Ascomycota	718229	Sporormia fimetaria	---	\cite{Sfim}
 Spom	ATF	Ascomycota	4896	Schizosaccharomyces pombe	v.20	\cite{Spom}
-Spun	CCF	Chytrids	109760	Spizellomyces punctatus	DAOM BR117	\cite{Spun}
+Spun	CCF	Chytrids	109760	Spizellomyces punctatus	DAOM BR117	\cite{Origins}
 Sros	BF	Basidiomycota	40563	Sporobolomyces roseus	---	\cite{Sros}
-Srot	OA	Animal	946362	Salpingoeca rosetta	---	\cite{Srot}
+Srot	OA	Animal	946362	Salpingoeca rosetta	---	\cite{Origins}
 Sscl	ALoF	Ascomycota	665079	Sclerotinia sclerotiorum	1980_UF-70.30,v.2009-01.Broad	\cite{Sscl}
 Tgon	OAP	Apicomplexian	5811	Toxoplasma gondii	ME49,v.2008-07-23.ToxoDB-7.2	\cite{Tgon}
 Tpse	OAO	OAO	35128	Thalassiosira pseudonana	CCMP1335,v.JGI3	\cite{Tpse}
 Trub	AEF	Ascomycota	559305	Trichophyton rubrum	CBS 118892	\cite{Trub}
-Ttra	OA	Animal	529818	Thecamonas trahens	ATCC 50062	\cite{Ttra}
+Ttra	OA	Animal	529818	Thecamonas trahens	ATCC 50062	\cite{Origins}
 Umay	BUF	Basidiomycota	5270	Ustilago maydis	v.2011-05-24.MIPS	\cite{Umay}
 Uram	ZMF	Zygomycota	41833	Umbelopsis ramanniana	---	\cite{Uram}
 Uree	AEF	Ascomycota	336963	Uncinocarpus reesii	UAMH 1704	\cite{Uree}

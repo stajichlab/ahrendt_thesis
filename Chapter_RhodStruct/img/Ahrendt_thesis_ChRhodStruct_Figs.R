@@ -8,16 +8,16 @@ Tpac2Z73_rms <- read.table("../dat/Tpac2Z73_retCI.rms",header=T,sep="\t")
 Tpac2Z73_rms$Time <- Tpac2Z73_rms$Time/200
 Spun00350_rms <- read.table("../dat/Spun00350_retCI.rms",header=T,sep="\t")
 Spun00350_rms$Time <- Spun00350_rms$Time/200
-png("TpSp_mdoutRMS.png",width=1000,height=2000)
+png("TpSp_mdoutRMS2.png",width=1000,height=2000)
 par(mfrow=c(2,1),mar=c(6.5,7,6.5,1),mgp=c(5,1,0))
-plot(Tpac2Z73_mdout,type="l",yaxs="i",xaxs="i",ylim=c(-9000,0),col="darkgreen",
+plot(Tpac2Z73_mdout,type="l",yaxs="i",xaxs="i",ylim=c(-9000,0),col="darkslateblue",
      ylab="Potential Energy",
      xlab="Time (ns)",
      cex.lab=2,cex.axis=2)
-lines(Spun00350_mdout,yaxs="i",xaxs="i",col="cornflowerblue")
+lines(Spun00350_mdout,yaxs="i",xaxs="i",col="gray55")
 mtext("A", side=3, adj=0, line=1.2, cex=6, font=2)
-plot(Spun00350_rms,type="l",yaxs="i",xaxs="i",xlab="Time (ns)",xlim=c(0,10),col="cornflowerblue",cex.lab=2,cex.axis=2)
-lines(Tpac2Z73_rms,yaxs="i",xaxs="i",col="darkgreen")
+plot(Spun00350_rms,type="l",yaxs="i",xaxs="i",xlab="Time (ns)",xlim=c(0,10),col="gray55",cex.lab=2,cex.axis=2)
+lines(Tpac2Z73_rms,yaxs="i",xaxs="i",col="darkslateblue")
 mtext("B", side=3, adj=0, line=1.2, cex=6, font=2)
 dev.off()
 
