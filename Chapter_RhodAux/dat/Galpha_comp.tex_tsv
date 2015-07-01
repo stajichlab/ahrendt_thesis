@@ -1,44 +1,100 @@
-Species	Class	Name	Broad 	NCBI 	 Identity$^{a}$
-Neurospora crassa 	I	GNA-1	NCU06493$^{pm}$	-	100
--	II	GNA-2	NCU06729		100
--	III	GNA-3	NCU05206$^{m}$		100
-Allomyces macrogynus	I	-	AMAG\_03583$^{pm}$	-	71
--	I	-	AMAG\_04903$^{pm}$	-	69
--	I	-	AMAG\_15273	-	88
--	I	-	AMAG\_04635$^{m}$	-	68
--	I	-	AMAG\_17306$^{m}$	-	65
--	I	-	AMAG\_13117$^{m}$	-	65
--	I	-	AMAG\_15402$^{m}$	-	61
--	I	-	AMAG\_06540$^{m}$	-	61
--	I	-	AMAG\_16300$^{m}$	-	57
--	I	-	AMAG\_08894$^{m}$	-	57
--	I	-	AMAG\_17089	-	57
--	III	-	AMAG\_03685$^{m}$	-	64
--	III	-	AMAG\_09154$^{m}$	-	64
--	III	-	AMAG\_03372$^{m}$	-	62
--	III	-	AMAG\_04691	-	62
-Batrachochytrium dendrobatidis 	I	-	BDEG\_06990	-	74
--	I	-	BDEG\_06989$^{m}$	-	66
--	III	-	BDEG\_03796	-	37
--	I	-	BDEG\_02250	-	34
--	I	-	BDEG\_00355	-	42
--	III	-	BDEG\_00354	-	45
--	I	-	BDEG\_00353	-	40
--	I	-	BDEG\_00317	-	38
--	I	-	BDEG\_00316	-	37
--	I	-	BDEG\_00315	-	38
-Rozella allomycis 	I	-	OG9\_002085-RA$^{pm}$	-	70
--	-	-	OG9\_000744-RA	-	37/36/36
--	-	-	OG9\_003339-RA$^{m}$	-	33/33/32
--	-	-	OG9\_004960-RA	-	37/37/39
-Spizellomyces punctatus 	I	-	SPPG\_05404$^{pm}$	-	77
--	I	-	SPPG\_05884$^{m}$	-	76
--	III	-	SPPG\_01130$^{m}$	-	70
--	-	-	SPPG\_02793$^{m}$	-	52/42/46
--	-	-	SPPG\_08686	-	43/40/37
-Piromyces sp. 	I	-	PirE2\_1\_18092$^{pm}$	-	74
--	III	-	PirE2\_1\_48456$^{p}$	-	66
-Gonapodya prolifera 	I	-	jgi|101126$^{pm}$	-	74
--	I	-	jgi|136309	-	57
--	III	-	jgi|137180$^{m}$	-	63
--	I	-	jgi|269854$^{m}$	-	74
+Species	Class	Name	Protein ID	 Identity$^{a}$
+Neurospora crassa 	I	GNA-1	NCU06493$^{pm}$	100.00
+-	II	GNA-2	NCU06729	100.00
+-	III	GNA-3	NCU05206$^{m}$	100.00
+Ustilago maydis	IV	GPA4	UM05385	100.00
+Allomyces macrogynus	I	-	AMAG\_03583$^{pm}$	67.51
+-	I	-	AMAG\_04903$^{pm}$	69.58
+-	I	-	AMAG\_19038	51.69
+-	I	-	AMAG\_04635$^{m}$	60.45
+-	I	-	AMAG\_17306$^{m}$	62.57
+-	I	-	AMAG\_13117$^{m}$	62.02
+-	I	-	AMAG\_15402$^{m}$	61.52
+-	I	-	AMAG\_06540$^{m}$	61.24
+-	I	-	AMAG\_16300$^{m}$	56.86
+-	I	-	AMAG\_08894$^{m}$	56.46
+-	I	-	AMAG\_17089	54.12
+-	III	-	AMAG\_03685$^{m}$	62.42
+-	III	-	AMAG\_09154$^{m}$	62.50
+-	III	-	AMAG\_03372$^{m}$	61.28
+-	III	-	AMAG\_04691$^{m}$	61.28
+-	IV	-	AMAG\_14804	31.25
+-	IV	-	AMAG\_10307	31.25
+-	IV	-	AMAG\_03027	30.24
+-	IV	-	AMAG\_15273	33.73
+-	IV	-	AMAG\_15350	31.82
+Batrachochytrium dendrobatidis 	I	-	BDET\_07008$^{m}$	66.29
+-	I	-	BDET\_07009	70.68
+-	IV	-	BDET\_00356	32.02
+-	IV	-	BDET\_00319	32.92
+-	IV	-	BDET\_00318	35.94
+-	IV	-	BDET\_02255	32.64
+-	IV	-	BDET\_03805	36.65
+-	IV	-	BDET\_00317	33.87
+-	IV	-	BDET\_00355	34.31
+Catenaria anguillulae	I	-	CANG\_87018$^{m}$	56.42
+-	I	-	CANG\_118935$^{m}$	63.46
+-	I	-	CANG\_121680$^{pm}$	68.93
+-	I	-	CANG\_128029$^{m}$	58.50
+-	III	-	CANG\_127204$^{m}$	60.00
+-	IV	-	CANG\_41613	25.12
+-	IV	-	CANG\_124945	33.51
+-	IV	-	CANG\_39727	25.64
+-	IV	-	CANG\_64288	25.95
+-	IV	-	CANG\_64274	34.31
+-	IV	-	CANG\_400238	30.92
+-	IV	-	CANG\_41611	32.41
+-	IV	-	CANG\_32141	35.48
+Coelomomyces lativittatus	I	-	Clat|m.7068$^{m}$	58.33
+-	I	-	Clat|m.8359$^{p}$	74.52
+-	I	-	Clat|m.3708	42.97
+-	I	-	Clat|m.8360	71.79
+-	IV	-	Clat|m.18647	31.85
+Gonapodya prolifera 	I	-	GPRO\_136309	42.31
+-	I	-	GPRO\_269854$^{m}$	74.28
+-	I	-	GPRO\_101126$^{pm}$	74.22
+-	III	-	GPRO\_137180$^{m}$	61.80
+Homolaphlyctis polyrhiza	I	-	HPOL\_5216	74.09
+-	I	-	HPOL\_5217	59.70
+-	I	-	HPOL\_5220$^{m}$	59.52
+-	IV	-	HPOL\_3316	41.84
+-	IV	-	HPOL\_3319	30.77
+-	IV	-	HPOL\_0801	35.60
+-	IV	-	HPOL\_0269	30.69
+-	IV	-	HPOL\_3228	32.93
+-	IV	-	HPOL\_3922	37.25
+-	IV	-	HPOL\_1325	34.76
+-	IV	-	HPOL\_1328$^{p}$	41.30
+-	IV	-	HPOL\_3921	40.34
+-	IV	-	HPOL\_1332	32.81
+-	IV	-	HPOL\_1330	25.26
+-	IV	-	HPOL\_1305	45.78
+-	IV	-	HPOL\_3971	39.64
+-	IV	-	HPOL\_1329	38.68
+Orpinomyces sp.	III	-	ORPC\_07715$^{m}$	49.02
+-	III	-	ORPC\_10322$^{m}$	50.98
+-	IV	-	ORPC\_05449	27.72
+-	IV	-	ORPC\_06393	32.31
+-	IV	-	ORPC\_02011	28.79
+-	IV	-	ORPC\_05230	36.25
+-	IV	-	ORPC\_13580$^{m}$	34.76
+-	IV	-	ORPC\_04303	34.85
+Piromyces sp. 	I	-	PirE\_18092$^{pm}$	73.73
+-	III	-	PirE\_48456$^{p}$	65.69
+-	III	-	PirE\_63495	42.50
+-	IV	-	PirE\_61702	27.51
+-	IV	-	PirE\_8486	34.12
+-	IV	-	PirE\_48520	37.44
+-	IV	-	PirE\_63630	31.03
+-	IV	-	PirE\_13832	29.92
+-	IV	-	PirE\_46868	44.05
+-	IV	-	PirE\_14169$^{m}$	33.05
+Rozella allomycis 	I	-	OG9\_002085-RA$^{pm}$	69.77
+-	II	-	OG9\_003339-RA$^{m}$	30.11
+-	IV	-	OG9\_000744-RA	28.02
+-	IV	-	OG9\_004960-RA	36.80
+Spizellomyces punctatus 	I	-	SPPG\_05404$^{pm}$	76.77
+-	I	-	SPPG\_05884$^{m}$	75.64
+-	III	-	SPPG\_01130$^{m}$	66.85
+-	IV	-	SPPG\_02793$^{m}$	40.65
+-	IV	-	SPPG\_08686	37.12
