@@ -8,7 +8,7 @@ Tpac2Z73_rms <- read.table("../dat/Tpac2Z73_retCI.rms",header=T,sep="\t")
 Tpac2Z73_rms$Time <- Tpac2Z73_rms$Time/200
 Spun00350_rms <- read.table("../dat/Spun00350_retCI.rms",header=T,sep="\t")
 Spun00350_rms$Time <- Spun00350_rms$Time/200
-png("TpSp_mdoutRMS2.png",width=1000,height=2000)
+png("TpSp_mdoutRMS.png",width=1000,height=2000)
 par(mfrow=c(2,1),mar=c(6.5,7,6.5,1),mgp=c(5,1,0))
 plot(Tpac2Z73_mdout,type="l",yaxs="i",xaxs="i",ylim=c(-9000,0),col="darkslateblue",
      ylab="Potential Energy",

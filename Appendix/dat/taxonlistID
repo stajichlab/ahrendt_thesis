@@ -41,8 +41,8 @@ Amoe	OAM	Amoebozoa	1243176	Amoeboaphelidium	---	\cite{Amoe}
 Anid	AEF	Ascomycota	227321	Aspergillus nidulans	FGSC A4	\cite{Anid}
 Bcin	ALoF	Ascomycota	332648	Botrytis cinerea	B05.10	\cite{Bcin}
 Bcir	ZMF	Zygomycota	1314798	Backusella circina	FSU 941	\cite{Bcir}
-Bde2	CCF	Chytrids	684364	Batrachochytrium dendrobatidis	JEL 81 v1.0	\cite{Bde2}
-Bden	CCF	Chytrids	403673	Batrachochytrium dendrobatidis	JEL 423	\cite{Bden}
+Bde2	CCF	Chytrids	684364	Batrachochytrium dendrobatidis JEL 81	JEL81 v1.0	\cite{Bde2}
+Bden	CCF	Chytrids	403673	Batrachochytrium dendrobatidis JEL 423	JEL423 v1.0	\cite{Bden}
 Bder	AEF	Ascomycota	559298	Blastomyces dermatitidis	SLH14081	\cite{Bder}
 Beme	CBF	Chytrids	4808	Blastocladiella emersonii	---	\cite{Beme}
 Cang	CBF	Chytrids	109876	Catenaria anguillulae	PL171 v1.0	\cite{Cang}
@@ -95,7 +95,7 @@ Rall	MF	Cryptomycota	281847	Rozella allomycis	v.2012-05-03	\cite{Rall}
 Rdel	ZMF	Zygomycota	936053	Rhizopus delemar	---	\cite{Rdel}
 Rirr	ZMF	Zygomycota	588596	Rhizophagus irregularis	---	\cite{Rirr}
 Rmic	ZMF	Zygomycota	58291	Rhizopus microsporus var microsporus	v1.0	\cite{Rmic}
-Rory	ZMF	Zygomycota	64495	Rhizopus oryzae (delamar)	99-880,v.1	\cite{Rory}
+Rory	ZMF	Zygomycota	64495	Rhizopus oryzae	99-880,v.1	\cite{Rory}
 Sarc	OA	Animal	72019	Sphaeroforma arctica 	JP610	\cite{Origins}
 Scer	ASaF	Ascomycota	4932	Saccharomyces cerevisiae	S288C,v.2011-02-03	\cite{Scer}
 Sfim	ADF	Ascomycota	718229	Sporormia fimetaria	---	\cite{Sfim}

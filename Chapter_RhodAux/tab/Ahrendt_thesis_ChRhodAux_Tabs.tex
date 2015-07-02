@@ -1,87 +1,124 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Document: Thesis for PhD at UC Riverside                                    %%
-%% Title: Investigating the evolution of environmental and biotic interactions %%
-%%          in basal fungal lineages through comparative genomics              %%
-%% Author: Steven Ahrendt                                                      %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% RHODOPSIN TABLES %%
-%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Document: Thesis for PhD at UC Riverside                          %%
+%% Description: A comparative analysis of environment sensing in EDF %%
+%% Author: Steven Ahrendt                                            %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% RHODOPSIN TABLES %
+%%%%%%%%%%%%%%%%%%%%
 
-% G-protein subunit counts
-%<<label=ChRhodAux_Gprot,echo=FALSE,results=tex>>=
-%library(xtable)
-%data <- read.table("../dat/Gabg_counts.tsv",sep="\t",header=T,check.names=FALSE,stringsAsFactors=FALSE)
-%data$Species <- paste("\\emph{",data$Species,"}",sep="")
-%colnames(data)[-1] = c("G$\\alpha$","G$\\beta$","G$\\gamma$")
-%xdata <- xtable(data,label="tab:ChRhodAux_Gprot",caption=c("(long) G protein subunits identified through sequence similarity","(short) G protein distribution"))
-%hlines <- c(-1,-1,0,3,6,nrow(xdata),nrow(xdata))
-%print(xdata,
-%      table.placement="tbp",
-%      caption.placement="bottom",
-%      hline.after=hlines,
-%      include.rownames=FALSE,
-%      sanitize.text.function=identity
-%)
-%@
-
-% G protein comparisons
+% G protein comparisons, alpha
 % latex table generated in R 3.0.1 by xtable 1.7-4 package
-% Sat May 23 09:13:09 2015
-\begin{table}[tbp]
-\caption[G$\alpha$ subunit comparison]{first} 
-\label{tab:ChRhodA_Gcomp}
-\centering
-\begin{tabular}{llllll}
+% Wed Jul  1 15:28:30 2015
+{\renewcommand{\arraystretch}{0.5} % for vertical spacing
+{\footnotesize % for fontsize
+\begin{longtable}{llllr}
+\caption[G$\alpha$ subunit comparison]{Comparision of recovered G$\alpha$ subunits from basal fungal lineages to known G$\alpha$ proteins in \textit{N. crassa}. $^{a}$ Percent identity, when compared to NCU06493 (Group I), NCU06729 (Group II), NCU05206 (Group III), and UM05385 (Group IV); $^{p}$ Contains pertussis motif sequence; $^{m}$ Contains myrstoylation motif sequence.} \label{tab:ChRhodA_Gcomp} \\
   \hline
-Species & Class & Name & Broad & NCBI & Identity$^{a}$ \\ 
+Species & Class & Name & Protein ID & Identity$^{a}$ \\ 
   \hline
-\emph{Neurospora crassa } & I & GNA-1 & NCU06493$^{pm}$ & - & 100 \\ 
-  \emph{-} & II & GNA-2 & NCU06729 &  & 100 \\ 
-  \emph{-} & III & GNA-3 & NCU05206$^{m}$ &  & 100 \\ 
-  \emph{Allomyces macrogynus} & I & - & AMAG\_03583$^{pm}$ & - & 71 \\ 
-  \emph{-} & I & - & AMAG\_04903$^{pm}$ & - & 69 \\ 
-  \emph{-} & I & - & AMAG\_15273 & - & 88 \\ 
-  \emph{-} & I & - & AMAG\_04635$^{m}$ & - & 68 \\ 
-  \emph{-} & I & - & AMAG\_17306$^{m}$ & - & 65 \\ 
-  \emph{-} & I & - & AMAG\_13117$^{m}$ & - & 65 \\ 
-  \emph{-} & I & - & AMAG\_15402$^{m}$ & - & 61 \\ 
-  \emph{-} & I & - & AMAG\_06540$^{m}$ & - & 61 \\ 
-  \emph{-} & I & - & AMAG\_16300$^{m}$ & - & 57 \\ 
-  \emph{-} & I & - & AMAG\_08894$^{m}$ & - & 57 \\ 
-  \emph{-} & I & - & AMAG\_17089 & - & 57 \\ 
-  \emph{-} & III & - & AMAG\_03685$^{m}$ & - & 64 \\ 
-  \emph{-} & III & - & AMAG\_09154$^{m}$ & - & 64 \\ 
-  \emph{-} & III & - & AMAG\_03372$^{m}$ & - & 62 \\ 
-  \emph{-} & III & - & AMAG\_04691 & - & 62 \\ 
-  \emph{Batrachochytrium dendrobatidis } & I & - & BDEG\_06990 & - & 74 \\ 
-  \emph{-} & I & - & BDEG\_06989$^{m}$ & - & 66 \\ 
-  \emph{-} & III & - & BDEG\_03796 & - & 37 \\ 
-  \emph{-} & I & - & BDEG\_02250 & - & 34 \\ 
-  \emph{-} & I & - & BDEG\_00355 & - & 42 \\ 
-  \emph{-} & III & - & BDEG\_00354 & - & 45 \\ 
-  \emph{-} & I & - & BDEG\_00353 & - & 40 \\ 
-  \emph{-} & I & - & BDEG\_00317 & - & 38 \\ 
-  \emph{-} & I & - & BDEG\_00316 & - & 37 \\ 
-  \emph{-} & I & - & BDEG\_00315 & - & 38 \\ 
-  \emph{Rozella allomycis } & I & - & OG9\_002085-RA$^{pm}$ & - & 70 \\ 
-  \emph{-} & - & - & OG9\_000744-RA & - & 37/36/36 \\ 
-  \emph{-} & - & - & OG9\_003339-RA$^{m}$ & - & 33/33/32 \\ 
-  \emph{-} & - & - & OG9\_004960-RA & - & 37/37/39 \\ 
-  \emph{Spizellomyces punctatus } & I & - & SPPG\_05404$^{pm}$ & - & 77 \\ 
-  \emph{-} & I & - & SPPG\_05884$^{m}$ & - & 76 \\ 
-  \emph{-} & III & - & SPPG\_01130$^{m}$ & - & 70 \\ 
-  \emph{-} & - & - & SPPG\_02793$^{m}$ & - & 52/42/46 \\ 
-  \emph{-} & - & - & SPPG\_08686 & - & 43/40/37 \\ 
-  \emph{Piromyces sp. } & I & - & PirE2\_1\_18092$^{pm}$ & - & 74 \\ 
-  \emph{-} & III & - & PirE2\_1\_48456$^{p}$ & - & 66 \\ 
-  \emph{Gonapodya prolifera } & I & - & jgi|101126$^{pm}$ & - & 74 \\ 
-  \emph{-} & I & - & jgi|136309 & - & 57 \\ 
-  \emph{-} & III & - & jgi|137180$^{m}$ & - & 63 \\ 
-  \emph{-} & I & - & jgi|269854$^{m}$ & - & 74 \\ 
+\emph{Neurospora crassa } & I & GNA-1 & NCU06493$^{pm}$ & 100.00 \\ 
+  \emph{-} & II & GNA-2 & NCU06729 & 100.00 \\ 
+  \emph{-} & III & GNA-3 & NCU05206$^{m}$ & 100.00 \\ 
+  \emph{Ustilago maydis} & IV & GPA4 & UM05385 & 100.00 \\ 
+  \emph{Allomyces macrogynus} & I & - & AMAG\_03583$^{pm}$ & 67.51 \\ 
+  \emph{-} & I & - & AMAG\_04903$^{pm}$ & 69.58 \\ 
+  \emph{-} & I & - & AMAG\_19038 & 51.69 \\ 
+  \emph{-} & I & - & AMAG\_04635$^{m}$ & 60.45 \\ 
+  \emph{-} & I & - & AMAG\_17306$^{m}$ & 62.57 \\ 
+  \emph{-} & I & - & AMAG\_13117$^{m}$ & 62.02 \\ 
+  \emph{-} & I & - & AMAG\_15402$^{m}$ & 61.52 \\ 
+  \emph{-} & I & - & AMAG\_06540$^{m}$ & 61.24 \\ 
+  \emph{-} & I & - & AMAG\_16300$^{m}$ & 56.86 \\ 
+  \emph{-} & I & - & AMAG\_08894$^{m}$ & 56.46 \\ 
+  \emph{-} & I & - & AMAG\_17089 & 54.12 \\ 
+  \emph{-} & III & - & AMAG\_03685$^{m}$ & 62.42 \\ 
+  \emph{-} & III & - & AMAG\_09154$^{m}$ & 62.50 \\ 
+  \emph{-} & III & - & AMAG\_03372$^{m}$ & 61.28 \\ 
+  \emph{-} & III & - & AMAG\_04691$^{m}$ & 61.28 \\ 
+  \emph{-} & IV & - & AMAG\_14804 & 31.25 \\ 
+  \emph{-} & IV & - & AMAG\_10307 & 31.25 \\ 
+  \emph{-} & IV & - & AMAG\_03027 & 30.24 \\ 
+  \emph{-} & IV & - & AMAG\_15273 & 33.73 \\ 
+  \emph{-} & IV & - & AMAG\_15350 & 31.82 \\ 
+  \emph{Batrachochytrium dendrobatidis } & I & - & BDET\_07008$^{m}$ & 66.29 \\ 
+  \emph{-} & I & - & BDET\_07009 & 70.68 \\ 
+  \emph{-} & IV & - & BDET\_00356 & 32.02 \\ 
+  \emph{-} & IV & - & BDET\_00319 & 32.92 \\ 
+  \emph{-} & IV & - & BDET\_00318 & 35.94 \\ 
+  \emph{-} & IV & - & BDET\_02255 & 32.64 \\ 
+  \emph{-} & IV & - & BDET\_03805 & 36.65 \\ 
+  \emph{-} & IV & - & BDET\_00317 & 33.87 \\ 
+  \emph{-} & IV & - & BDET\_00355 & 34.31 \\ 
+  \emph{Catenaria anguillulae} & I & - & CANG\_87018$^{m}$ & 56.42 \\ 
+  \emph{-} & I & - & CANG\_118935$^{m}$ & 63.46 \\ 
+  \emph{-} & I & - & CANG\_121680$^{pm}$ & 68.93 \\ 
+  \emph{-} & I & - & CANG\_128029$^{m}$ & 58.50 \\ 
+  \emph{-} & III & - & CANG\_127204$^{m}$ & 60.00 \\ 
+  \emph{-} & IV & - & CANG\_41613 & 25.12 \\ 
+  \emph{-} & IV & - & CANG\_124945 & 33.51 \\ 
+  \emph{-} & IV & - & CANG\_39727 & 25.64 \\ 
+  \emph{-} & IV & - & CANG\_64288 & 25.95 \\ 
+  \emph{-} & IV & - & CANG\_64274 & 34.31 \\ 
+  \emph{-} & IV & - & CANG\_400238 & 30.92 \\ 
+  \emph{-} & IV & - & CANG\_41611 & 32.41 \\ 
+  \emph{-} & IV & - & CANG\_32141 & 35.48 \\ 
+  \emph{Coelomomyces lativittatus} & I & - & Clat|m.7068$^{m}$ & 58.33 \\ 
+  \emph{-} & I & - & Clat|m.8359$^{p}$ & 74.52 \\ 
+  \emph{-} & I & - & Clat|m.3708 & 42.97 \\ 
+  \emph{-} & I & - & Clat|m.8360 & 71.79 \\ 
+  \emph{-} & IV & - & Clat|m.18647 & 31.85 \\ 
+  \emph{Gonapodya prolifera } & I & - & GPRO\_136309 & 42.31 \\ 
+  \emph{-} & I & - & GPRO\_269854$^{m}$ & 74.28 \\ 
+  \emph{-} & I & - & GPRO\_101126$^{pm}$ & 74.22 \\ 
+  \emph{-} & III & - & GPRO\_137180$^{m}$ & 61.80 \\ 
+  \emph{Homolaphlyctis polyrhiza} & I & - & HPOL\_5216 & 74.09 \\ 
+  \emph{-} & I & - & HPOL\_5217 & 59.70 \\ 
+  \emph{-} & I & - & HPOL\_5220$^{m}$ & 59.52 \\ 
+  \emph{-} & IV & - & HPOL\_3316 & 41.84 \\ 
+  \emph{-} & IV & - & HPOL\_3319 & 30.77 \\ 
+  \emph{-} & IV & - & HPOL\_0801 & 35.60 \\ 
+  \emph{-} & IV & - & HPOL\_0269 & 30.69 \\ 
+  \emph{-} & IV & - & HPOL\_3228 & 32.93 \\ 
+  \emph{-} & IV & - & HPOL\_3922 & 37.25 \\ 
+  \emph{-} & IV & - & HPOL\_1325 & 34.76 \\ 
+  \emph{-} & IV & - & HPOL\_1328$^{p}$ & 41.30 \\ 
+  \emph{-} & IV & - & HPOL\_3921 & 40.34 \\ 
+  \emph{-} & IV & - & HPOL\_1332 & 32.81 \\ 
+  \emph{-} & IV & - & HPOL\_1330 & 25.26 \\ 
+  \emph{-} & IV & - & HPOL\_1305 & 45.78 \\ 
+  \emph{-} & IV & - & HPOL\_3971 & 39.64 \\ 
+  \emph{-} & IV & - & HPOL\_1329 & 38.68 \\ 
+  \emph{Orpinomyces sp.} & III & - & ORPC\_07715$^{m}$ & 49.02 \\ 
+  \emph{-} & III & - & ORPC\_10322$^{m}$ & 50.98 \\ 
+  \emph{-} & IV & - & ORPC\_05449 & 27.72 \\ 
+  \emph{-} & IV & - & ORPC\_06393 & 32.31 \\ 
+  \emph{-} & IV & - & ORPC\_02011 & 28.79 \\ 
+  \emph{-} & IV & - & ORPC\_05230 & 36.25 \\ 
+  \emph{-} & IV & - & ORPC\_13580$^{m}$ & 34.76 \\ 
+  \emph{-} & IV & - & ORPC\_04303 & 34.85 \\ 
+  \emph{Piromyces sp. } & I & - & PirE\_18092$^{pm}$ & 73.73 \\ 
+  \emph{-} & III & - & PirE\_48456$^{p}$ & 65.69 \\ 
+  \emph{-} & III & - & PirE\_63495 & 42.50 \\ 
+  \emph{-} & IV & - & PirE\_61702 & 27.51 \\ 
+  \emph{-} & IV & - & PirE\_8486 & 34.12 \\ 
+  \emph{-} & IV & - & PirE\_48520 & 37.44 \\ 
+  \emph{-} & IV & - & PirE\_63630 & 31.03 \\ 
+  \emph{-} & IV & - & PirE\_13832 & 29.92 \\ 
+  \emph{-} & IV & - & PirE\_46868 & 44.05 \\ 
+  \emph{-} & IV & - & PirE\_14169$^{m}$ & 33.05 \\ 
+  \emph{Rozella allomycis } & I & - & OG9\_002085-RA$^{pm}$ & 69.77 \\ 
+  \emph{-} & II & - & OG9\_003339-RA$^{m}$ & 30.11 \\ 
+  \emph{-} & IV & - & OG9\_000744-RA & 28.02 \\ 
+  \emph{-} & IV & - & OG9\_004960-RA & 36.80 \\ 
+  \emph{Spizellomyces punctatus } & I & - & SPPG\_05404$^{pm}$ & 76.77 \\ 
+  \emph{-} & I & - & SPPG\_05884$^{m}$ & 75.64 \\ 
+  \emph{-} & III & - & SPPG\_01130$^{m}$ & 66.85 \\ 
+  \emph{-} & IV & - & SPPG\_02793$^{m}$ & 40.65 \\ 
+  \emph{-} & IV & - & SPPG\_08686 & 37.12 \\ 
    \hline
-\end{tabular}
-
-\end{table}
+\end{longtable}
+} % footnote
+} % arraystretch
 %<<label=ChRhodAux_Gprotcomp,echo=FALSE,results=tex>>=
 %library(xtable)
 %data <- read.table("../dat/photosense_rep.tsv",sep="\t",header=T,check.names=FALSE,stringsAsFactors=FALSE)

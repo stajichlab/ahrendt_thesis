@@ -66,6 +66,9 @@
 \usepackage{booktabs}  % Added to make
 %\usepackage{array}     %  tables look nice
 %\usepackage{tabularx}  %
+\makeatletter
+\g@addto@macro\@floatboxreset\centering
+\makeatother
 %%-------------------------------------//
 
 \setcounter{secnumdepth}{3}
@@ -192,6 +195,7 @@ The data presented in the Appendix appears in \cite{James2013}. The co-author, D
 % RHODOPSIN AUXILLARY CHAPTER %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \input{./Chapter_RhodAux/tex/Ahrendt_thesis_ChRhodAux}
+\vspace*{\fill}
 \input{./Chapter_RhodAux/img/Ahrendt_thesis_ChRhodAux_Figs}
 \input{./Chapter_RhodAux/tab/Ahrendt_thesis_ChRhodAux_Tabs}
 
