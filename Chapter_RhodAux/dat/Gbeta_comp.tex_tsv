@@ -1,0 +1,16 @@
+Species	Name	Protein ID	Identity$^{a}$
+Neurospora crassa	GNB-1	NCU00440	100.00
+Allomyces macrogynus	-	AMAG_07700	73.10
+-	-	AMAG_09806	73.10
+-	-	AMAG_13458	72.22
+-	-	AMAG_13702	72.22
+Batrachochytrium dendrobatidis	-	BDET_08256	71.76
+Catenaria anguillulae	-	CANG_58015	72.22
+Coelomomyces lativitattus	-	Clat|m.18681	72.63
+Gonapodya prolifera		GPRO_151631	71.88
+Homolaphlyctis polyrhiza	-	HPOL_02087	71.68
+Orpinomyces sp.	-	ORPC_13992	71.93
+Piromyces sp.	-	PirE_58776	65.51
+-	-	PirE_62575	71.35
+Rozella allomycis	-	OG9_000940-RA	69.91
+Spizellomyces punctatus	-	SPPG_02467	73.10

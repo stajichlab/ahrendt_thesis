@@ -8,11 +8,11 @@
 
 % G protein comparisons, alpha
 % latex table generated in R 3.0.1 by xtable 1.7-4 package
-% Thu Jul  2 20:08:43 2015
+% Wed Jul  1 15:28:30 2015
 {\renewcommand{\arraystretch}{0.5} % for vertical spacing
 {\footnotesize % for fontsize
 \begin{longtable}{llllr}
-\caption[G$\alpha$ subunit comparison]{Comparision of recovered G$\alpha$ subunits from basal fungal lineages to known G$\alpha$ proteins in \textit{Neurospora crassa} and \textit{Ustilago maydis}. $^{a}$ Percent identity, when compared to NCU06493 (Group I), NCU06729 (Group II), NCU05206 (Group III), and UM05385 (Group IV); $^{p}$ Contains pertussis motif sequence; $^{m}$ Contains myrstoylation motif sequence.} \label{tab:ChRhodA_GAcomp} \\
+\caption[G$\alpha$ subunit comparison]{Comparision of recovered G$\alpha$ subunits from basal fungal lineages to known G$\alpha$ proteins in \textit{N. crassa}. $^{a}$ Percent identity, when compared to NCU06493 (Group I), NCU06729 (Group II), NCU05206 (Group III), and UM05385 (Group IV); $^{p}$ Contains pertussis motif sequence; $^{m}$ Contains myrstoylation motif sequence.} \label{tab:ChRhodA_Gcomp} \\
   \hline
 Species & Class & Name & Protein ID & Identity$^{a}$ \\ 
   \hline
@@ -118,53 +118,16 @@ Species & Class & Name & Protein ID & Identity$^{a}$ \\
    \hline
 \end{longtable}
 } % footnote
-} %arraystretch
-% G protein comparisions, beta
-% latex table generated in R 3.0.1 by xtable 1.7-4 package
-% Thu Jul  2 20:08:43 2015
-\begin{table}[hp]
-\caption[G$\beta$ subunit comparison.]{Comparison of recovered G$\beta$ subunits from basal fungal lineages to known G$\beta$ protein from \textit{Neurospora crassa}. $^{a}$ Percent identity when compared to NCU00440.} 
-\label{tab:ChRhodAux_GBcomp}
-\begin{tabular}{lllr}
-  \hline
-Species & Name & Protein ID & Identity$^{a}$ \\ 
-  \hline
-\emph{Neurospora crassa} & GNB-1 & NCU00440 & 100.00 \\ 
-  \emph{Allomyces macrogynus} & - & AMAG\_07700 & 73.10 \\ 
-  \emph{-} & - & AMAG\_09806 & 73.10 \\ 
-  \emph{-} & - & AMAG\_13458 & 72.22 \\ 
-  \emph{-} & - & AMAG\_13702 & 72.22 \\ 
-  \emph{Batrachochytrium dendrobatidis} & - & BDET\_08256 & 71.76 \\ 
-  \emph{Catenaria anguillulae} & - & CANG\_58015 & 72.22 \\ 
-  \emph{Coelomomyces lativitattus} & - & Clat|m.18681 & 72.63 \\ 
-  \emph{Gonapodya prolifera} &  & GPRO\_151631 & 71.88 \\ 
-  \emph{Homolaphlyctis polyrhiza} & - & HPOL\_02087 & 71.68 \\ 
-  \emph{Orpinomyces sp.} & - & ORPC\_13992 & 71.93 \\ 
-  \emph{Piromyces sp.} & - & PirE\_58776 & 65.51 \\ 
-  \emph{-} & - & PirE\_62575 & 71.35 \\ 
-  \emph{Rozella allomycis} & - & OG9\_000940-RA & 69.91 \\ 
-  \emph{Spizellomyces punctatus} & - & SPPG\_02467 & 73.10 \\ 
-   \hline
-\end{tabular}
-\end{table}
-% G protein comparisions, gamma
-% latex table generated in R 3.0.1 by xtable 1.7-4 package
-% Thu Jul  2 20:08:43 2015
-\begin{table}[hp]
-\caption[G$\gamma$ subunit comparison.]{Comparison of recovered G$\gamma$ subunits from basal fungal lineages to known G$\gamma$ protein from \textit{Neurospora crassa}. $^{a}$ Percent identity when compared to NCU00041.} 
-\label{tab:ChRhodAux_GGcomp}
-\begin{tabular}{lllr}
-  \hline
-Species & Name & Protein ID & Identity$^{a}$ \\ 
-  \hline
-\emph{Neurospora crassa} & GNG-1 & NCU00041 & 100.00 \\ 
-  \emph{Allomyces macrogynus} & - & AMAG\_18343 & 50.70 \\ 
-  \emph{Batrachochytrium dendrobatidis} & - & BDET\_01032 & 47.95 \\ 
-  \emph{Catenaria anguillulae} & - & CANG\_121658 & 50.70 \\ 
-  \emph{Homolaphlyctis polyrhiza} & - & HPOL\_0168 & 49.30 \\ 
-  \emph{Orpinomyces sp.} & - & ORPC\_11909 & 33.85 \\ 
-  \emph{Piromyces sp.} & - & PirE\_39971 & 43.24 \\ 
-  \emph{Rozella allomycis} & - & OG9\_001625 & 42.25 \\ 
-   \hline
-\end{tabular}
-\end{table}
+} % arraystretch
+%<<label=ChRhodAux_Gprotcomp,echo=FALSE,results=tex>>=
+%library(xtable)
+%data <- read.table("../dat/photosense_rep.tsv",sep="\t",header=T,check.names=FALSE,stringsAsFactors=FALSE)
+%data$Species <- paste("\\emph{",data$Species,"}",sep="")
+%xdata <- xtable(data,label="tab:ChRhodAux_photosenseSurvey",caption=c("(Long) Distribution of photosensory and related effector proteins in representative fungi","(short) Photosensory distribution"))
+%print(xdata,
+%      table.placement="tbp",
+%      caption.placement="bottom",
+%      include.rownames=FALSE,
+%      sanitize.text.function=identity
+%)
+%@

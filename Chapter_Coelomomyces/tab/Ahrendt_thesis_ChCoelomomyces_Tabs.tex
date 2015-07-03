@@ -4,12 +4,14 @@
 %%          in basal fungal lineages through comparative genomics              %%
 %% Author: Steven Ahrendt                                                      %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% COELOMOMYCES TABLES %%
-%%%%%%%%%%%%%%%%%%%%%%%%%
+% COELOMOMYCES TABLES %
+%%%%%%%%%%%%%%%%%%%%%%%
 
 % latex table generated in R 3.0.1 by xtable 1.7-4 package
-% Mon May 25 19:22:11 2015
+% Wed Jul  1 22:39:05 2015
 \begin{table}[hp]
+\caption[Top 20 PFAM domain counts]{Comparisions of counts of top 20 PFAM domains from \textit{C. lativittatus} as identified in other chytrids. Details for organism abbreviations can be found in appendix.} 
+\label{tab:ChClat_PFAM}
 \begin{tabular}{rlrrrrrr}
   \hline
 \hline
@@ -38,111 +40,114 @@ PF00069 & Pkinase & 297 & 409 & 185 & 354 & 404 & 149 \\
    \hline
 \hline
 \end{tabular}
-\caption[Top 20 PFAM domain counts]{Comparisions of counts of top 20 PFAM domains from \textit{C. lativittatus} as identified in other chytrids. Details for organism abbreviations can be found in appendix.} 
-\label{tab:ChClat_PFAM}
 \end{table}
 % latex table generated in R 3.0.1 by xtable 1.7-4 package
-% Mon May 25 19:22:11 2015
+% Wed Jul  1 22:39:05 2015
+\begin{landscape}
 \begin{table}[hp]
+\caption[BLASTP results for \textit{B. emersonii} $\beta$-carotene genes]{Top BLASTP hits against SwissProt for three \textit{B. emersonii} $\beta$-carotene metabolism genes. PMID references publications for SwissProt hit describing experimental verification of biological function} 
+\label{tab:ChClat_BemeVerify}
 \begin{tabular}{rllllllrrrr}
   \hline
 \hline
- & EMBLID & UniprotID & B..emersonii.Description & TopHitID & Top.hit.Description & Source.organism & X..Cov & E.val & X..ID & PMID \\ 
+  EMBLID & UniprotID & \emph{B. emersonii} Description & TopHitID & Top hit Description & Source organism & \% Cov & Eval & \% ID & PMID \\ 
   \hline
-1 & KJ468786 & A0A060GS52 & putative phytoene dehydrogenase & P54982 & phytoene desaturase & Phycomyces blakesleeanus NRRL 1555 &  85 & 0.00 &  53 & 9079885 \\ 
-  2 & KJ468785 & A0A060GVE0 & putative lycopene cyclase / phytoene synthase & Q9UUQ6 & bifunctional lycopene cyclase/phytoene synthase & Mucor circinelloides f. lusitanicus &  93 & 0.00 &  33 & 10951210 \\ 
-  3 & KJ468787 & A0A060GW07 & putative carotenoid dioxygenase & Q9I993 & Beta,beta-carotene 15,15'-monooxygenase & Gallus gallus &  51 & 0.00 &  27 & 10799297 \\ 
+  KJ468786 & A0A060GS52 & putative phytoene dehydrogenase & P54982 & phytoene desaturase & \emph{Phycomyces blakesleeanus} NRRL 1555 &  85 & 0.00 &  53 & 9079885 \\ 
+  KJ468785 & A0A060GVE0 & putative lycopene cyclase / phytoene synthase & Q9UUQ6 & bifunctional lycopene cyclase/phytoene synthase & \emph{Mucor circinelloides f. lusitanicus} &  93 & 0.00 &  33 & 10951210 \\ 
+  KJ468787 & A0A060GW07 & putative carotenoid dioxygenase & Q9I993 & Beta,beta-carotene 15,15'-monooxygenase & \emph{Gallus gallus} &  51 & 0.00 &  27 & 10799297 \\ 
    \hline
 \hline
 \end{tabular}
-\caption[BLASTP results for \textit{B. emersonii} $\beta$-carotene genes]{Top BLASTP hits against SwissProt for three \textit{B. emersonii} $\beta$-carotene metabolism genes. PMID references publications for SwissProt hit describing experimental verification of biological function} 
-\label{tab:ChClat_BemeVerify}
 \end{table}
+\end{landscape}
+
 % latex table generated in R 3.0.1 by xtable 1.7-4 package
-% Mon May 25 19:22:11 2015
+% Wed Jul  1 22:39:05 2015
 \begin{table}[hp]
+\caption[$\beta$-carotene HMM]{Sequences from KEGG used in generating HMMs for $\beta$-carotene metabolism searches} 
+\label{tab:ChClat_KEGGHMM}
 \begin{tabular}{rlll}
   \hline
 \hline
- & KEGG.ID & Description & Sequences.used \\ 
+  KEGG.ID & Description & Sequences used \\ 
   \hline
-1 & K10027 & phytoene desaturase & 442 Bacterial proteins, 49 Archaeal proteins \\ 
-  2 & K02291 & phytoene synthase & 6 Eukaryote proteins, 45 Plant proteins [excluded 49 Archaeal and 843 Bacterial proteins] \\ 
-  3 & K00515 & beta-carotene 15,15'-monooxygenase & 64 Metazoan proteins [excluded 1 Archaeal protein] \\ 
+  K10027 & phytoene desaturase & 442 Bacterial proteins, 49 Archaeal proteins \\ 
+  K02291 & phytoene synthase & 6 Eukaryote proteins, 45 Plant proteins [excluded 49 Archaeal and 843 Bacterial proteins] \\ 
+  K00515 & beta-carotene 15,15'-monooxygenase & 64 Metazoan proteins [excluded 1 Archaeal protein] \\ 
    \hline
 \hline
 \end{tabular}
-\caption[$\beta$-carotene HMM]{Sequences from KEGG used in generating HMMs for $\beta$-carotene metabolism searches} 
-\label{tab:ChClat_KEGGHMM}
 \end{table}
 % latex table generated in R 3.0.1 by xtable 1.7-4 package
-% Mon May 25 19:22:11 2015
+% Wed Jul  1 22:39:05 2015
 \begin{table}[hp]
+\caption[orthoMCL clusters for transmembrane proteins]{Unique clusters of proteins with 7-9 membrane-spanning domain, grouped using OrthoMCL} 
+\label{tab:ChClat_orthomcl}
 \begin{tabular}{rrll}
   \hline
 \hline
- & Cluster & Protein & Description \\ 
+  Cluster & Protein & Description \\ 
   \hline
-1 & 1127 & Clat$|$m.15402 & 7tm\_1;PF00001 \\ 
-  2 & 1127 & Clat$|$m.16182 & 7tm\_1;PF00001 \\ 
-  3 & 1127 & Clat$|$m.18794 & 7tm\_1;PF00001 \\ 
-  4 & 1127 & Clat$|$m.9338 & 7tm\_1;PF00001 \\ 
-  5 & 1175 & Clat$|$m.12314 & K\_trans;PF02705 \\ 
-  6 & 1175 & Clat$|$m.12319 & K\_trans;PF02705 \\ 
-  7 & 1175 & Clat$|$m.12322 & K\_trans;PF02705 \\ 
-  8 & 1176 & Clat$|$m.15582 & Grp1\_Fun34\_YaaH;PF01184 \\ 
-  9 & 1176 & Clat$|$m.15583 & Grp1\_Fun34\_YaaH;PF01184 \\ 
-  10 & 1176 & Clat$|$m.15584 & Grp1\_Fun34\_YaaH;PF01184 \\ 
-  11 & 1177 & Clat$|$m.16070 & DUF3533;PF12051 \\ 
-  12 & 1177 & Clat$|$m.16072 & DUF3533;PF12051 \\ 
-  13 & 1177 & Clat$|$m.16075 & DUF3533;PF12051 \\ 
-  14 & 1269 & Clat$|$m.11119 & UAA transporter;PF08449 \\ 
-  15 & 1269 & Clat$|$m.11121 & UAA transporter;PF08449 \\ 
-  16 & 1270 & Clat$|$m.12151 & -- \\ 
-  17 & 1270 & Clat$|$m.12173 & -- \\ 
-  18 & 1271 & Clat$|$m.8230 & -- \\ 
-  19 & 1271 & Clat$|$m.8232 & -- \\ 
-  20 & 1272 & Clat$|$m.12638 & -- \\ 
-  21 & 1272 & Clat$|$m.12641 & -- \\ 
-  22 & 1273 & Clat$|$m.14468 & Sodium:sulfate symporter;PF00939 \\ 
-  23 & 1273 & Clat$|$m.14469 & Sodium:sulfate symporter;PF00939 \\ 
-  24 & 1274 & Clat$|$m.14625 & -- \\ 
-  25 & 1274 & Clat$|$m.14626 & -- \\ 
-  26 & 1275 & Clat$|$m.4725 & NADH-Ubiquinone/plastoquinone;PF00361 \\ 
-  27 & 1275 & Clat$|$m.8681 & NADH-Ubiquinone/plastoquinone;PF00361 \\ 
-  28 & 1276 & Clat$|$m.4968 & Chitin synthase;PF03142 \\ 
-  29 & 1276 & Clat$|$m.4970 & Chitin synthase;PF03142 \\ 
+  1127 & Clat$|$m.15402 & 7tm\_1;PF00001 \\ 
+  1127 & Clat$|$m.16182 & 7tm\_1;PF00001 \\ 
+  1127 & Clat$|$m.18794 & 7tm\_1;PF00001 \\ 
+  1127 & Clat$|$m.9338 & 7tm\_1;PF00001 \\ 
+  1175 & Clat$|$m.12314 & K\_trans;PF02705 \\ 
+  1175 & Clat$|$m.12319 & K\_trans;PF02705 \\ 
+  1175 & Clat$|$m.12322 & K\_trans;PF02705 \\ 
+  1176 & Clat$|$m.15582 & Grp1\_Fun34\_YaaH;PF01184 \\ 
+  1176 & Clat$|$m.15583 & Grp1\_Fun34\_YaaH;PF01184 \\ 
+  1176 & Clat$|$m.15584 & Grp1\_Fun34\_YaaH;PF01184 \\ 
+  1177 & Clat$|$m.16070 & DUF3533;PF12051 \\ 
+  1177 & Clat$|$m.16072 & DUF3533;PF12051 \\ 
+  1177 & Clat$|$m.16075 & DUF3533;PF12051 \\ 
+  1269 & Clat$|$m.11119 & UAA transporter;PF08449 \\ 
+  1269 & Clat$|$m.11121 & UAA transporter;PF08449 \\ 
+  1270 & Clat$|$m.12151 & -- \\ 
+  1270 & Clat$|$m.12173 & -- \\ 
+  1271 & Clat$|$m.8230 & -- \\ 
+  1271 & Clat$|$m.8232 & -- \\ 
+  1272 & Clat$|$m.12638 & -- \\ 
+  1272 & Clat$|$m.12641 & -- \\ 
+  1273 & Clat$|$m.14468 & Sodium:sulfate symporter;PF00939 \\ 
+  1273 & Clat$|$m.14469 & Sodium:sulfate symporter;PF00939 \\ 
+  1274 & Clat$|$m.14625 & -- \\ 
+  1274 & Clat$|$m.14626 & -- \\ 
+  1275 & Clat$|$m.4725 & NADH-Ubiquinone/plastoquinone;PF00361 \\ 
+  1275 & Clat$|$m.8681 & NADH-Ubiquinone/plastoquinone;PF00361 \\ 
+  1276 & Clat$|$m.4968 & Chitin synthase;PF03142 \\ 
+  1276 & Clat$|$m.4970 & Chitin synthase;PF03142 \\ 
    \hline
 \hline
 \end{tabular}
-\caption[orthoMCL short caption]{orthoMCL Long caption} 
-\label{tab:ChClat_orthomcl}
 \end{table}
 
 % latex table generated in R 3.0.1 by xtable 1.7-4 package
-% Mon May 25 19:22:11 2015
+% Wed Jul  1 22:39:05 2015
 \begin{table}[hp]
+\caption[\textit{C. lativittatus} photosensing proteins]{Predicted \textit{C. lativittatus} proteins associated with photosensing. PFAM Family definitions: PF13426, "PAS domain" [PAS\_9]; PF08447, "PAS fold" [PAS\_3]; PF00001, "7 transmembrane receptor (rhodopsin family)" [7tm\_1]; PF01036, "bacteriorhodopsin-like protein" [Bac\_rhodopsin]; PF10317, "Serpentine type 7TM GPCR chemoreceptor Srd" [7TM\_GPCR\_Srd]; PF00211, "Adenylate and Guanylate cyclase catalytic domain" [Guanylate\_cyc]} 
+\label{tab:ChClat_photosensing}
 \begin{tabular}{rlllllr}
   \hline
 \hline
- & OrfID & Type & UniProtKB.BLAST.match & InterPro & TMPred & FPKM \\ 
+  OrfID & Type & UniProtKB.BLAST.match & InterPro & TMPred & FPKM \\ 
   \hline
-1 & m.12730 & WC-1 & Neurospora crassa\verb|^|Q01371\verb|^|4e-43 & -- & -- & 2.37 \\ 
-  2 & m.7819 & OpGC & Halobacterium sp. NRC-1\verb|^|P71411\verb|^|7.4e-07;Drosophila melanogaster\verb|^|Q8INF0\verb|^|8e-44 & PF01036\verb|^|32:241\verb|^|5.0e-37;PF00211\verb|^|355:533\verb|^|4.6e-51 & -- & 18.00 \\ 
-  3 & m.9338 & Op & Danio rerio\verb|^|Q2KNE5\verb|^|3e-08 & PF10317\verb|^|21:205\verb|^|1.9e-7;PF00001\verb|^|50:355\verb|^|1.5e-17 & -- & 12.40 \\ 
-  4 & m.15402 & Op & Apis mellifera\verb|^|Q17053\verb|^|8e-10 & PF00001\verb|^|36:341\verb|^|1.0e-21 & -- & 5.17 \\ 
-  5 & m.16182 & Op & Cambarus hubrichti\verb|^|O18312\verb|^|1e-04 & PF00001\verb|^|14:255\verb|^|9.7e-13 & -- & 4.70 \\ 
-  6 & m.18794 & Op & Limulus polyphemus\verb|^|P35360\verb|^|3e-10 & PF00001\verb|^|20:323\verb|^|5.9e-22 & -- & 1.62 \\ 
-  7 & m.11198 & Op & Halobacterium sp. AUS-2\verb|^|P29563\verb|^|3e-30 & PF01036\verb|^|32:241\verb|^|5.0e-37 & -- & 1.54 \\ 
+  m.12730 & WC-1 & \emph{Neurospora crassa}\verb|^|Q01371\verb|^|4e-43 & -- & -- & 2.37 \\ 
+  m.7819 & OpGC & \emph{Halobacterium sp.} NRC-1\verb|^|P71411\verb|^|7.4e-07;Drosophila melanogaster\verb|^|Q8INF0\verb|^|8e-44 & PF01036\verb|^|32:241\verb|^|5.0e-37;PF00211\verb|^|355:533\verb|^|4.6e-51 & -- & 18.00 \\ 
+  m.9338 & Op & \emph{Danio rerio}\verb|^|Q2KNE5\verb|^|3e-08 & PF10317\verb|^|21:205\verb|^|1.9e-7;PF00001\verb|^|50:355\verb|^|1.5e-17 & -- & 12.40 \\ 
+  m.15402 & Op & \emph{Apis mellifera}\verb|^|Q17053\verb|^|8e-10 & PF00001\verb|^|36:341\verb|^|1.0e-21 & -- & 5.17 \\ 
+  m.16182 & Op & \emph{Cambarus hubrichti}\verb|^|O18312\verb|^|1e-04 & PF00001\verb|^|14:255\verb|^|9.7e-13 & -- & 4.70 \\ 
+  m.18794 & Op & \emph{Limulus polyphemus}\verb|^|P35360\verb|^|3e-10 & PF00001\verb|^|20:323\verb|^|5.9e-22 & -- & 1.62 \\ 
+  m.11198 & Op & \emph{Halobacterium sp.} AUS-2\verb|^|P29563\verb|^|3e-30 & PF01036\verb|^|32:241\verb|^|5.0e-37 & -- & 1.54 \\ 
    \hline
 \hline
 \end{tabular}
-\caption[\textit{C. lativittatus} photosensing proteins]{Predicted \textit{C. lativittatus} proteins associated with photosensing. PFAM Family definitions: PF13426, "PAS domain" [PAS\_9]; PF08447, "PAS fold" [PAS\_3]; PF00001, "7 transmembrane receptor (rhodopsin family)" [7tm\_1]; PF01036, "bacteriorhodopsin-like protein" [Bac\_rhodopsin]; PF10317, "Serpentine type 7TM GPCR chemoreceptor Srd" [7TM\_GPCR\_Srd]; PF00211, "Adenylate and Guanylate cyclase catalytic domain" [Guanylate\_cyc]} 
-\label{tab:ChClat_photosensing}
 \end{table}
 % latex table generated in R 3.0.1 by xtable 1.7-4 package
-% Mon May 25 19:22:11 2015
+% Wed Jul  1 22:39:05 2015
 \begin{table}[hp]
+\caption[FAADB predictions for chytrid proteins]{Fungal Adhesin and Adhesin-like Database (FAADB) predictions for chytrid proteins. Descriptions for chytrid proteins identified using positive dataset from predicted adhesin and adhesin-like proteins.} 
+\label{tab:ChClat_FAADB}
 \begin{tabular}{rrllrrr}
   \hline
 \hline
@@ -205,32 +210,30 @@ Amac$|$AMAG\_17113T0 & -0.74 & Q9DBG3.1 & AP-2 complex subunit beta & 55.26 & 90
    \hline
 \hline
 \end{tabular}
-\caption[FAADB short caption]{FAADB Long caption} 
-\label{tab:ChClat_FAADB}
 \end{table}
 % latex table generated in R 3.0.1 by xtable 1.7-4 package
-% Mon May 25 19:22:11 2015
+% Wed Jul  1 22:39:05 2015
 \begin{table}[hp]
+\caption[BLASTP hits for \textit{C. lat} m.10080]{BLASTP results using \textit{C. lativittatus} ORF m.10080 as a query against SwissProt database. Top five hits are to liver X receptors (LXRs) from various mammalian species. The next siz hits are only those which were to 20-hydroxy-ecdysone receptors, all of which are from insects} 
+\label{tab:ChClat_LBD}
 \begin{tabular}{rlrll}
   \hline
 \hline
- & Coverage & E.val & X..Identity & Description \\ 
+ & Coverage & Eval & \% Identity & Description \\ 
   \hline
-Q5E9B6.1 & 40\% & 0.00 & 28\% & Liver X receptor alpha [Bos taurus] \\ 
-  Q13133.2 & 40\% & 0.00 & 28\% & Liver X receptor alpha [Homo sapiens] \\ 
-  Q62685.1 & 40\% & 0.00 & 28\% & Liver X receptor alpha [Rattus norvegicus] \\ 
-  Q9Z0Y9.3 & 40\% & 0.00 & 28\% & Liver X receptor alpha [Mus musculus] \\ 
-  P55055.2 & 40\% & 0.00 & 28\% & Liver X receptor beta [Homo sapiens] \\ 
+Q5E9B6.1 & 40\% & 0.00 & 28\% & Liver X receptor alpha [\emph{Bos taurus}] \\ 
+  Q13133.2 & 40\% & 0.00 & 28\% & Liver X receptor alpha [\emph{Homo sapiens}] \\ 
+  Q62685.1 & 40\% & 0.00 & 28\% & Liver X receptor alpha [\emph{Rattus norvegicus}] \\ 
+  Q9Z0Y9.3 & 40\% & 0.00 & 28\% & Liver X receptor alpha [\emph{Mus musculus}] \\ 
+  P55055.2 & 40\% & 0.00 & 28\% & Liver X receptor beta [\emph{Homo sapiens}] \\ 
    \hline
-P49880.2 & 36\% & 0.00 & 28\% & 20-hydroxy-ecdysone receptor [Aedes aegypti] \\ 
-  P49883.1 & 42\% & 0.00 & 24\% & 20-hydroxy-ecdysone receptor [Manduca sexta] \\ 
-  P49881.1 & 42\% & 0.00 & 24\% & 20-hydroxy-ecdysone receptor [Bombyx mori] \\ 
-  P34021.1 & 36\% & 0.00 & 26\% & 20-hydroxy-ecdysone receptor [Drosophila melongaster] \\ 
-  O18531.2 & 36\% & 0.00 & 27\% & 20-hydroxy-ecdysone receptor [Lucilia cuprina] \\ 
-  P49882.1 & 36\% & 0.00 & 25\% & 20-hydroxy-ecdysone receptor [Chironomus tentans] \\ 
+P49880.2 & 36\% & 0.00 & 28\% & 20-hydroxy-ecdysone receptor [\emph{Aedes aegypti}] \\ 
+  P49883.1 & 42\% & 0.00 & 24\% & 20-hydroxy-ecdysone receptor [\emph{Manduca sexta}] \\ 
+  P49881.1 & 42\% & 0.00 & 24\% & 20-hydroxy-ecdysone receptor [\emph{Bombyx mori}] \\ 
+  P34021.1 & 36\% & 0.00 & 26\% & 20-hydroxy-ecdysone receptor [\emph{Drosophila melongaster}] \\ 
+  O18531.2 & 36\% & 0.00 & 27\% & 20-hydroxy-ecdysone receptor [\emph{Lucilia cuprina}] \\ 
+  P49882.1 & 36\% & 0.00 & 25\% & 20-hydroxy-ecdysone receptor [\emph{Chironomus tentans}] \\ 
    \hline
 \hline
 \end{tabular}
-\caption[BLASTP hits for \textit{C. lat} m.10080]{BLASTP results using \textit{C. lativittatus} ORF m.10080 as a query against SwissProt database. Top five hits are to liver X receptors (LXRs) from various mammalian species. The next siz hits are only those which were to 20-hydroxy-ecdysone receptors, all of which are from insects} 
-\label{tab:ChClat_LBD}
 \end{table}
