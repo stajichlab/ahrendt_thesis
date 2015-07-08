@@ -4,80 +4,83 @@
 %%          in basal fungal lineages through comparative genomics              %%
 %% Author: Steven Ahrendt                                                      %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% INHIBITION TABLES %%
-%%%%%%%%%%%%%%%%%%%%%%%
+% INHIBITION TABLES %
+%%%%%%%%%%%%%%%%%%%%%
 
 % Kinase Mutant Screen
 % latex table generated in R 3.0.1 by xtable 1.7-4 package
-% Mon May 25 23:37:19 2015
-\begin{table}[hp]
-\caption{Kinase and phosphotase mutants used in screening against \textit{H. polyrhiza} sporangia.} 
+% Mon Jul  6 11:37:43 2015
+\vfill \break
+\begin{table}[htbp]
+\caption[List of \textit{N. crassa} mutants screened for sensitivity]{List of \textit{N. crassa} kinase and phosphatase mutants used in screening against \textit{H. polyrhiza} sporangia. Vegetative growth of all mutants on mPmTG agar plates was inhibited by \textit{Hp} sporangia. Group/Family abbreviations: S/T (serine/threonine), CMGC (cyclin-dependent, mitogen-activated,glycogen synthase, and cyclin-dependent protein kinase-like kinases), STE (sterile), CAMK/L (Ca$^{2+}$/calmodulin-dependent protein kinase, "CAMK"-like kinase), AGC, PPP (phosphoprotein phosphatase), MAPK (mitogen-activated protein kinase), PEK (pancreatic alpha-subunit of eukaryotic initiation factor kinase), WEE (small), YANK (yet another novel kinase), CLK/SRPK (cyclin-dependent protein kinase-like kinase / serine-rich protein kinase), VPS (vacuole protein sorting), CDK (cyclin-dependent protein kinase), IKS (Ira1 kinase suppressor).} 
 \label{tab:ChInhib_Kinase}
 \begin{tabular}{lllll}
   \hline
-Mutant & Group & Family & NCU & Neurospora\_gene \\ 
+  Group & Family & NCU & \emph{N. crassa} gene \\ 
   \hline
-x1 & pp2A & - & - & - \\ 
-  x2 & ppt-1 & - & - & - \\ 
-  x3 & CMGC & MAPK & NCU07024 & os-2 \\ 
-  x4 & STE & STE11 & NCU03071 & os-4 \\ 
-  x5 & STE & STE7 & NCU00587 & os-5 \\ 
-  1846 & CAMK & CAMKL & NCU00914 & stk-16 \\ 
-  1849 & Other & PEK & NCU01187 & cpc-3 \\ 
-  1885 & STE & STE20 & NCU03894 & stk-4 \\ 
-  1888 & Other & WEE & NCU04326 & stk-29 \\ 
-  1916 & Unclassified & - & NCU06421 & stk-41 \\ 
-  1917 & Unclassified & - & NCU06422 & stk-42 \\ 
-  1919 & Unclassified & - & NCU06583 & stk-44 \\ 
-  1920 & Other & VPS15 & NCU06626 & stk-45 \\ 
-  1925 & AGC & YANK & NCU07062 & stk-49 \\ 
-  1936 & CGMC & CLK/SRPK & NCU10004 & stk-56 \\ 
-  1937 & Unclassified & - & NCU05638 & stk-34 \\ 
-  1944 & CMGC & CDK & NCU07880 & prk-6 \\ 
-  1946 & Other & IKS & NCU08177 & stk-51 \\ 
-  2294 & CAMK & CAMKL & NCU04747 & stk-31 \\ 
+ S/T & PPP & NCU06563 & \emph{pp2A} \\ 
+  S/T & PPP & NCU01433 & \emph{ppt-1} \\ 
+  CMGC & MAPK & NCU07024 & \emph{os-2} \\ 
+  STE & STE11 & NCU03071 & \emph{os-4} \\ 
+  STE & STE7 & NCU00587 & \emph{os-5} \\ 
+  CAMK & CAMKL & NCU00914 & \emph{stk-16} \\ 
+  Other & PEK & NCU01187 & \emph{cpc-3} \\ 
+  STE & STE20 & NCU03894 & \emph{stk-4} \\ 
+  Other & WEE & NCU04326 & \emph{stk-29} \\ 
+  Unclassified & -- & NCU06421 & \emph{stk-41} \\ 
+  Unclassified & -- & NCU06422 & \emph{stk-42} \\ 
+  Unclassified & -- & NCU06583 & \emph{stk-44} \\ 
+  Other & VPS15 & NCU06626 & \emph{stk-45} \\ 
+  AGC & YANK & NCU07062 & \emph{stk-49} \\ 
+  CGMC & CLK/SRPK & NCU10004 & \emph{stk-56} \\ 
+  Unclassified & - & NCU05638 & \emph{stk-34} \\ 
+  CMGC & CDK & NCU07880 & \emph{prk-6} \\ 
+  Other & IKS & NCU08177 & \emph{stk-51} \\ 
+  CAMK & CAMKL & NCU04747 & \emph{stk-31} \\ 
    \hline
 \end{tabular}
 \end{table}
 % Chytrid secretome
 % latex table generated in R 3.0.1 by xtable 1.7-4 package
-% Mon May 25 23:37:19 2015
-\begin{table}[hp]
+% Mon Jul  6 11:37:43 2015
+\begin{table}[htbp]
+\centering
 \caption[Chytrid secretome predictions]{Proteins predicted to be in the secretomes of basal fungi} 
 \label{tab:ChInhib_ChySec}
-\begin{tabular}{rr}
+\begin{tabular}{lr}
   \hline
- & Num of proteins \\ 
+Species & Num of proteins \\ 
   \hline
-R. allomycis &  32 \\ 
-  G. prolifera & 101 \\ 
-  Piromyces E2 & 269 \\ 
-  Orpinomyces C1 & 280 \\ 
-  H. polyrhiza &  58 \\ 
-  S. punctatus &  66 \\ 
-  B. dendrobatidis & 133 \\ 
-  A. macrogynus &  57 \\ 
-  C. anguillulae & 101 \\ 
-  C. lativittatus &  98 \\ 
+\emph{R. allomycis} &  32 \\ 
+  \emph{G. prolifera} & 101 \\ 
+  \emph{Piromyces E2} & 269 \\ 
+  \emph{Orpinomyces C1} & 280 \\ 
+  \emph{H. polyrhiza} &  58 \\ 
+  \emph{S. punctatus} &  66 \\ 
+  \emph{B. dendrobatidis} & 133 \\ 
+  \emph{A. macrogynus} &  57 \\ 
+  \emph{C. anguillulae} & 101 \\ 
+  \emph{C. lativittatus} &  98 \\ 
    \hline
 \end{tabular}
 \end{table}
 % Terpene hits
 % latex table generated in R 3.0.1 by xtable 1.7-4 package
-% Mon May 25 23:37:19 2015
-\begin{table}[hp]
+% Mon Jul  6 11:37:43 2015
+\begin{table}[htbp]
+\centering
 \caption[Putative Hp terpene synthases]{Putative hits for terpene synthases in Hp} 
 \label{tab:ChInhib_Terpene}
 \begin{tabular}{rlrrrl}
   \hline
- H. polyrhiza Query & SwissProt top hit & \%ID & AlnLength & Eval \\ 
+ & H. polyrhiza Query & SwissProt top hit & \%ID & AlnLength & Eval \\ 
   \hline
-Hpol$|$HPOL\_00361 & Q8RWI9.2 & 46.24 & 731 & 3e-69  \\ 
-  Hpol$|$HPOL\_00402 & Q10164.1 & 39.46 & 185 & 2e-34  \\ 
-  Hpol$|$HPOL\_00404 & Q5JSM7.1 & 38.57 &  70 & 0.11  \\ 
-  Hpol$|$HPOL\_01049 & Q6GLK6.1 & 50.38 & 528 & 3e-139  \\ 
-  Hpol$|$HPOL\_02675 & P53798.2 & 48.02 & 379 & 3e-102  \\ 
-  Hpol$|$HPOL\_03748 & D3ZN43.1 & 43.38 & 219 & 2e-63  \\ 
+Hpol$|$HPOL\_00361 & Q8RWI9.2 & 46.24 & 731 & 0.00 &  \\ 
+  Hpol$|$HPOL\_00402 & Q10164.1 & 39.46 & 185 & 0.00 &  \\ 
+  Hpol$|$HPOL\_00404 & Q5JSM7.1 & 38.57 &  70 & 0.11 &  \\ 
+  Hpol$|$HPOL\_01049 & Q6GLK6.1 & 50.38 & 528 & 0.00 &  \\ 
+  Hpol$|$HPOL\_02675 & P53798.2 & 48.02 & 379 & 0.00 &  \\ 
+  Hpol$|$HPOL\_03748 & D3ZN43.1 & 43.38 & 219 & 0.00 &  \\ 
    \hline
 \end{tabular}
 \end{table}
