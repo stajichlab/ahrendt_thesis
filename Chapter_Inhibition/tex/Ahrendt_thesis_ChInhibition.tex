@@ -1,16 +1,15 @@
-﻿%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Document: Thesis for PhD at UC Riverside                                    %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Document: Thesis for PhD at UC Riverside%%
 %% Title: Investigating the evolution of environmental and biotic interactions %%
-%%          in basal fungal lineages through comparative genomics              %%
-%% Author: Steven Ahrendt                                                      %%
+%%  in basal fungal lineages through comparative genomics  %%
+%% Autnor: Steven Ahrendt  %%
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% INHIBITION CHAPTER %%
 %%%%%%%%%%%%%%%%%%%%%%%%
 \chapter{Growth suppression properties of the Chytridiomycete \textit{Homolaphlyctis polyrhiza} JEL142}
 \label{chap:HpInhibition}
-
 %%%%%%%%%%%%%%%%%%
-%% Introduction %%
+%% INTRODUCTION %%
 %%%%%%%%%%%%%%%%%%
 \section{Introduction}
 Interactions between microorganisms are facilitated by biological signals. These include proteins, small molecules, and various chemical compounds, either bound to the cell surface or secreted into the environment. Many of these compounds can be classified as secondary metabolites: chemicals not required for growth or development of the organism. A number of well-known naturally-derived antifungal products, including toxins \cite{Kokkonen2010}, antimicrobials \cite{Wiemann2014}, and plant hormone mimics \cite{Howlett2006}, can be classified as secondary metabolites. Secretion by an organism in a resource-limited environment of secondary metabolites which also happen to negatively impact neighboring organisms would confer a selective advantage upon the producer. Thus, resource competition likely plays a role in the evolution of natural antifungal production \cite{Vicente2003}.\\
@@ -50,20 +49,20 @@ To assess the breadth of fungal species susceptible to \textit{Hp} sporangia, \t
 
 %---- in silico screen ----%
 \subsection*{Secretome and small-metabolite prediction}
-Putative secondary metabolite clusters were predicted from the annotated proteomes of \textit{Bd, Sp, Am, Ca} 
+Putative secondary metabolite clusters were predicted from the annotated proteomes of \textit{Bd, Sp, Am, Ca}
 and transcriptome from \textit{Cl} using antiSMASH \cite{Blin2013} and SMURF \cite{Khaldi2010}.\\
-\indent To identify putative secretome proteins, these proteomes were also subjected to 
-predictive workflow optimized for fungi \cite{Min2010}. The workflow described therein 
-evaluated the prediction accuracies for a number of programs for eukaryotic secretome prediction : 
-SignalP \cite{Bendtsen2004}, Phobius \cite{Kall2004,Kall2007}, TargetP 
-\cite{Emanuelsson2000,Emanuelsson2007}, and WolfPSort \cite{Sprenger2006,Horton2007}. 
-These programs were evaluated indiviually and in combination with TMHMM \cite{Krogh2001} and PS-Scan 
-\cite{deCastro2006} and ranked by Mathews' Correlation Coefficient (MCC) \cite{Matthews1975,Baldi2000,Menne2000} 
-which is a measure of Sensitivity and Specificity. The fungal prediction workflow with 
-the highest accuracy (MCC: 84\%) combined SignalP/TMHMM/WolfPsort/Phobius/PS-Scan, in that order. 
-Here, I used SignalP (v4.1), WolfpSort (v0.2), and Phobius (v1.01) in the specific order given above to predict secreted proteins from 
-the proteomes for chytrids listed in Table~\ref{tab:AppData_taxa}. TMHMM (v2.0) and PS-Scan (v1.79) were 
-used to filter out transmembrane and ER targeting proteins, respectively.\\ 
+\indent To identify putative secretome proteins, these proteomes were also subjected to
+predictive workflow optimized for fungi \cite{Min2010}. The workflow described therein
+evaluated the prediction accuracies for a number of programs for eukaryotic secretome prediction :
+SignalP \cite{Bendtsen2004}, Phobius \cite{Kall2004,Kall2007}, TargetP
+\cite{Emanuelsson2000,Emanuelsson2007}, and WolfPSort \cite{Sprenger2006,Horton2007}.
+These programs were evaluated indiviually and in combination with TMHMM \cite{Krogh2001} and PS-Scan
+\cite{deCastro2006} and ranked by Mathews' Correlation Coefficient (MCC) \cite{Matthews1975,Baldi2000,Menne2000}
+which is a measure of Sensitivity and Specificity. The fungal prediction workflow with
+the highest accuracy (MCC: 84\%) combined SignalP/TMHMM/WolfPsort/Phobius/PS-Scan, in that order.
+Here, I used SignalP (v4.1), WolfpSort (v0.2), and Phobius (v1.01) in the specific order given above to predict secreted proteins from
+the proteomes for chytrids listed in Table~\ref{tab:AppData_taxa}. TMHMM (v2.0) and PS-Scan (v1.79) were
+used to filter out transmembrane and ER targeting proteins, respectively.\\
 
 %---- Temperature / pH growth ----%
 \subsection*{Temperature and pH growth assays}
