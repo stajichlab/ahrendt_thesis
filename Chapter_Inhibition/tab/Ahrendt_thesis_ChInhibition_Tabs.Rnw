@@ -1,8 +1,9 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%% Document: Thesis for PhD at UC Riverside                          %%
-%% Description: A comparative analysis of environment sensing in EDF %%
-%% Author: Steven Ahrendt                                            %%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%% Document: Thesis for PhD at UC Riverside                                    %%
+%% Title: Investigating the evolution of environmental and biotic interactions %%
+%%          in basal fungal lineages through comparative genomics              %%
+%% Author: Steven Ahrendt                                                      %%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % INHIBITION TABLES %
 %%%%%%%%%%%%%%%%%%%%%
 
@@ -17,9 +18,14 @@ print(xdata,table.placemet="tbp",caption.placement="top",include.rownames=FALSE)
 % Chytrid secretome
 <<label=ChInhib_ChySec,echo=FALSE,results=tex>>=
 library(xtable)
-data <- read.table("../dat/ChytridSecretome.tsv",sep="\t",header=T,check.names=FALSE,row.names=1)
+data <- read.table("../dat/ChytridSecretome.tsv",sep="\t",header=T,check.names=FALSE,stringsAsFactors=FALSE)
+data$Species <- paste("\\emph{",data$Species,"}",sep="")
 xdata <- xtable(data,label="tab:ChInhib_ChySec",caption=c("Proteins predicted to be in the secretomes of basal fungi","Chytrid secretome predictions"))
-print(xdata,table.placemet="t",caption.placement="top")
+print(xdata,
+      table.placemet="tbp",
+      caption.placement="top",
+      include.rownames=FALSE,
+      sanitize.text.function=identity)
 @
 
 % Terpene hits
