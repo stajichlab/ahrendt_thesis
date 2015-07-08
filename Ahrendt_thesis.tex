@@ -148,7 +148,7 @@ Dr. Katherine A. Borkovich}
 %%%%%%%%%%%%%%%%%%%%
 \begin{acknowledgements}
 There are many people to whom I am deeply indebted for their contribution to this dissertation and to whom I would like to extend my appreciation. First and foremost, to my research advisor and mentor Dr. Jason Stajich, who allowed me both the freedom and guidance necessary to see this research to completion. To my co-advisor, Dr. Chia-en Angelina Chang, whose input and assistance helped provide a fresh perspective on aspects of this research. And to Dr. Katherine Borkovich, for her support, guidance, and technical expertise. To my undergraduate internship research advisor Dr. Jamie Foster at the Kennedy Space Center and her graduate student Jen, without whose inspiration, advice, and continued support I would never have pursued graduate school at all. I would like to extend a huge thank you to the members of the Stajich and Chang labs, and especially to the undergraduate students I mentored for their assistance; also to the members of the Borkovich lab, whose equipment and expertise I borrowed early and often. To my parents, for their constant support and continued patience. And finally to Kat, who joined me on the journey and stayed with me until the end, for which I am eternally grateful.\\
-The data presented in the Appendix appears in \cite{James2013}. The co-author, Dr. Jason Stajich, listed in this publication directed and supervised the research which forms the basis for this dissertation.\\
+\indent The data presented in the Appendix appears in \cite{James2013}. The co-author, Dr. Jason Stajich, listed in this publication directed and supervised the research which forms the basis for this dissertation.\\
 % Funding provided by the University of California, Riverside, and by the Alfred P. Sloan foundation.\\
 \end{acknowledgements}
 
@@ -168,7 +168,7 @@ The data presented in the Appendix appears in \cite{James2013}. The co-author, D
 % ABSTRACT                %
 % Include in abstract.tex %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%
-\input{Ahrendt_thesis_Abs}
+\include{Ahrendt_thesis_Abs}
 
 %%%%%%%%%%%%%%%%%%%%%
 % TABLE OF CONTENTS %
@@ -184,56 +184,40 @@ The data presented in the Appendix appears in \cite{James2013}. The co-author, D
 %%%%%%%%%%%%%%%%
 % INTRODUCTION %
 %%%%%%%%%%%%%%%%
-\input{./Chapter_Introduction/tex/Ahrendt_thesis_Intro}
+\include{./Chapter_Introduction/tex/Ahrendt_thesis_Intro}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % RHODOPSIN STRUCTURAL CHAPTER %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \input{./Chapter_RhodStruct/tex/Ahrendt_thesis_ChRhodStruct}
-\pagebreak
-\newpage
 \input{./Chapter_RhodStruct/img/Ahrendt_thesis_ChRhodStruct_Figs}
-\pagebreak
-\newpage
-\input{./Chapter_RhodStruct/tab/Ahrendt_thesis_ChRhodStruct_Tabs}
+\include{./Chapter_RhodStruct/tab/Ahrendt_thesis_ChRhodStruct_Tabs}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % RHODOPSIN AUXILLARY CHAPTER %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \input{./Chapter_RhodAux/tex/Ahrendt_thesis_ChRhodAux}
-\pagebreak
-\newpage
 \input{./Chapter_RhodAux/img/Ahrendt_thesis_ChRhodAux_Figs}
-\pagebreak
-\newpage
-\input{./Chapter_RhodAux/tab/Ahrendt_thesis_ChRhodAux_Tabs}
+\include{./Chapter_RhodAux/tab/Ahrendt_thesis_ChRhodAux_Tabs}
 
 %%%%%%%%%%%%%%%%%%%%%%%%
 % COELOMOMYCES CHAPTER %
 %%%%%%%%%%%%%%%%%%%%%%%%
 \input{./Chapter_Coelomomyces/tex/Ahrendt_thesis_ChCoelomomyces}
-\pagebreak
-\newpage
 \input{./Chapter_Coelomomyces/img/Ahrendt_thesis_ChCoelomomyces_Figs}
-\pagebreak
-\newpage
-\input{./Chapter_Coelomomyces/tab/Ahrendt_thesis_ChCoelomomyces_Tabs}
+\include{./Chapter_Coelomomyces/tab/Ahrendt_thesis_ChCoelomomyces_Tabs}
 
 %%%%%%%%%%%%%%%%%%%%%%
 % INHIBITION CHAPTER %
 %%%%%%%%%%%%%%%%%%%%%%
 \input{./Chapter_Inhibition/tex/Ahrendt_thesis_ChInhibition}
-\pagebreak
-\newpage
 \input{./Chapter_Inhibition/img/Ahrendt_thesis_ChInhibition_Figs}
-\pagebreak
-\newpage
-\input{./Chapter_Inhibition/tab/Ahrendt_thesis_ChInhibition_Tabs}
+\include{./Chapter_Inhibition/tab/Ahrendt_thesis_ChInhibition_Tabs}
 
 %%%%%%%%%%%%%%%
 % CONCLUSIONS %
 %%%%%%%%%%%%%%%
-\input{./Chapter_Conclusions/tex/Ahrendt_thesis_Conclusions}
+\include{./Chapter_Conclusions/tex/Ahrendt_thesis_Conclusions}
 
 
 %%%%%%%%%%%%%%%%
@@ -250,10 +234,7 @@ The data presented in the Appendix appears in \cite{James2013}. The co-author, D
 %%%%%%%%%%%%
 \appendix
 \input{./Appendix/tex/Ahrendt_thesis_AppFlagella}
-\pagebreak
 \input{./Appendix/img/Ahrendt_thesis_AppFlagella_Figs}
-\pagebreak
 \input{./Appendix/tex/Ahrendt_thesis_AppData}
-\pagebreak
 \input{./Appendix/tab/Ahrendt_thesis_AppData_Tabs}
 \end{document}
