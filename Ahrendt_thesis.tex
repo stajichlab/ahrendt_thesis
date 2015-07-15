@@ -71,6 +71,9 @@
 \makeatother
 \usepackage{lscape}
 \usepackage{multirow}
+\usepackage[english]{babel}      % for proper formatting of 
+\usepackage[autostyle]{csquotes} % quotemarks
+\usepackage{fancyvrb} % for including fasta file with \VerbatimInput
 %%-------------------------------------//
 
 \setcounter{secnumdepth}{3}
@@ -237,5 +240,5 @@ There are many people to whom I am deeply indebted for their contribution to thi
 \input{./Appendix/tex/Ahrendt_thesis_AppFlagella}
 \input{./Appendix/img/Ahrendt_thesis_AppFlagella_Figs}
 \input{./Appendix/tex/Ahrendt_thesis_AppData}
-\input{./Appendix/tab/Ahrendt_thesis_AppData_Tabs}
+\include{./Appendix/tab/Ahrendt_thesis_AppData_Tabs}
 \end{document}
