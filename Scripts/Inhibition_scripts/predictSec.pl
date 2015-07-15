@@ -8,13 +8,13 @@
 use warnings;
 use strict;
 use Getopt::Long;
-use lib '/rhome/sahrendt/Scripts';
+use lib '.';
 
 #####-----Global Variables-----#####
 my $input;
-my $curr_dir = "/rhome/sahrendt/bigdata/Inhibition/secretome/workflow";
+my $curr_dir = ".";
 my $hmmscript = "hmmsearch";
-my $PFAM = "/rhome/sahrendt/bigdata/Data/HMM/PFAM_db/Pfam-A.hmm";
+my $PFAM = "."; # location of Pfam-A.hmm";
 my $fasta_ext = "proteins.signalp.noTM.wolfPSort.phobius.psScan.aa.fasta";
 my ($help,$verb);
 

@@ -8,7 +8,7 @@
 use warnings;
 use strict;
 use Getopt::Long;
-use lib '/rhome/sahrendt/Scripts';
+use lib ',';
 use Data::Dumper;
 
 #####-----Global Variables-----#####

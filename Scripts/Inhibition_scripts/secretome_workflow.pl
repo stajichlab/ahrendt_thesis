@@ -16,14 +16,14 @@
 use warnings;
 use strict;
 use Getopt::Long;
-use lib '/rhome/sahrendt/Scripts';
+use lib '.';
 
 #####-----Global Variables-----#####
 my $input;
 my $scripts_dir = "../Scripts"; # When the shell script runs, it descends into each org directory. 
                                 # So relatively, the scripts dir is in the parent dir
-my $prot_dir = "/rhome/sahrendt/bigdata/Genomes/Protein";
-my $prosite_data = "/rhome/sahrendt/bigdata/Data/Prosite/prosite.dat";
+my $prot_dir = "Proteomes"; # location of proteome files
+my $prosite_data = "prosite.dat";
 my $prot_file;
 my ($sigp_res,$tm_res,$wolfp_res,$phobius_res,$pscan_res);
 my @chytrids = qw(Amac Bden Cang Gpro Hpol OrpC PirE Psoj Rall Spun);

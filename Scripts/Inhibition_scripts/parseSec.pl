@@ -8,13 +8,13 @@
 use warnings;
 use strict;
 use Getopt::Long;
-use lib '/rhome/sahrendt/Scripts';
+use lib '.';
 use SeqAnalysis;
 use Data::Dumper;
 
 #####-----Global Variables-----#####
 my $input;
-my $curr_dir = "/rhome/sahrendt/bigdata/Inhibition/secretome/workflow/";
+my $curr_dir = ".";
 my %master;
 my ($help,$verb);
 
