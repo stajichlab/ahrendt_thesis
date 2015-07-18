@@ -10,9 +10,8 @@
 % Kinase Mutant Screen
 % latex table generated in R 3.0.1 by xtable 1.7-4 package
 % Mon Jul  6 11:37:43 2015
-\vfill \break
-\begin{table}[htbp]
-\caption[List of \textit{N. crassa} mutants screened for sensitivity]{List of \textit{N. crassa} kinase and phosphatase mutants used in screening against \textit{H. polyrhiza} sporangia. Vegetative growth of all mutants on mPmTG agar plates was inhibited by \textit{Hp} sporangia. Group/Family abbreviations: S/T (serine/threonine), CMGC (cyclin-dependent, mitogen-activated,glycogen synthase, and cyclin-dependent protein kinase-like kinases), STE (sterile), CAMK/L (Ca$^{2+}$/calmodulin-dependent protein kinase, "CAMK"-like kinase), AGC, PPP (phosphoprotein phosphatase), MAPK (mitogen-activated protein kinase), PEK (pancreatic alpha-subunit of eukaryotic initiation factor kinase), WEE (small), YANK (yet another novel kinase), CLK/SRPK (cyclin-dependent protein kinase-like kinase / serine-rich protein kinase), VPS (vacuole protein sorting), CDK (cyclin-dependent protein kinase), IKS (Ira1 kinase suppressor).} 
+\begin{table}[tbp]
+\caption[List of \textit{N. crassa} mutants screened for sensitivity]{List of \textit{N. crassa} kinase and phosphatase mutants used in screening against \textit{H. polyrhiza} sporangia. Group/Family abbreviations: S/T (serine/threonine), CMGC (cyclin-dependent, mitogen-activated,glycogen synthase, and cyclin-dependent protein kinase-like kinases), STE (sterile), CAMK/L (Ca$^{2+}$/calmodulin-dependent protein kinase, "CAMK"-like kinase), AGC, PPP (phosphoprotein phosphatase), MAPK (mitogen-activated protein kinase), PEK (pancreatic alpha-subunit of eukaryotic initiation factor kinase), WEE (small), YANK (yet another novel kinase), CLK/SRPK (cyclin-dependent protein kinase-like kinase / serine-rich protein kinase), VPS (vacuole protein sorting), CDK (cyclin-dependent protein kinase), IKS (Ira1 kinase suppressor).} 
 \label{tab:ChInhib_Kinase}
 \begin{tabular}{lllll}
   \hline
@@ -40,12 +39,12 @@
    \hline
 \end{tabular}
 \end{table}
+
 % Chytrid secretome
 % latex table generated in R 3.0.1 by xtable 1.7-4 package
 % Mon Jul  6 11:37:43 2015
-\begin{table}[htbp]
-\centering
-\caption[Chytrid secretome predictions]{Proteins predicted to be in the secretomes of basal fungi} 
+\begin{table}[tbp]
+\caption[Chytrid secretome predictions]{Number of proteins predicted to be in the secretomes of basal fungi, using secretome predictive workflow optimized for Fungi and incorporating SignalP, Phobius, TargetP, WolfPSort, TMHMM, and PS-Scan (see \cite{Min2010}).} 
 \label{tab:ChInhib_ChySec}
 \begin{tabular}{lr}
   \hline
@@ -64,23 +63,21 @@ Species & Num of proteins \\
    \hline
 \end{tabular}
 \end{table}
+
 % Terpene hits
 % latex table generated in R 3.0.1 by xtable 1.7-4 package
 % Mon Jul  6 11:37:43 2015
-\begin{table}[htbp]
-\centering
-\caption[Putative Hp terpene synthases]{Putative hits for terpene synthases in Hp} 
+\begin{table}[tbp]
+\caption[Putative \textit{Hp} terpene synthases]{Top-scoring BLAST hits in SwissProt for putative terpene synthase proteins identified in \textit{Hp} using antiSMASH.}
 \label{tab:ChInhib_Terpene}
 \begin{tabular}{rlrrrl}
   \hline
- & H. polyrhiza Query & SwissProt top hit & \%ID & AlnLength & Eval \\ 
+\emph{H. polyrhiza} Query & SwissProt top hit & \%ID & AlnLength & Eval \\ 
   \hline
-Hpol$|$HPOL\_00361 & Q8RWI9.2 & 46.24 & 731 & 0.00 &  \\ 
-  Hpol$|$HPOL\_00402 & Q10164.1 & 39.46 & 185 & 0.00 &  \\ 
-  Hpol$|$HPOL\_00404 & Q5JSM7.1 & 38.57 &  70 & 0.11 &  \\ 
-  Hpol$|$HPOL\_01049 & Q6GLK6.1 & 50.38 & 528 & 0.00 &  \\ 
-  Hpol$|$HPOL\_02675 & P53798.2 & 48.02 & 379 & 0.00 &  \\ 
-  Hpol$|$HPOL\_03748 & D3ZN43.1 & 43.38 & 219 & 0.00 &  \\ 
+Hpol|HPOL\_06475 & Q6GLK6.1; Acyl-CoA synthetase fam. & 44.89 & 528 & 3e-139 \\
+Hpol|HPOL\_00800 & P53798.2; Squalene synthase & 44.85 & 379 & 3e-102 \\
+Hpol|HPOL\_00236 & Q8QZR1.1; Tyrosine aminotransferase & 52.25 & 423 & 5e-151 \\ 
+Hpol|HPOL\_00238 & D3ZN43.1; NADH dehydrogenase & 43.38 & 219 & 2e-63 \\
    \hline
 \end{tabular}
 \end{table}

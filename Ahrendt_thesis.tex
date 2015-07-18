@@ -58,14 +58,11 @@
 %%---------------
 %% Packages added by Steven Ahrendt
 %%-----------//
-%\usepackage{hyperref} % use for clickable links
 \usepackage{url} % use with \url{} for formatted urls; nonclickable
 \usepackage[graphicx]{realboxes}
 \usepackage{texshade}
-\usepackage{longtable}
 \usepackage{booktabs}  % Added to make
-%\usepackage{array}     %  tables look nice
-%\usepackage{tabularx}  %
+\usepackage{longtable}
 \makeatletter
 \g@addto@macro\@floatboxreset\centering
 \makeatother
@@ -74,6 +71,12 @@
 \usepackage[english]{babel}      % for proper formatting of 
 \usepackage[autostyle]{csquotes} % quotemarks
 \usepackage{fancyvrb} % for including fasta file with \VerbatimInput
+%% These five lines correct issues with longtable caption format
+\usepackage[font=small]{caption}[2013/02/03]
+\AtBeginEnvironment{longtable}{\linespread{1}\selectfont}
+\setlength{\LTcapwidth}{\linewidth}
+\AtBeginEnvironment{table}{\linespread{1}\selectfont}
+\AtBeginEnvironment{figure}{\linespread{1}\selectfont}
 %%-------------------------------------//
 
 \setcounter{secnumdepth}{3}
@@ -127,7 +130,7 @@
 
 % Declarations for Front Matter
 
-\title{Investigating the Evolution of Environmental and Biotic Interactions in Basal Fungal Lineages Through Comparative Genomics}
+\title{Investigating the Evolution of Environmental and Biotic Interactions in \\Basal Fungal Lineages Through Comparative Genomics}
 \author{Steven Robert Ahrendt}
 \degreemonth{August}
 \degreeyear{2015}
@@ -193,14 +196,14 @@ There are many people to whom I am deeply indebted for their contribution to thi
 % RHODOPSIN STRUCTURAL CHAPTER %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \input{./Chapter_RhodStruct/tex/Ahrendt_thesis_ChRhodStruct}
-\input{./Chapter_RhodStruct/img/Ahrendt_thesis_ChRhodStruct_Figs}
+\include{./Chapter_RhodStruct/img/Ahrendt_thesis_ChRhodStruct_Figs}
 \include{./Chapter_RhodStruct/tab/Ahrendt_thesis_ChRhodStruct_Tabs}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 % RHODOPSIN AUXILLARY CHAPTER %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 \input{./Chapter_RhodAux/tex/Ahrendt_thesis_ChRhodAux}
-\input{./Chapter_RhodAux/img/Ahrendt_thesis_ChRhodAux_Figs}
+\include{./Chapter_RhodAux/img/Ahrendt_thesis_ChRhodAux_Figs}
 \include{./Chapter_RhodAux/tab/Ahrendt_thesis_ChRhodAux_Tabs}
 
 %%%%%%%%%%%%%%%%%%%%%%%%
@@ -214,7 +217,7 @@ There are many people to whom I am deeply indebted for their contribution to thi
 % INHIBITION CHAPTER %
 %%%%%%%%%%%%%%%%%%%%%%
 \input{./Chapter_Inhibition/tex/Ahrendt_thesis_ChInhibition}
-\input{./Chapter_Inhibition/img/Ahrendt_thesis_ChInhibition_Figs}
+\include{./Chapter_Inhibition/img/Ahrendt_thesis_ChInhibition_Figs}
 \include{./Chapter_Inhibition/tab/Ahrendt_thesis_ChInhibition_Tabs}
 
 %%%%%%%%%%%%%%%
